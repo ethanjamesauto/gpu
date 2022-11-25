@@ -151,7 +151,17 @@
       <pos x="980" y="440"/>
     </visualElement>
     <visualElement>
-      <elementName>In</elementName>
+      <elementName>Not</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1080" y="360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
       <elementAttributes>
         <entry>
           <string>rotation</string>
@@ -162,7 +172,7 @@
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="1040" y="360"/>
+      <pos x="1120" y="360"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -173,6 +183,10 @@
     <wire>
       <p1 x="980" y="360"/>
       <p2 x="1020" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="360"/>
+      <p2 x="1120" y="360"/>
     </wire>
     <wire>
       <p1 x="1020" y="360"/>
