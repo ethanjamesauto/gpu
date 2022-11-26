@@ -4,3 +4,5 @@ A graphics card creating using 7400-series ICs
 This graphics card was designed using [Digital](https://github.com/hneemann/Digital), a logism-like IDE with built-in 7400-series IC models.
 
 Generating sprite data from PNGs is possible using data.ipynb, and the graphics card output RAM data can be converted to graphical data using screen.ipynb.
+
+![Capture](https://user-images.githubusercontent.com/22825641/204105678-3ef52dac-cf38-4766-97c9-fdf6a60053f9.PNG)
