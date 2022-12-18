@@ -1,0 +1,2936 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>4bit_counter.dig</elementName>
+      <elementAttributes/>
+      <pos x="700" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4bit_counter.dig</elementName>
+      <elementAttributes/>
+      <pos x="700" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4bit_counter.dig</elementName>
+      <elementAttributes/>
+      <pos x="700" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4bit_counter.dig</elementName>
+      <elementAttributes/>
+      <pos x="700" y="720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4bit_counter.dig</elementName>
+      <elementAttributes/>
+      <pos x="700" y="880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4bit_counter.dig</elementName>
+      <elementAttributes/>
+      <pos x="700" y="1040"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="700" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="700" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="700" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="700" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="700" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="700" y="640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="700" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="700" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="700" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="700" y="960"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="700" y="940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="700" y="1120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="700" y="1100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="700" y="820"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="1040"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>clk</string>
+        </entry>
+        <entry>
+          <string>Frequency</string>
+          <int>100</int>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>4,4,4</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>12</string>
+        </entry>
+      </elementAttributes>
+      <pos x="840" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>pixel</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>12</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>dec</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="880" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>4,4,4</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>12</string>
+        </entry>
+      </elementAttributes>
+      <pos x="840" y="720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>line</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>12</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>dec</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="880" y="720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>IVERILOG</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>hsync</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>pos:12</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>sync,blank,pad,reset</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>module hsync(
+	input [11:0] pos,
+	output sync,
+	output blank,
+	output pad,
+	output reset
+);
+
+assign blank = pos &gt;= 512;
+assign pad = blank &amp;&amp; (pos &lt; 576 || pos &gt; 736);
+assign reset = !(pos == 800);
+assign sync = !(pos &gt;= 592 &amp;&amp; pos &lt; 688);
+endmodule</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>5</int>
+        </entry>
+      </elementAttributes>
+      <pos x="880" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>hsync</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>External</elementName>
+      <elementAttributes>
+        <entry>
+          <string>applicationType</string>
+          <appType>IVERILOG</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>vsync</string>
+        </entry>
+        <entry>
+          <string>externalInputs</string>
+          <string>pos:12</string>
+        </entry>
+        <entry>
+          <string>externalOutputs</string>
+          <string>sync,blank,reset</string>
+        </entry>
+        <entry>
+          <string>Code</string>
+          <string>module vsync(
+	input [11:0] pos,
+	output sync,
+	output blank,
+	output reset
+);
+
+assign blank = pos &gt;= 480;
+assign reset = !(pos == 525);
+assign sync = !(pos &gt;= 490 &amp;&amp; pos &lt; 492);
+endmodule</string>
+        </entry>
+        <entry>
+          <string>Width</string>
+          <int>5</int>
+        </entry>
+      </elementAttributes>
+      <pos x="880" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>vsync</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>12</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1,8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1120" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>12</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1,8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1120" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8,8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>16</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1180" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>buffer</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>28*97,9b,9b,97,9b,9b,9b,bb,4*9b,bb,bb,9b,9b,bb,9b,9b,30*bb,b7
+,10*bb,97,4*bb,b7,b7,67*bb,db,bb,bb,13*db,bb,bb,77*db,27*97,9b,9b
+,97,9b,9b,9b,97,9b,9b,bb,9b,9b,97,bb,5*9b,28*bb,b7,9*bb,b7,5*bb
+,b7,70*bb,db,bb,db,db,db,bb,9*db,bb,79*db,26*97,9b,97,9b,9b,9b
+,bb,9b,9b,9b,bb,bb,9b,bb,bb,bb,9b,9b,bb,bb,bb,9b,bb,bb,9b,6*bb
+,9b,14*bb,9b,bb,97,bb,b7,5*bb,97,8*bb,97,65*bb,db,bb,bb,db,db
+,bb,db,db,db,bb,4*db,bb,85*db,27*97,9b,97,97,4*9b,bb,9b,97,7*9b
+,bb,bb,9b,9b,97,16*bb,97,8*bb,b7,82*bb,16*db,bb,71*db,df,10*db
+,27*97,9b,9b,97,97,10*9b,4*bb,9b,bb,9b,bb,9b,9*bb,9b,bb,9b,99*bb
+,db,db,db,bb,7*db,bb,83*db,28*97,4*9b,97,9b,9b,97,9b,bb,9b,9b,9b
+,bb,9b,bb,9b,9b,9b,97,97,4*bb,9b,4*bb,9b,5*bb,97,bb,bb,9b,88*bb
+,db,bb,bb,14*db,bb,bb,81*db,26*97,9b,97,12*9b,97,4*9b,97,9b,9b
+,5*bb,b7,bb,b7,bb,b7,4*bb,9b,4*bb,9b,97,b7,bb,97,bb,bb,bb,97,80*bb
+,db,bb,db,db,bb,83*db,df,db,db,df,6*db,df,db,26*97,9b,9b,9b,97
+,11*9b,bb,9b,9b,97,97,97,bb,97,bb,97,4*bb,9b,bb,9b,97,9b,5*bb
+,9b,91*bb,db,bb,bb,bb,db,db,db,bb,70*db,df,7*db,df,df,db,db,db
+,df,db,df,db,db,df,df,db,26*97,4*9b,97,11*9b,bb,4*9b,97,9b,bb
+,97,6*bb,97,bb,bb,bb,9b,9b,bb,bb,9b,9b,bb,9b,9b,85*bb,4*db,bb
+,db,bb,77*db,df,8*db,df,db,db,5*df,25*97,9b,9b,97,9b,97,16*9b
+,6*bb,9b,bb,97,bb,bb,97,bb,bb,bb,9b,97,4*bb,9b,85*bb,db,bb,db
+,bb,db,bb,db,bb,6*db,bb,69*db,df,db,db,df,5*db,df,db,4*df,db,df,df,df
+,27*97,9b,97,97,97,bb,9b,9b,97,97,9b,9b,9b,97,bb,97,9b,bb,9b,9b
+,bb,9b,bb,bb,bb,9b,bb,9b,bb,bb,bb,97,97,4*bb,9b,9b,4*bb,97,86*bb
+,db,bb,db,db,bb,72*db,df,6*db,df,db,df,df,db,11*df,17*97,9b,6*97
+,4*9b,97,97,97,10*9b,97,7*9b,bb,97,8*bb,97,bb,bb,9b,bb,bb,bb,9b
+,85*bb,db,bb,bb,76*db,df,db,df,db,df,df,df,db,db,16*df,19*97,9b
+,6*97,9b,97,9b,9b,97,9b,97,9b,9b,97,5*9b,97,9b,9b,9b,bb,9b,9b
+,4*bb,97,9b,bb,bb,bb,9b,bb,9b,bb,bb,bb,9b,97,9b,bb,9b,84*bb,db
+,bb,9*db,bb,66*db,df,df,db,df,df,df,db,19*df,11*97,9b,97,97,9b
+,10*97,9b,97,5*9b,97,5*9b,bb,7*9b,bb,9b,4*bb,6*9b,97,4*bb,9b,87*bb
+,78*db,df,db,df,df,db,db,df,df,df,db,db,14*df,ff,df,9*97,9b,5*97
+,9b,9b,97,97,9b,9b,4*97,11*9b,bb,4*9b,bb,6*9b,4*bb,9b,bb,bb,9b
+,bb,9b,9b,9b,97,91*bb,db,bb,db,db,db,bb,67*db,df,db,db,df,df,db
+,df,df,db,df,db,18*df,ff,ff,9b,9b,97,97,9b,97,97,97,9b,97,97,97
+,9b,97,4*9b,97,12*9b,97,9b,9b,9b,bb,9b,9b,9b,bb,9b,9b,9b,bb,9b
+,bb,9b,9b,7*bb,9b,9b,bb,9b,bb,bb,9b,4*bb,9b,bb,bb,97,79*bb,db
+,bb,bb,72*db,df,db,df,df,df,db,df,df,db,df,df,db,20*df,97,97,9b
+,5*97,9b,9b,97,9b,9b,9b,97,9b,9b,97,17*9b,bb,9b,17*bb,9b,bb,bb,bb
+,9b,4*bb,9b,bb,9b,9b,81*bb,db,bb,bb,bb,69*db,df,db,df,df,db,db,db
+,df,db,df,df,db,df,db,18*df,ff,ff,ff,9b,97,97,9b,9b,97,32*9b,bb,bb,bb
+,9b,bb,9b,11*bb,9b,9b,4*bb,9b,9b,bb,9b,83*bb,db,bb,bb,72*db,df
+,db,db,6*df,db,17*df,ff,df,ff,ff,df,ff,5*9b,97,18*9b,bb,7*9b,5*bb
+,9b,bb,bb,bb,9b,104*bb,db,bb,bb,bb,70*db,5*df,db,df,db,df,df,db
+,16*df,ff,df,7*ff,21*9b,bb,9b,bb,9b,9b,bb,9b,bb,bb,9b,117*bb,71*db
+,df,db,db,db,df,df,df,db,db,df,df,db,15*df,ff,df,df,ff,ff,df,4*ff
+,9b,9b,9b,97,9b,9b,9b,bb,12*9b,5*bb,9b,4*bb,9b,bb,bb,9b,30*bb
+,9b,77*bb,db,4*bb,72*db,df,df,db,db,df,db,db,db,df,db,18*df,ff,ff
+,df,4*ff,df,ff,bb,6*9b,bb,8*9b,bb,9b,bb,bb,9b,bb,bb,bb,9b,117*bb
+,db,bb,bb,db,bb,73*db,df,db,df,df,db,df,db,db,df,db,db,15*df,ff
+,4*df,5*ff,5*9b,bb,bb,9b,bb,9b,bb,bb,9b,bb,9b,9b,9b,bb,9b,9b,9b
+,121*bb,db,bb,75*db,df,df,10*db,18*df,ff,ff,df,4*ff,9b,9b,4*bb
+,9b,bb,4*9b,7*bb,9b,121*bb,db,bb,bb,db,db,bb,bb,73*db,df,db,db
+,df,6*db,6*df,db,14*df,4*ff,9b,9b,9b,bb,bb,9b,9b,8*bb,9b,9b,bb,bb
+,9b,122*bb,db,bb,89*db,df,df,4*db,11*df,ff,df,df,ff,ff,ff,5*bb
+,9b,4*bb,9b,129*bb,4*db,bb,77*db,df,16*db,13*df,ff,ff,ff,df,bb
+,9b,9b,5*bb,9b,9b,131*bb,80*db,df,db,db,df,13*db,df,db,12*df,4*ff
+,142*bb,97*db,df,db,10*df,5*ff,10*bb,9b,130*bb,96*db,15*df,4*ff
+,141*bb,91*db,df,db,db,db,12*df,ff,df,6*ff,9b,140*bb,96*db,df
+,db,12*df,5*ff,139*bb,48*db,b7,bb,db,bb,bb,45*db,df,db,12*df,ff
+,df,ff,ff,ff,137*bb,db,bb,bb,46*db,b7,96,96,bb,4*b7,b6,44*db,10*df
+,ff,df,5*ff,135*bb,db,bb,db,bb,47*db,92,92,b6,b7,96,96,db,b7,bb
+,b7,bb,40*db,13*df,6*ff,132*bb,db,db,bb,bb,db,db,bb,bb,45*db,b7
+,92,92,db,96,bb,db,b6,b7,92,b7,b7,b6,40*db,12*df,6*ff,132*bb,52*db
+,b7,92,92,96,bb,b7,92,db,b7,b7,bb,db,db,92,db,b6,bb,27*db,df,db
+,df,df,db,df,5*db,10*df,7*ff,130*bb,db,bb,51*db,b7,92,92,92,db
+,b7,bb,92,96,db,db,96,b7,db,db,db,b7,27*db,df,df,db,5*df,4*db
+,9*df,8*ff,131*bb,51*db,b7,b6,96,b6,b7,b7,72,db,db,bb,96,b6,db
+,92,bb,db,b7,bb,b7,b7,bb,bb,19*db,5*df,ff,7*df,db,6*df,ff,df,df,df
+,9*ff,130*bb,51*db,bb,4*b7,bb,72,bb,db,bb,b6,72,92,92,db,b7,bb,bb,bb
+,b7,b6,db,b7,bb,18*db,df,df,df,ff,10*df,db,6*df,12*ff,125*bb,db,db
+,bb,bb,bb,50*db,92,bb,96,92,bb,92,db,bb,db,bb,b6,b7,b6,6e,6e,6e
+,db,b6,db,72,92,92,bb,b7,b7,b7,bb,13*db,df,df,db,df,df,ff,ff,17*df
+,12*ff,127*bb,52*db,92,72,96,db,96,db,bb,96,bb,b6,96,db,b7,92
+,db,b6,72,92,92,92,b6,b6,72,6e,92,b6,b7,db,b7,11*db,df,db,5*df
+,ff,ff,df,4*ff,df,ff,ff,df,df,ff,ff,df,df,14*ff,123*bb,db,bb,bb
+,52*db,92,72,72,92,96,bb,72,92,6e,b6,b6,92,72,b7,92,b7,b7,b7,b6
+,72,6e,6e,72,bb,96,92,b7,b6,db,b6,bb,14*db,df,df,5*ff,df,8*ff
+,df,ff,df,14*ff,114*bb,4*db,7*bb,db,db,bb,db,bb,48*db,72,6e,92
+,6d,92,b7,b7,96,72,96,92,96,b7,bb,b7,72,b7,6e,72,6e,6e,49,bb,bb
+,b7,b6,96,92,92,92,bb,b7,bb,9*db,4*df,15*ff,df,df,15*ff,115*bb
+,4*db,bb,bb,bb,56*db,92,6e,bb,b7,92,bb,72,72,6d,6e,b7,72,96,96
+,92,6e,bb,b7,6d,92,b6,b6,bb,92,b6,92,db,b7,b6,92,92,b7,b6,b6,92
+,b7,8*db,df,33*ff,108*bb,db,bb,bb,db,bb,7*db,bb,bb,bb,db,db,db
+,bb,bb,49*db,6e,92,4d,db,db,b7,92,b6,6e,72,b7,b7,db,db,49,6e,6d
+,49,b7,b6,b7,db,b7,96,92,92,6e,6d,b7,db,bb,b7,b7,bb,bb,b7,b6,b6
+,db,db,db,df,df,db,df,34*ff,109*bb,db,bb,bb,9*db,bb,db,bb,53*db
+,6e,96,72,4*6e,bb,bb,4d,bb,4d,b7,92,db,db,6e,96,b6,b6,96,db,92
+,6d,b7,db,92,72,6d,b6,b7,92,96,92,b6,b6,96,bb,92,5*db,35*ff,106*bb
+,db,4*bb,64*db,92,92,96,4d,96,6e,72,6e,b7,bb,db,b7,bb,bb,72,bb
+,b6,b6,96,b7,db,b6,b7,b6,92,92,b6,6d,92,92,92,72,bb,6d,92,92,b6
+,6e,92,db,b6,92,db,db,db,df,34*ff,6d,102*bb,db,bb,db,bb,19*db
+,bb,49*db,4d,6e,4d,bb,72,96,db,b6,b6,bb,96,bb,b7,6e,96,bb,b6,db
+,96,b6,db,92,92,92,bb,b7,92,b7,b6,6e,db,db,92,49,b6,db,bb,6e,b6
+,db,92,92,b6,92,db,32*ff,b6,ff,db,49,103*bb,db,bb,db,bb,66*db
+,92,6e,6e,72,bb,6e,49,4d,4d,96,92,b6,6e,6e,96,49,b7,49,b6,6e,92
+,96,b6,92,6e,b7,b6,b7,92,b6,b6,6d,b7,db,6e,b6,b6,6d,92,6e,92,6e
+,92,b7,96,92,92,ff,ff,db,29*ff,bb,db,92,92,102*bb,db,bb,69*db
+,72,4d,6e,bb,bb,db,49,49,6e,92,b6,92,4d,b7,49,4d,49,49,b7,db,b7
+,92,db,b7,96,b6,92,92,92,6d,6d,49,6d,6d,6d,92,6d,6d,6d,b6,49,6d
+,6e,6d,92,72,b7,b6,92,db,72,92,26*ff,b6,b6,92,92,92,101*bb,db
+,bb,69*db,4d,b7,92,6e,b7,92,92,96,b7,6e,96,bb,72,96,6d,6e,49,49
+,6e,db,96,6e,db,49,b6,6e,b6,6d,db,b6,92,49,6d,92,92,6e,6d,6d,49
+,4d,6e,6e,49,6e,4d,6d,6d,96,bb,92,92,92,b6,6d,6d,21*ff,49,ff,6*92
+,100*bb,71*db,92,4d,72,bb,6e,6e,db,96,96,96,92,92,72,b6,92,bb,bb
+,db,92,92,92,96,b6,92,b7,72,92,b6,92,92,b6,92,b6,6e,49,6d,b6,6d,6d
+,49,6d,6d,6d,4d,b6,92,6e,49,6d,92,6e,96,b6,6e,92,4d,6e,11*ff,d6
+,4*ff,49,ff,ff,ff,92,96,92,6d,4*92,98*bb,71*db,df,72,6e,92,92
+,b6,96,b7,96,6e,72,b6,b6,b7,92,b7,b6,96,db,6e,b7,b6,92,6d,b7,b7
+,b6,92,b6,6d,b6,92,92,b7,6e,92,6e,72,92,6*49,92,92,49,91,49,49
+,6d,6d,b6,6e,49,92,b6,92,96,92,db,ff,ff,ff,fb,ff,ff,49,48,29,6*49
+,ff,5*92,6d,92,92,6e,98*bb,db,bb,69*db,6e,92,72,6e,96,96,b7,92,92
+,b7,b7,96,6e,92,92,b6,72,96,6e,b7,92,b6,92,92,b7,b6,92,92,b7,92
+,48,92,72,6e,6d,b6,b6,b6,db,4e,92,6d,49,49,6e,92,b7,6e,49,91,49,49
+,6d,6e,49,49,db,92,6e,72,49,49,b6,ff,92,24,b6,49,25,49,25,25,49
+,25,49,24,92,92,92,b6,92,49,8d,49,92,92,6e,97*bb,70*db,bb,92,6e
+,92,4d,b7,92,b7,6e,6e,92,96,b7,92,6e,bb,b6,6e,92,b7,b6,92,92,b6,b6
+,6d,b6,96,96,b7,bb,b6,25,92,92,92,6e,92,92,92,b6,92,92,49,49,49
+,92,6d,92,49,6d,49,49,49,6d,69,25,24,b6,6d,49,b6,49,24,92,6d,49
+,24,25,24,49,49,24,49,25,25,49,6*92,24,6d,24,8e,92,92,97*bb,69*db
+,b7,6e,72,6e,49,b7,92,92,72,b7,b7,92,6e,b7,6e,96,96,92,92,92,b7
+,72,b6,96,db,92,b7,b7,b2,92,b6,b6,b6,45,69,92,6e,b6,b6,49,92,92
+,6d,ba,6d,49,92,92,b6,49,49,49,45,49,49,49,29,49,24,49,72,6e,6d
+,24,49,6d,49,49,24,49,25,49,25,24,49,24,49,6e,92,92,49,92,96,92
+,24,69,24,49,6d,6d,95*bb,61*db,b6,bb,96,7*db,4d,6d,49,49,b7,b6
+,92,6e,92,92,6e,db,b6,92,49,b7,92,bb,bb,b7,96,bb,b7,db,92,b6,b7
+,49,bb,b7,b7,92,92,49,24,b6,92,b6,92,49,6d,24,92,49,b6,49,b6,6d
+,49,25,6d,49,24,24,24,49,25,49,49,49,6d,49,49,25,25,49,49,24,24
+,49,49,49,25,24,49,49,6e,4*92,b6,b6,49,24,24,24,6d,6d,6d,95*bb
+,59*db,b6,bb,b6,bb,db,b6,4*db,b7,96,69,49,b7,b7,b6,6e,6d,72,6e
+,92,db,92,96,b7,49,bb,bb,bb,db,92,b7,5*b6,6d,49,bb,72,b6,6d,92
+,49,4a,b6,b6,8e,49,49,24,24,db,6e,49,b6,b6,25,49,6e,49,92,24,25,25
+,49,25,49,49,49,6d,6e,92,6*49,29,49,49,25,24,49,92,92,b6,92,24
+,92,92,92,4*24,b6,92,92,87*bb,db,db,bb,bb,bb,db,bb,59*db,b6,96
+,b7,bb,b7,b7,92,db,db,db,bb,b7,49,49,4d,bb,72,96,b6,6e,4d,6e,b6
+,b7,92,92,b6,25,49,b6,b6,92,96,bb,96,b6,72,b6,96,db,24,8e,92,49
+,6d,6d,96,92,6d,49,8e,49,db,24,25,96,db,b6,b7,24,29,49,bb,49,b6
+,b7,9*49,92,4*49,24,49,24,25,49,24,4d,6e,4*b6,24,92,92,49,24,24
+,29,db,24,6d,8d,80*bb,11*db,bb,60*db,b7,96,92,b6,b7,b7,4*db,b7
+,b6,6d,49,49,6e,25,92,b6,92,72,6e,72,92,b6,4*49,24,bb,92,b6,6e
+,92,72,b6,92,bb,92,6d,6e,db,6d,6d,92,b6,6e,92,6e,6e,72,69,72,24
+,b2,db,db,b7,b7,db,db,b6,49,b7,b6,b6,49,25,49,b6,29,5*49,6e,49
+,6d,24,24,24,49,29,49,49,96,b6,92,92,b6,6e,24,b6,49,24,6d,24,49
+,92,92,6d,6d,78*bb,db,db,bb,71*db,b6,b7,96,b7,b7,b7,bb,db,db,b7
+,b6,6d,6d,92,72,69,b6,db,b6,b6,6d,6d,db,6d,49,25,49,29,25,4d,92
+,db,96,92,92,92,b7,b6,b6,b7,db,b6,8e,92,72,b6,6e,49,6d,92,49,49
+,6d,b7,b6,db,b6,db,db,db,b7,96,b7,92,db,db,49,49,b6,49,4a,49,92
+,4e,b6,49,49,b2,92,49,49,24,48,24,49,6d,b6,b6,b6,92,92,92,6d,24,24,24
+,49,24,24,92,92,6d,8d,69,78*bb,db,bb,72*db,bb,b6,b7,db,b7,96,bb
+,db,db,96,b6,49,49,49,92,49,92,db,91,96,29,49,96,49,49,25,4d,96
+,25,b7,b6,b6,92,92,b6,bb,92,92,6d,b6,6d,6d,92,6e,92,6d,b6,6d,6d
+,b7,b7,db,49,db,b6,db,db,b6,5*db,b6,db,b6,49,92,b7,db,b7,b6,92
+,db,db,49,6d,49,b6,49,24,25,49,92,b6,92,92,96,b6,92,92,92,6*24
+,49,92,69,44,69,69,74*bb,40*db,df,34*db,4*b6,b7,4*db,bb,49,49
+,b6,49,49,49,4d,49,4e,6d,b7,49,92,49,45,49,49,25,49,b6,24,24,b7
+,bb,b6,db,b7,92,92,b6,92,8d,6d,6e,b6,b2,b6,92,6d,b6,6e,6e,b6,db
+,b7,db,db,b6,bb,5*db,b6,b7,db,db,b6,db,db,db,b6,bb,bb,b6,db,49
+,25,49,49,92,49,24,24,49,6e,96,92,92,b6,b6,92,92,72,25,25,24,24
+,49,24,6d,69,48,49,49,69,73*bb,30*db,df,db,df,4*db,df,db,db,df
+,10*db,df,18*db,bb,b7,b6,b7,db,96,96,96,b6,96,b7,db,bb,db,db,bb
+,49,49,6d,49,49,6e,29,b7,92,49,49,49,92,6d,25,49,49,49,ba,6d,24,24
+,b7,db,db,b6,6d,b7,92,92,4*b6,92,92,6e,49,6e,92,da,db,49,69,b6
+,db,db,b6,db,db,b7,6d,6e,92,db,b7,b7,4*db,df,db,db,db,b7,6d,92,92
+,db,b7,bb,25,49,24,49,db,92,92,8d,b6,b6,92,49,92,49,25,49,6e,24
+,69,49,49,49,44,45,69,9*bb,db,bb,bb,db,bb,db,58*bb,31*db,df,df
+,5*db,df,db,db,df,4*db,df,df,db,db,db,df,db,df,db,df,10*db,bb
+,db,96,96,96,bb,b7,96,b6,96,96,92,b6,b6,b7,db,bb,db,db,db,49,49
+,6d,49,49,25,25,db,49,49,25,24,4d,49,24,25,25,49,6d,49,6e,25,b2
+,6e,b6,b7,92,6d,92,92,6d,92,92,6d,b6,6d,92,92,db,b6,91,92,b6,6e
+,db,b6,db,db,ff,b7,b7,db,db,92,4*db,bb,db,bb,db,b6,db,db,db,b6,b6
+,b7,92,db,db,6e,b6,24,24,6d,b6,b6,b6,92,92,6d,db,6d,49,49,6d,92
+,49,69,49,49,69,44,69,69,4*bb,db,bb,bb,bb,7*db,23*bb,db,31*bb
+,31*db,df,db,4*df,db,db,df,df,df,11*db,df,df,db,db,df,df,db,df,df
+,db,df,db,db,df,db,db,92,b6,92,72,92,92,92,96,b6,96,b7,b7,b6,db
+,bb,db,bb,db,db,92,6e,49,49,6d,49,6e,b7,b6,24,49,92,49,24,24,49
+,da,29,6d,25,24,25,49,49,b6,db,92,92,92,b2,b6,b6,92,96,8d,6d,92
+,49,b2,b6,db,db,db,bb,92,db,b6,92,6e,db,db,25,49,b7,24,db,49,6d
+,db,49,4*db,bb,db,db,b6,b7,b6,92,b6,b6,b6,b7,6e,24,49,b6,92,92,92
+,6e,6d,6d,b6,6d,49,6d,49,6d,69,44,45,8d,69,69,89,bb,bb,bb,db,bb,bb
+,11*db,23*bb,db,db,27*bb,db,bb,32*db,9*df,7*db,df,db,db,db,df,df,df
+,4*db,4*df,db,db,df,df,72,6e,b6,96,bb,6e,b7,6e,bb,96,92,bb,bb
+,db,bb,bb,bb,db,db,49,4d,5*49,b6,b6,b6,92,49,24,6e,49,6d,49,4a
+,49,49,24,49,49,b7,6d,b6,92,92,b6,92,b6,4*92,6d,92,92,92,b6,d6
+,6d,b6,db,6d,db,b7,db,db,b6,b7,6d,6e,db,db,24,b6,49,49,49,25,8*db
+,b7,b6,db,da,db,92,6d,92,24,b7,92,b6,8d,69,49,92,92,8d,69,69,69
+,6d,69,8d,8d,69,8d,69,68,ad,4*bb,13*db,5*bb,db,17*bb,db,db,db
+,26*bb,34*db,10*df,db,db,df,7*db,6*df,db,5*df,b6,92,72,6e,b6,b6
+,b7,db,92,96,b7,b6,92,96,bb,db,96,db,bb,bb,db,db,45,5*49,25,b6
+,b2,49,6d,24,24,6d,6e,69,49,92,25,25,25,db,b7,b6,92,b6,b6,6d,92,92
+,8e,8d,92,49,49,6d,6d,db,92,db,db,92,ff,ff,6e,db,6d,b6,6e,8d,d6
+,91,8d,8d,db,72,b6,44,25,ff,49,6d,db,b6,db,92,5*db,b6,db,db,6e
+,b6,96,6d,69,92,6d,24,6d,6e,91,69,4*49,69,8d,6d,48,69,89,8d,a9
+,ad,5*bb,db,bb,11*db,bb,bb,5*db,5*bb,db,6*bb,db,bb,bb,db,db,db
+,bb,db,22*bb,34*db,11*df,5*db,df,db,df,5*db,9*df,ba,92,6e,92,92
+,6e,bb,96,92,92,96,b6,92,db,db,96,bb,b7,72,db,b7,db,49,49,49,6e
+,29,25,b6,92,49,24,49,49,25,24,29,49,6d,49,24,49,4e,69,db,b6,b6
+,d6,b2,b6,b7,92,8d,49,49,69,92,24,6d,6d,db,db,db,92,91,ff,6d,b1
+,da,db,8d,68,91,49,69,69,b1,b2,8d,6d,69,8d,25,24,6d,6d,91,91,db
+,8d,fb,db,db,b7,b7,db,b6,6e,db,6d,92,6d,49,6e,6e,8d,49,6d,48,49,49
+,6d,69,6d,69,69,69,89,8d,89,a9,ad,4*bb,16*db,bb,5*db,bb,db,bb
+,db,db,5*bb,7*db,bb,db,5*bb,db,15*bb,35*db,12*df,db,df,db,db,df
+,6*db,10*df,72,92,6d,92,92,b6,b7,96,b7,92,96,6e,92,b6,5*b7,b6
+,b7,44,49,49,49,6d,25,25,96,49,24,49,6e,49,45,49,69,6d,b6,24,29
+,b7,db,db,4*b6,b2,b2,b6,49,6e,92,92,72,b6,24,92,45,6d,db,49,8d
+,69,49,49,49,6d,8d,6d,44,69,7*8d,d6,b6,8d,d6,6d,8d,8d,8d,6d,da
+,91,91,da,92,8e,b6,db,db,da,db,4*92,49,49,48,44,24,69,49,6*69
+,89,ad,a9,a9,cd,4*bb,26*db,7*bb,8*db,20*bb,35*db,13*df,db,db,db
+,df,db,db,df,4*db,4*df,ff,df,df,df,ff,92,6e,6d,6e,72,72,6e,b6
+,b7,b7,6e,49,92,96,b6,92,92,b6,bb,db,b6,bb,45,4e,4*49,92,6d,92
+,49,49,24,24,25,49,24,49,6d,49,4a,b6,db,b6,b2,b6,db,92,b2,b6,b6
+,92,92,6d,69,49,24,24,24,6d,49,44,8d,8d,b2,92,69,69,db,89,b2,44
+,8d,b2,8d,8d,8d,b6,8d,69,44,d6,6d,69,69,6d,8d,8d,8d,69,69,69,8d,8d
+,97,8d,db,92,6e,6d,91,6d,8d,6d,b6,b6,48,49,69,49,92,6d,8d,8d,89,89
+,ad,ad,a9,cd,ad,ad,4*bb,db,bb,39*db,bb,bb,db,db,db,12*bb,39*db
+,13*df,db,df,5*db,9*df,bb,b7,72,6d,92,96,92,6e,72,72,96,92,b6
+,92,6e,92,96,b6,b7,49,6e,b6,db,db,db,92,b7,49,4a,bb,96,92,92,92
+,25,24,24,25,49,49,24,44,72,db,db,db,b6,b2,b6,d6,92,8d,b6,b6,92,92
+,b2,96,6d,49,24,24,69,49,69,69,69,49,69,b2,69,44,d6,8d,8d,b2,49
+,69,b1,ad,b2,8d,69,44,24,6d,49,d6,8d,8d,8d,b2,b2,92,b6,69,8e,8d
+,6d,91,b2,ff,b2,b6,92,49,6d,92,6d,69,8e,69,49,69,b2,b2,89,8d,89
+,64,ad,ad,a9,cd,cd,cd,bb,bb,bb,db,bb,24*db,bb,14*db,bb,db,bb,db
+,bb,db,bb,db,bb,db,7*bb,40*db,9*df,db,df,db,df,7*db,5*df,ff,df
+,db,92,92,92,6e,92,b6,92,b6,6d,72,6e,6e,bb,6d,bb,92,92,49,92,b6
+,49,6e,b7,b6,92,49,24,49,24,96,b6,6d,92,92,b6,b7,24,24,49,49,92
+,44,49,92,6d,db,db,d6,db,d6,92,d6,db,b2,d6,b2,6d,b6,b2,db,6d,6d
+,49,8d,92,49,69,8d,49,49,48,44,48,8d,d7,b2,8d,92,8d,8d,b2,8d,b2
+,b1,69,24,49,b6,6d,4*8d,ad,8d,92,6d,91,92,8d,8d,8d,db,b6,92,6d
+,49,6d,48,69,69,4*8d,6d,89,89,8d,89,88,a9,cd,ad,cd,c9,cd,bb,bb,bb
+,db,bb,26*db,bb,14*db,bb,db,bb,5*db,bb,bb,db,db,bb,bb,bb,40*db
+,8*df,db,db,db,df,5*db,7*df,ff,df,ff,92,96,92,92,6d,6d,92,6e,92
+,49,49,6e,72,96,92,b6,96,6e,b6,bb,db,6d,b6,bb,db,49,92,24,49,25
+,b6,6d,92,b2,92,44,45,49,24,24,44,24,24,4d,db,b6,d6,d6,92,b2,b6
+,d7,92,d6,b6,b6,b6,69,49,92,b6,4d,92,49,69,24,69,8d,69,45,92,44
+,69,69,b7,b2,ff,b1,d6,8d,d2,89,b1,b2,ad,69,92,6d,91,b1,48,69,8d,8d,8d
+,69,8d,8d,da,b2,91,8d,24,6d,92,6d,fb,69,69,92,69,6d,69,8d,69,8d
+,6d,89,8d,89,88,a8,cd,cd,cd,a8,a8,cd,bb,bb,44*db,bb,7*db,bb,bb
+,db,bb,bb,bb,40*db,10*df,8*db,4*df,db,df,df,ff,ff,b6,92,92,b6
+,92,92,6e,6d,72,72,6e,49,6d,92,b6,96,db,6e,72,b6,db,bb,b7,b6,db
+,49,24,49,29,24,92,69,92,91,6d,92,49,24,49,24,24,24,25,24,6d,92
+,b6,92,92,db,ff,d6,b2,b6,db,b7,b6,8e,92,b2,b6,49,48,69,8d,6d,24
+,69,93,69,69,69,6d,68,6d,69,ad,8d,8d,8d,ad,ad,ad,b1,b1,69,69,69
+,4*8d,69,4*8d,ad,6*8d,d6,69,b2,8d,8d,6d,8d,69,69,8d,d6,b2,69,a9
+,89,89,89,cd,ad,a8,cc,a8,a9,a9,c9,bb,33*db,bb,db,db,bb,18*db,bb
+,db,db,bb,39*db,11*df,5*db,df,db,5*df,ff,df,ff,ff,ff,6e,6e,92,92
+,72,92,92,92,6e,b6,72,6e,96,6d,69,96,96,92,b6,92,b6,b7,db,ff,92
+,29,b7,24,49,b7,6d,92,92,b2,b6,b6,24,24,24,49,25,29,24,49,92,d7
+,b6,b6,db,db,db,d7,92,6d,92,92,49,8d,92,b6,92,49,24,db,6d,8d,92
+,8d,69,69,49,8d,69,db,b1,8d,ad,b1,b1,b1,b2,89,8d,69,6d,b2,8d,8d
+,b2,8d,b2,8d,68,8d,8d,ad,8d,ad,89,8d,8d,68,6d,6d,6d,8d,8d,8d,92
+,48,b7,69,48,8d,8d,6d,8d,89,89,89,a9,cd,cd,a9,ad,ad,cd,d1,cd,bb,bb
+,53*db,bb,43*db,11*df,5*db,df,db,7*df,ff,ff,92,92,b6,6e,92,72
+,92,92,92,6e,6e,6e,72,4d,92,49,69,96,b7,db,92,6d,92,6d,49,49,db
+,96,29,6e,69,8d,92,b6,b6,49,25,24,24,6d,24,24,49,49,92,49,92,49
+,b2,92,db,b2,b2,8d,b6,b6,ff,b6,d6,8d,92,b6,b6,92,db,69,6d,69,48
+,49,d6,69,24,db,8d,ad,6d,69,ad,ad,69,b1,69,8d,69,69,48,49,6d,b2
+,b1,b2,b2,b1,8d,ad,8d,b1,ad,8d,69,6d,68,6d,8d,48,8d,8d,8d,69,69
+,8d,8d,ad,8d,b2,8d,69,89,88,a8,69,d2,8d,ad,89,64,cd,cc,8d,bb,98*db
+,9*df,7*db,8*df,ff,ff,92,6e,72,92,b7,6e,6e,92,6d,96,6e,96,92,6d
+,72,b6,4a,b7,db,db,6d,92,92,72,49,45,92,96,92,49,69,6d,8d,b6,44
+,92,28,b7,24,24,6d,24,24,6d,6e,49,24,6e,72,92,92,91,49,b2,b6,49
+,6d,b6,92,4d,6e,b2,6d,6d,db,69,48,45,49,69,92,ff,69,6d,fb,d6,d1
+,ad,ad,5*69,b1,8d,8d,8d,6d,8d,8d,ad,ad,b1,ad,8d,89,8d,ad,ad,ad
+,8d,8d,69,49,69,8d,8d,69,8d,8d,8d,b2,89,ad,b1,89,89,88,a9,a8,ad
+,b6,b2,44,89,68,a8,cc,ad,ad,bb,bb,97*db,10*df,5*db,7*df,4*ff,6e,6e
+,92,72,92,b6,72,6d,6e,92,6d,92,6e,6d,b7,b6,db,b6,b7,b6,db,db,49
+,92,49,49,b2,db,db,6d,8d,6d,92,b6,24,49,4*24,25,24,24,6d,b7,db
+,6d,ff,fb,b6,6d,49,6d,b2,6d,6d,d6,92,b2,69,92,6d,b2,8d,b2,b2,6d
+,b6,ad,db,ae,92,69,8d,ff,8d,b1,89,b1,b1,8d,8d,ad,8d,44,89,8d,69,69
+,89,69,69,89,ad,ad,ad,88,cd,ad,8d,8d,8d,89,69,6d,69,69,8d,8d,88
+,89,ad,ad,ad,89,ad,69,88,a9,a8,8d,b1,b1,69,89,88,a8,a4,8d,8d,68
+,bb,db,db,bb,95*db,9*df,db,df,df,db,db,7*df,4*ff,4d,72,96,6e,92
+,bb,92,92,92,6e,72,b7,92,49,6d,b6,db,b7,db,72,b7,db,5*49,24,b2
+,92,48,24,6d,69,92,24,49,49,24,24,49,92,24,24,6d,b7,44,8d,b6,92
+,8e,6e,db,92,b6,b6,8e,6d,92,b6,d6,d6,49,6d,69,8d,49,8e,6d,6d,49
+,ad,b2,8d,89,ad,8d,8d,44,5*8d,69,8d,89,ad,8d,ad,69,ad,f6,89,69,69
+,ad,d1,89,68,4*ad,6d,69,8d,69,8d,68,89,ad,ad,89,a9,ae,68,89,c9
+,a8,8d,b2,44,48,88,24,24,64,ad,ad,8d,69,db,db,bb,96*db,9*df,db
+,df,df,db,7*df,6e,72,ff,ff,6d,72,6d,6d,b7,72,bb,92,92,b7,b7,b7
+,db,b6,6e,6d,bb,b6,b7,bb,db,bb,b7,49,44,b6,24,49,6e,92,92,24,69
+,8e,92,92,24,48,49,24,44,44,5*49,24,6e,8e,92,6d,92,b6,b6,b2,49
+,92,d6,db,b6,b2,92,92,6d,6d,b6,8d,69,91,69,b6,69,69,69,49,8d,69
+,ad,ad,69,8d,b2,48,69,69,69,44,44,89,88,89,ad,8d,ad,d1,cd,ad,ad
+,f1,89,ad,68,8d,8d,69,89,8d,69,8d,89,88,a9,ad,ad,8d,8d,8d,89,a8
+,89,44,44,24,88,a8,20,24,ad,d2,48,69,8d,98*db,9*df,5*db,92,db
+,4*df,6d,6d,72,72,8e,6e,92,6d,92,92,6d,96,92,92,b7,6d,db,6e,b6
+,92,bb,96,db,b7,b7,db,db,49,b6,49,6d,24,6e,92,6d,92,6d,24,69,48
+,49,4*24,92,49,92,49,29,49,49,49,6d,8d,49,d6,b2,8d,b6,4*b2,69
+,b2,b6,b6,92,69,db,8d,91,91,49,49,d2,69,89,69,6d,b1,8d,68,b1,ad,ad
+,89,89,da,69,89,69,89,a9,ae,d1,89,88,8d,ad,cd,ad,f5,f1,d1,cd,ad,ad
+,68,89,68,89,8d,88,88,ad,a8,ad,89,b2,8d,64,89,ad,68,44,24,88,88
+,a8,44,20,64,24,49,8d,68,82*db,df,db,df,12*db,9*df,db,db,df,db
+,df,df,6e,6d,df,df,ff,ff,49,49,6e,72,92,92,6e,6e,6e,6d,92,8e,6d
+,92,92,6d,49,b6,b7,49,92,b6,b6,df,ff,db,db,49,b6,b6,24,6d,92,8d
+,6d,6d,44,24,25,6d,b6,24,24,92,69,92,48,92,24,92,24,92,69,69,69
+,8e,8d,8e,49,91,b2,92,6d,b2,b2,b2,b6,b2,d6,ff,69,d6,6d,8d,68,68
+,69,69,8d,ff,48,69,89,68,69,89,69,69,b2,89,89,8d,8d,69,89,8d,89
+,ad,ad,cd,89,ad,88,88,ac,ed,d1,ad,4*89,69,88,89,ad,ad,cd,88,89
+,8d,88,ad,89,24,20,24,44,a8,a8,44,24,24,24,49,68,68,44,86*db,df
+,db,df,7*db,13*df,db,db,6d,6d,6e,92,df,ff,6d,6e,6d,6e,6d,4*92
+,6e,92,92,92,6d,6e,6e,6d,b6,bb,92,6e,92,b6,92,db,24,44,49,b6,db
+,44,6d,6d,8d,6d,6d,6d,49,49,49,da,6d,44,24,24,92,6d,8e,49,24,69
+,49,49,4*6d,69,8d,92,b6,b6,8e,92,8d,69,d6,92,ff,ff,b6,69,ff,89
+,8d,69,d6,48,db,48,48,8d,69,89,69,8d,f6,89,89,89,8d,69,69,68,89
+,8d,89,89,8d,89,88,cd,ad,8d,cd,d1,ac,f5,8d,ad,89,88,88,ad,ad,88
+,a8,ad,a8,ad,ad,ad,88,88,24,20,24,24,44,a8,89,24,0,20,68,69,44
+,b1,68,85*db,df,db,db,df,df,7*db,df,db,12*df,6e,49,72,6e,ff,ff
+,5*6d,6e,96,b6,92,bb,96,92,b6,b7,92,49,6d,b6,db,92,b7,49,92,db,db
+,24,24,24,49,49,44,44,6d,8d,6d,6d,6d,49,6d,6d,b2,96,6e,24,6d,6d
+,92,b6,6d,6d,49,49,d7,4e,b2,6d,6d,6d,8d,6d,6d,b2,b6,92,b6,6d,d6
+,b2,db,8d,b2,8d,ff,8d,8d,48,8d,69,8d,89,8d,69,44,68,68,89,ad,68
+,b6,89,d1,89,d2,ad,89,68,b1,8d,89,89,a9,ad,f6,ad,a9,cd,cc,ac,88
+,cd,88,88,ad,a8,cd,88,cd,cd,88,ad,8d,a9,64,4*24,44,68,68,69,8d
+,0,64,68,8d,68,44,8d,4*db,b7,96,92,bb,b7,db,b7,72*db,df,db,db
+,df,df,df,11*db,10*df,6d,72,49,49,92,92,ff,6d,6e,6e,92,6e,4d,96
+,b6,96,b7,96,92,92,b7,b6,6e,b6,b7,bb,b7,db,db,db,6d,97,24,24,44
+,6d,24,6d,69,69,6d,69,8d,92,6d,92,24,49,25,49,49,24,92,b2,b2,6d
+,49,6d,8d,6d,6d,92,6d,6d,92,b2,d6,b2,8d,92,8d,d6,6d,b2,b6,d6,db
+,69,69,d2,68,48,b2,68,89,ad,8d,48,89,89,69,89,8d,8d,69,8d,8d,ad
+,89,89,ad,ad,8d,8d,ad,ad,69,89,88,a8,cd,68,64,cd,f1,cd,a8,cd,cd
+,a8,cd,a9,ac,ad,88,4*ad,68,24,20,24,24,44,8d,8c,8d,8c,48,44,88
+,8d,8d,49,8d,db,db,b7,96,96,97,96,92,96,92,b7,96,db,db,bb,bb,b7
+,66*db,df,6*db,df,df,db,df,db,db,df,db,df,db,9*df,6e,49,4d,6d
+,92,72,6e,6*6d,92,96,b6,db,b6,72,92,b6,b6,b7,92,b7,92,db,db,db
+,96,db,45,49,24,24,25,92,49,49,69,6d,49,8d,69,92,49,6d,71,6d,44
+,49,49,92,49,8d,69,d7,6d,69,69,6d,69,49,b2,92,8d,8d,8d,49,6d,8d
+,91,da,d6,b6,b1,d6,6d,8d,69,b1,69,6d,48,69,8d,ad,ad,8d,8d,b1,8d
+,69,68,8d,6d,b1,d6,89,8d,b1,ad,8d,ad,8d,ad,d2,8d,68,69,ad,ad,88
+,ac,cc,d1,cd,a8,a8,cd,d1,a8,a8,cd,cd,88,ad,89,84,44,44,44,24,24
+,44,68,68,8c,8c,48,6d,8d,68,68,44,8d,8d,92,72,5*96,b7,b7,92,b7,b7
+,db,db,b6,96,92,64*db,df,db,df,df,df,db,df,db,db,df,8*db,9*df
+,4d,6e,49,6d,49,49,49,6e,4d,6d,6d,6e,6e,6d,6e,6e,6d,db,92,bb,6e,6e
+,92,6e,92,92,b6,db,b7,db,db,da,92,49,24,24,8e,44,8d,6d,6d,69,49
+,8d,b2,6d,49,49,49,92,49,69,6d,6d,6d,49,69,b6,69,6d,6d,91,ad,8d,8d
+,92,b2,8d,92,8d,6d,8d,91,6d,92,db,db,92,8d,b1,69,69,49,44,68,44
+,ad,89,ad,68,ad,d2,68,ad,8d,8d,ad,d1,b2,69,ad,ad,89,68,4*89,88
+,68,ad,cd,cd,d1,cd,a8,ac,68,88,f1,a8,cd,a8,cd,a8,a8,cd,ad,ad,68
+,44,24,24,44,89,69,69,8d,68,48,8d,44,68,44,24,69,88,44,96,92,b7
+,97,72,96,b7,96,92,96,b7,b7,92,97,92,96,96,92,96,58*db,df,db,db,db
+,df,df,db,df,df,6*db,df,db,df,db,df,df,db,8*df,bb,6d,49,49,49
+,6d,92,4d,6e,4d,72,72,6d,6e,6e,8e,72,6d,92,92,92,db,bb,6d,db,bb
+,92,91,8d,db,b6,45,49,48,b7,24,8e,92,6d,6d,6d,69,b2,69,49,49,6d
+,49,6d,25,92,6d,49,92,6d,49,6d,92,6d,8d,92,92,8e,8d,69,49,6d,69
+,b2,45,69,d6,69,b2,b1,ff,da,8d,d6,8d,8d,8d,b6,69,69,ad,88,89,ad,ad
+,69,ad,68,8d,89,b7,ff,b1,89,ad,68,a9,ad,89,89,69,89,68,88,89,ad
+,89,ad,cc,a8,cd,ad,88,88,cd,cd,a8,c9,a9,cd,a8,cc,a8,88,8d,68,44
+,24,44,24,8d,89,8d,68,8d,44,69,69,44,68,89,68,68,6d,97,b7,92,bb
+,96,92,db,bb,92,db,96,b7,92,b7,97,72,96,b7,96,96,db,b7,db,db,b7
+,57*db,4*df,db,df,db,db,df,db,15*df,6d,49,4d,4d,6d,6d,6e,6e,6e
+,b6,4d,6d,6d,92,6e,6d,92,b6,db,96,96,db,b7,b7,db,db,91,69,6d,8d
+,69,69,25,49,92,92,6d,8d,6d,6d,8d,6d,49,6d,6d,49,49,49,db,6d,6d
+,92,6d,69,69,49,69,b2,6d,49,8d,8d,6d,6d,6d,b2,6d,b2,91,6d,6d,8d
+,91,8d,d6,6d,d6,b6,8d,fb,69,69,8d,49,d6,44,89,89,8d,8d,69,89,8d
+,89,89,b1,8d,8d,8d,89,89,88,88,88,89,88,68,88,88,88,89,cd,ad,a8,a8
+,cc,cd,88,88,a8,c8,c8,c8,cd,88,a8,cd,88,68,24,48,24,24,24,89,68
+,88,68,8d,69,68,44,44,68,8d,b2,68,8d,8d,96,96,b7,bb,db,72,92,bb
+,96,db,b7,96,92,4*b7,92,4*96,bb,b7,96,53*db,df,db,4*df,db,df,6*db
+,13*df,db,6d,4d,6e,6d,49,6d,6d,4d,4d,6d,96,92,6d,6d,69,6e,96,b6
+,92,6d,b7,b7,b6,96,db,db,b6,69,69,69,6d,24,49,49,44,6d,8d,69,6d,6d,6d
+,69,49,6d,49,6d,49,49,24,6d,6d,49,49,92,6d,b6,b2,b6,b2,8d,44,8d
+,69,8d,69,6d,69,8d,92,8d,6d,69,8d,b2,8d,8d,b1,8d,6d,4*8d,68,68
+,69,69,ad,68,68,89,68,8d,89,89,da,68,ad,b1,89,b1,68,89,64,88,69
+,68,68,68,88,88,a9,a8,cd,cd,a8,ec,ec,ac,cc,a8,a8,c8,c9,a8,c8,a8,a8
+,44,44,44,20,20,24,64,68,89,8c,89,44,68,68,44,68,69,d2,88,6d,8d
+,b1,92,92,bb,b7,b7,96,72,4*92,b7,92,bb,b7,96,96,b7,bb,97,96,b7,b7
+,96,b7,b6,48*db,df,6*db,df,db,db,df,7*db,9*df,b7,b6,6e,92,6d,6d
+,4e,6e,49,4d,6d,6d,6d,92,72,92,bb,b7,92,6d,92,96,96,92,b6,b2,92
+,b6,db,b6,69,b6,49,24,24,24,49,24,92,6d,92,8d,8e,69,8d,b2,6d,49,49
+,6d,49,92,6d,49,69,92,49,8d,49,69,6d,6d,92,8d,92,49,6d,91,6d,8d
+,45,8d,8d,49,6d,d6,69,69,8d,69,b2,b2,b6,b1,8d,89,8d,48,68,48,b1
+,69,69,44,88,89,ad,ad,89,88,69,8d,8d,89,88,89,89,88,68,89,88,a8
+,88,88,a9,88,cd,88,cd,cd,cc,ec,cc,cd,88,c8,cc,c8,c8,ed,cc,cc,a8
+,44,44,20,24,24,68,8d,8d,68,68,8d,8d,ad,68,88,69,ad,44,8d,89,89,89
+,92,96,bb,72,b7,96,b7,72,92,96,db,db,92,b7,b7,92,b7,b7,b7,bb,b6
+,96,97,b7,b7,b6,b7,59*db,df,4*db,df,db,7*df,6e,6d,6e,49,6e,6e,6e
+,92,4d,49,4*6d,49,96,6d,b6,b7,92,6e,96,6e,92,72,8d,6d,44,24,6d
+,92,92,49,4*24,b6,24,6e,6d,6d,8d,6d,8d,6d,24,45,49,8e,49,6d,db
+,44,92,8d,92,8d,69,49,92,b2,6d,69,d7,6d,8d,69,b2,8d,6d,8d,69,ad
+,8e,69,8d,6d,8d,ad,8d,da,b6,b6,ff,db,8d,49,69,6d,ff,b1,89,89,ad
+,88,b1,ad,68,68,8d,ad,ad,69,68,68,4*88,89,68,88,68,88,88,a8,64
+,a8,c9,c8,cc,a8,cc,68,64,c8,c8,ec,a8,a8,ed,cc,44,44,69,6d,24,44
+,69,8d,8d,68,44,68,44,44,44,69,8d,44,69,8d,68,ac,44,96,b7,b7,72
+,b7,92,92,97,b7,96,b7,92,b7,db,96,92,b6,97,db,bb,92,92,b7,92,96,96
+,b7,52*db,df,db,db,db,5*df,4*db,6*df,6e,6e,49,92,6e,92,6e,6e,6d
+,49,6d,49,5*6d,6e,6d,b7,b7,96,92,92,92,b6,69,4*6d,92,6d,92,6d
+,45,24,24,24,b6,72,6d,69,6d,92,8d,45,49,6d,49,6d,92,49,49,49,db
+,6d,8d,b2,92,8d,b2,b2,8d,8d,49,ff,6d,8d,b2,b2,6d,6d,8d,8d,69,8d,8d
+,69,d6,8d,8d,8d,91,49,db,db,b1,d6,d6,69,b1,69,68,68,89,64,89,64
+,a8,68,68,ad,89,48,89,68,88,68,68,69,88,88,cd,88,a9,a9,88,88,a8
+,c8,a8,a8,64,a8,a8,f0,f1,ec,e8,cc,cc,a8,cc,88,68,8d,8d,8d,88,69
+,8d,44,8d,8d,68,68,ad,48,24,89,68,49,b2,68,68,64,ad,92,db,b7,bb
+,b7,6e,96,92,b7,92,97,db,b7,bb,72,b6,96,db,bb,b7,97,92,92,b7,92
+,b7,b7,55*db,df,df,db,df,df,db,db,df,db,df,db,5*df,72,6e,6e,72
+,6d,92,49,6e,4d,6d,4d,6*6d,b6,92,8e,db,b6,b6,92,92,45,6e,92,6d
+,92,49,8d,91,6d,6d,24,25,24,24,6d,6d,8d,69,6d,8d,49,6d,49,69,49,49
+,8d,6d,6d,ff,8d,6d,91,6d,8d,6d,b2,69,92,92,8d,69,6d,b2,8d,69,6d
+,69,d6,b1,68,69,8d,69,92,b1,8d,b1,ad,92,8d,8d,8d,b1,ad,ad,8d,8d
+,68,48,69,89,89,88,88,89,88,88,89,d1,68,68,68,89,64,88,a8,88,a8,a8
+,c9,a8,a8,a8,c8,64,c8,c8,a8,a8,cc,cc,cc,a8,ec,4*c8,d1,44,89,44
+,88,8d,68,68,68,8d,8d,44,8d,48,89,65,68,69,24,44,8c,24,24,88,92
+,96,92,db,b7,db,92,92,92,72,db,b7,bb,db,bb,6e,92,bb,db,b7,97,bb
+,72,92,92,92,96,db,db,db,4*b7,58*db,df,db,df,df,df,bb,6d,72,4d
+,92,6d,6d,6e,6e,4d,92,6e,69,5*6d,b6,92,8e,b6,b6,b6,92,6e,4*92
+,8e,6d,69,49,24,24,6d,49,24,6e,6d,8d,5*6d,49,49,69,6d,6d,49,6e
+,92,b1,6d,69,49,69,69,8d,6d,db,8e,8d,69,8d,8d,8d,69,6d,69,6d,8d,8d
+,69,68,8d,68,ad,8d,69,8d,b1,b1,8d,8d,ad,8d,44,68,89,69,88,88,89
+,88,88,68,88,88,64,ad,d6,69,8d,ad,68,a9,a8,c8,4*a8,c9,a8,a8,84
+,a8,a8,a8,c8,88,a8,cc,cc,cc,ed,ec,84,c8,cd,88,68,68,69,44,68,48
+,68,44,44,89,8d,44,89,88,69,44,44,64,8d,88,69,68,68,44,6e,b7,b7,b7
+,db,db,bb,b7,92,b6,92,92,b7,db,96,6e,92,db,92,b7,db,92,97,b6,b7
+,96,72,b7,db,b6,96,b6,b6,b7,b7,46*db,df,db,df,df,df,7*db,4*df
+,72,4d,49,49,6d,49,92,6e,92,6e,4*6d,69,6d,6d,92,92,92,b2,91,92,92
+,8e,6e,6d,8d,69,69,92,6d,8d,69,45,92,24,25,49,6*6d,49,6d,69,6d,6d
+,49,6e,b6,da,b2,92,69,69,49,92,69,6d,8d,69,6d,69,8d,8d,8d,69,92
+,49,69,8d,45,b1,8d,68,48,24,48,8d,6d,24,48,6e,b2,ad,ad,69,d6,88
+,8d,ad,68,a9,ad,4*88,ad,88,8d,ad,ad,8d,a9,88,88,88,a8,c9,4*a8
+,cc,a4,c8,a8,84,a8,88,a8,88,ec,f1,cc,a8,c8,c8,c8,d1,44,24,89,68
+,a8,24,69,44,44,69,64,68,68,8d,89,8d,45,68,44,24,44,88,44,44,44
+,db,92,b7,92,ff,b7,b7,92,b7,92,b7,bb,b7,db,db,db,b7,db,4*b7,db
+,72,92,b7,b6,b7,b6,96,b7,96,b6,b7,b6,b7,bb,db,4*bb,40*db,df,db
+,df,7*db,5*df,6e,6d,49,49,6e,72,49,96,92,6e,6d,6d,6d,92,6d,6d
+,6e,6d,8e,4*b6,91,6d,8d,92,6d,8d,b2,6d,8d,69,49,45,6e,72,ba,24
+,69,6d,69,69,69,49,49,92,49,b2,8d,6d,6e,69,49,b2,8d,69,44,6e,69
+,b6,49,92,49,6d,8d,6d,8e,92,8d,8d,69,48,8d,48,8d,8d,8d,89,89,6e
+,8d,69,b2,8d,8d,68,68,89,b1,ad,89,49,64,ac,8d,ad,ad,88,89,89,b1
+,8d,8d,8d,68,88,88,cc,cd,c8,cc,c8,cd,a8,c8,64,a8,a4,a8,84,64,88
+,c8,cc,c8,4*cc,a8,ec,f0,ad,b1,89,68,88,8d,24,24,68,69,69,68,89
+,44,64,44,48,68,44,68,24,68,44,48,68,68,b7,df,b7,db,b7,db,db,db
+,b7,92,92,db,72,92,ff,b7,db,b7,db,92,db,b7,96,92,92,92,72,92,72
+,b7,b7,92,bb,b6,b7,b7,b7,bb,bb,db,db,4*bb,40*db,df,db,db,db,7*df
+,96,49,92,6d,49,72,4d,6d,6e,96,92,92,92,6d,6d,92,92,6d,6d,92,69
+,6d,92,91,b2,92,92,6d,6d,92,8d,6d,49,69,24,92,da,b6,8d,24,49,49,49
+,69,49,69,6d,8d,6d,69,6d,92,b2,69,b2,6d,49,b2,6e,69,b6,49,92,6d
+,8d,48,8d,8d,69,69,8d,91,44,49,48,49,69,ff,8d,49,b1,b2,8d,68,b1
+,69,8d,69,8d,68,ad,69,88,89,88,88,a8,89,68,89,ad,8d,ad,8d,8c,68
+,a9,cd,cc,cc,88,cc,a8,cc,4*c8,64,84,c8,a8,a8,c8,a8,cc,88,cc,ac
+,cc,a8,cc,cc,ad,b1,44,88,88,88,68,24,69,69,64,64,ad,44,44,68,44
+,68,44,88,24,88,64,24,24,44,20,b7,db,b7,72,b7,b7,5*db,6e,db,b6
+,96,db,df,5*db,92,b7,92,db,b7,92,72,72,b7,db,b7,b7,96,96,b7,bb,bb
+,db,db,b7,bb,db,bb,45*db,4*df,6e,6e,49,6e,49,6e,6d,6d,49,96,96
+,92,b6,96,b6,49,6d,6d,6d,b2,92,b6,8d,6d,6d,6d,8d,92,92,6d,69,6d
+,49,6d,8d,b6,6d,6d,92,6d,48,24,44,45,69,6d,6d,8d,8d,92,49,69,49,49
+,8d,db,6d,92,49,69,69,b2,49,6d,b2,8d,89,6d,49,69,69,44,6d,69,69
+,48,d6,8d,b1,89,8d,8d,b6,b2,8d,b1,b1,8d,8d,ad,8d,8d,88,89,ac,a9
+,68,68,a8,a8,88,89,d6,ad,b1,89,ac,c8,cc,64,68,ad,ac,88,a8,a8,c9
+,84,e8,e8,a8,84,a8,88,a8,c8,a8,ec,f0,a8,ac,cc,cc,cc,a8,ad,89,44
+,68,68,8d,68,24,24,89,68,68,ad,20,20,44,8d,44,44,8d,68,24,44,68,68,68
+,44,db,db,db,b7,92,db,db,b7,5*92,b6,db,b7,bb,db,db,b6,92,db,ff
+,b7,b7,db,b7,92,b6,72,92,db,b7,92,b6,b7,b6,db,bb,db,db,b7,bb,db
+,bb,bb,bb,6*db,bb,35*db,4*df,db,6e,72,96,49,6d,6d,6d,49,6d,b7
+,92,b7,92,bb,72,6e,6d,6d,6d,92,6d,6e,92,6d,6d,6d,8d,92,8d,69,6d
+,92,6d,b2,b6,92,8e,92,6d,92,69,45,49,69,8e,49,6d,69,49,4*6d,b7
+,db,b6,45,49,6d,49,69,b2,49,44,6d,69,48,49,6d,8d,24,d6,6d,8d,49
+,91,6d,d6,91,d6,8d,8d,b2,b2,8d,b1,b1,8d,68,ad,8d,68,44,44,44,24
+,64,cd,d0,88,20,64,24,cc,a8,88,44,44,44,a9,a8,a8,88,88,84,cd,a8,a8
+,e9,a8,a4,a8,ed,c8,64,c8,c8,c8,cc,cc,cc,a8,ec,a8,88,ad,64,64,88
+,b1,89,4*24,68,24,24,20,20,88,88,ac,68,44,44,44,68,44,24,20,24
+,96,db,72,bb,92,b7,db,bb,92,b7,92,92,b7,92,b6,db,db,92,db,db,df
+,b6,b7,b6,92,db,ff,b7,b7,6e,6e,bb,b7,72,92,b7,b7,92,bb,b7,b7,b6
+,b7,4*bb,26*db,df,15*db,4*df,6e,6e,6e,92,72,92,49,69,49,6d,6d
+,92,6e,72,8e,6d,92,8e,6d,6d,6d,8d,6d,6d,69,69,6d,92,69,6d,8d,6d,6d
+,69,b2,5*92,6d,69,69,49,49,44,49,6d,8e,69,8d,8d,92,92,d6,fb,8d
+,6e,49,8d,8d,8d,69,6d,69,49,69,48,69,69,6d,6d,89,8d,b2,d6,b2,69
+,b1,8d,da,8d,91,b1,ad,b1,8d,89,ad,68,48,48,20,44,44,24,89,88,84
+,a8,84,c8,ec,a8,a8,c8,cc,44,a8,68,a8,84,44,a8,c8,44,44,a8,a8,88
+,a8,c8,a8,a8,a8,ed,c8,ec,cc,cc,ec,a8,a8,cc,d1,ad,68,88,a8,68,44
+,89,24,24,44,44,44,24,24,44,48,24,68,68,24,20,44,24,24,44,68,24,24
+,92,db,6d,92,db,bb,db,b7,b7,db,96,db,92,db,b6,b7,92,bb,92,b7,92
+,db,db,b7,b7,db,72,b7,6e,96,96,b7,bb,92,96,96,92,b7,96,bb,5*b7
+,bb,db,bb,6*db,bb,33*db,4*df,ff,6e,6e,6d,92,6e,6d,6d,49,49,6d,6d
+,6e,92,6d,6d,92,92,69,6d,8e,b2,6d,69,6d,69,69,6d,49,92,69,6d,6d,6d
+,92,b2,92,92,6d,92,44,49,6d,6d,91,49,92,8d,69,69,92,6d,6d,92,db
+,69,ff,b2,92,b6,6d,8d,b6,69,92,69,48,49,69,49,48,6d,69,b2,b1,8d,8d
+,69,69,8d,69,8d,d6,8d,8d,ad,b1,8d,68,68,44,44,24,5*44,68,69,64
+,88,a8,c8,a8,a8,c8,88,68,24,64,88,a4,a8,c8,a8,a8,84,89,a8,a8,a4
+,6*c8,ec,ec,c8,c8,ec,ec,a8,a8,88,a8,88,ad,8d,88,69,6d,6*24,6*44
+,24,44,24,20,44,24,44,44,b7,b7,92,6e,df,92,ff,96,b7,db,b7,b6,92
+,97,96,b7,b6,db,db,db,92,db,6e,b7,97,92,b7,db,96,92,96,72,b6,92
+,db,b7,b6,96,b6,96,b7,92,96,4*b7,bb,6*db,bb,bb,28*db,df,db,6*df
+,6e,6e,92,72,6e,72,6d,92,6d,49,6d,6d,6d,92,69,92,8d,b2,6d,92,6d
+,b2,69,6d,69,69,69,4*6d,8d,6d,6e,92,92,8d,92,92,69,49,49,69,8d
+,6d,8d,6d,b6,92,6e,d6,69,8d,fb,6d,ff,b2,8d,8d,b2,91,8d,8d,8d,69
+,44,49,44,69,44,8d,69,92,b6,b6,b1,69,b1,69,6d,5*8d,68,68,68,24,24,24
+,44,44,44,20,20,49,44,24,8d,44,64,44,44,a4,a8,c8,88,a8,88,88,a8
+,88,84,a8,44,a8,44,64,88,64,88,a8,c8,c8,84,c8,c8,a8,ec,a4,ec,c8
+,ec,a8,cd,cd,ac,ad,8d,ad,89,69,20,44,44,20,24,44,24,5*44,48,88
+,8d,24,24,44,24,24,24,df,69,b6,b6,92,b7,db,db,b7,96,6e,db,db,6e
+,92,b7,b6,b7,96,db,b7,92,92,df,db,97,92,db,96,b6,bb,92,bb,96,96
+,db,b7,96,92,b6,b7,b6,b6,bb,b6,b7,b7,bb,5*db,4*bb,15*db,df,12*db
+,7*df,49,4d,6e,92,49,6d,6d,69,49,49,6d,8d,49,8e,6d,8d,6d,69,69
+,b2,6d,91,8d,8d,69,69,49,6d,69,8d,8d,92,72,6d,92,92,6d,8e,6d,6d
+,49,49,6d,69,49,6d,92,6d,69,69,8d,6d,8d,8e,ff,b2,8d,8d,ad,6d,8d,8d,8d
+,69,44,49,48,69,69,69,48,44,d6,6d,b1,69,b1,ad,ad,89,ad,89,4*68
+,44,44,24,44,48,44,44,44,24,44,44,0,68,88,44,68,68,a8,64,a8,a8
+,84,a8,c8,84,64,64,64,c8,64,44,88,64,64,64,cc,88,c8,c4,ec,ec,c8
+,cc,cc,ec,e8,ec,c8,a8,88,88,68,ad,8c,68,8d,44,24,24,24,44,44,44
+,24,44,88,44,24,44,44,d1,44,69,68,24,20,24,20,6e,6d,69,92,92,db,db,db
+,bb,db,72,ff,92,b6,bb,b7,db,b7,b6,92,6e,b6,96,db,db,db,b6,92,b7
+,72,bb,92,92,db,92,bb,db,6e,92,b7,b7,96,bb,bb,5*b7,5*db,bb,db
+,bb,23*db,df,db,db,8*df,ff,4d,6d,49,6d,6d,6d,69,49,49,4*6d,69,69,69
+,6d,69,8d,8d,92,6d,49,49,8d,49,8d,8d,69,44,6d,b7,b6,92,8d,6d,92
+,b2,24,8d,8d,4*49,8d,92,6d,69,8d,69,92,92,92,ff,92,8d,69,b1,d7
+,92,8d,69,69,69,48,49,24,44,49,69,d6,69,8d,89,d1,ad,ad,ad,89,69
+,48,68,44,44,69,48,44,44,44,0,44,69,24,48,24,44,24,68,44,24,ac
+,88,64,ec,a8,84,88,a8,a8,a8,64,84,64,44,64,44,44,44,88,44,64,c8
+,a8,c8,c8,ec,a8,c8,f0,ec,ed,ec,ec,cc,cd,88,88,ad,88,89,44,44,48
+,44,20,44,68,68,44,24,44,20,68,68,20,89,ad,44,20,24,24,24,48,92
+,6e,b7,b6,96,92,b6,db,db,db,92,b7,4d,6e,97,92,92,db,b6,92,db,92
+,b6,b6,b7,b7,b7,b6,db,92,db,92,b7,92,5*b7,bb,72,b7,bb,4*b7,db
+,b7,bb,db,db,db,5*bb,15*db,df,6*db,df,df,df,db,7*df,6d,6e,6d,4d
+,6e,49,49,6d,92,8d,6d,69,6d,6e,49,69,92,6d,8d,8d,8d,6d,6d,49,8d
+,69,69,6d,49,8d,8d,b6,b2,92,24,6e,b2,92,8d,49,69,49,69,49,69,6d
+,48,8d,b2,69,8d,8d,b2,92,69,69,b2,49,8d,69,8d,69,48,49,44,49,44
+,48,92,8d,8d,6d,69,69,8d,cd,cd,cd,a9,68,48,44,49,44,48,44,44,24
+,48,44,44,ad,44,24,24,20,0,20,24,68,44,a9,ad,a8,cc,cc,a8,c8,84
+,a8,84,84,88,84,64,64,84,a8,84,a8,44,c8,c8,a8,a8,a4,c8,ec,ec,cc
+,ec,c8,c8,e8,ed,cc,8c,ad,ad,b1,89,44,68,44,24,68,44,20,ad,68,44
+,20,20,68,24,68,64,20,88,69,44,44,24,20,8d,6e,6e,6d,6e,b6,6e,b6
+,ff,bb,db,db,92,92,b7,96,6d,db,92,92,92,db,b7,92,6d,b6,b7,92,db
+,b7,db,db,db,b7,92,6e,b7,b6,b7,72,92,92,b7,db,bb,b7,b7,b6,b7,b6,b6
+,4*db,bb,db,bb,bb,14*db,df,7*db,10*df,ff,6e,6d,6d,92,6d,92,8e
+,4*6d,69,49,6d,6d,b2,b6,db,8d,69,69,69,6d,69,8d,69,69,49,8d,8d
+,92,b6,8e,8d,49,92,92,6d,69,49,69,8d,69,69,da,91,6d,b2,69,8d,69,69
+,b1,49,fb,db,b6,6d,8d,69,92,6d,48,49,44,49,44,69,89,69,8d,ad,89
+,69,ad,cd,ad,68,49,44,44,69,48,6d,48,48,44,24,24,44,44,68,69,89
+,8d,88,24,69,69,44,68,a9,a8,64,88,24,a8,a8,cc,88,a8,a8,c8,88,88
+,a8,84,64,a8,84,c8,84,20,c8,64,ed,ec,f0,f0,ec,f0,ec,c8,f1,f1,ad
+,88,ad,ad,ad,24,4*44,8d,44,64,68,20,44,24,44,20,24,44,24,20,8d
+,44,44,44,d1,44,44,49,92,6e,db,b6,92,6e,db,db,bb,db,92,b7,6e,72
+,db,b6,db,6e,6e,b7,db,97,6e,72,df,db,db,96,db,db,6e,92,b7,b7,b7
+,92,92,b7,b7,bb,bb,db,bb,b7,b7,96,96,bb,b7,b7,4*db,b7,bb,bb,bb
+,14*db,df,df,db,df,db,df,db,9*df,ff,ff,49,6d,49,49,4*6d,69,69
+,6d,49,49,6d,6e,92,92,8e,b2,69,69,69,6d,6d,69,6d,6d,92,6d,92,49
+,6d,8e,8e,8d,92,6d,69,69,6d,69,8d,6d,b6,69,4*8d,6d,91,8d,8d,92
+,fb,d6,8d,b1,91,b2,44,69,24,49,69,48,49,68,69,69,48,69,68,44,ad
+,68,24,44,44,69,44,24,44,68,44,24,48,49,44,44,68,44,44,68,a8,ad
+,24,44,20,84,24,68,20,68,cc,a8,a8,84,c8,9*a8,64,44,a8,c8,ec,a8,a8
+,cc,f0,c8,c8,c8,ec,f1,ec,cc,cc,ad,b1,ad,68,24,20,20,24,44,68,44
+,20,8d,24,24,4*44,24,24,44,8d,24,6d,8d,68,68,48,24,6e,6e,6d,92,92
+,db,6e,db,ff,db,df,92,72,b7,72,92,db,db,92,db,b6,6e,b6,92,db,8e
+,db,db,92,db,b7,db,92,b6,72,db,b7,b7,db,92,b7,92,b6,db,92,b7,b7
+,92,96,b6,b6,b7,db,db,bb,db,b7,b7,bb,18*db,10*df,ff,ff,ff,6e,6e
+,4*6d,49,6d,49,69,6d,6d,6d,69,6d,92,b6,b2,92,b2,69,6d,6d,49,6d
+,69,92,92,8d,92,92,b6,92,92,8d,b2,92,92,91,69,69,b1,6d,8d,49,69
+,92,8d,91,8d,91,8d,6d,b6,fb,b2,69,8d,b7,8e,8d,44,44,44,69,49,44
+,69,48,48,49,44,69,89,ad,24,44,44,68,48,44,44,24,4*44,68,68,48
+,24,44,68,68,68,88,44,24,24,44,89,88,89,44,44,c8,cc,ec,c8,84,c8,c8
+,88,88,c8,64,a8,a8,64,88,c8,84,64,c8,a4,ec,a8,a8,ec,88,f0,cc,ec
+,f1,cc,88,ad,b1,44,44,44,20,44,24,24,5*44,68,44,44,20,8d,d6,48
+,d1,44,8c,68,24,44,ad,69,8c,72,6e,92,92,db,6e,92,b6,db,ff,ff,92
+,b6,6d,b6,92,6d,db,6e,72,db,b7,ff,b6,db,96,92,b6,db,db,ff,bb,bb
+,b7,b7,92,db,96,b6,db,92,92,6e,b7,72,92,bb,b7,92,b7,96,96,b7,db,db,db
+,bb,bb,bb,14*db,13*df,4*ff,49,6d,4*49,6d,8d,69,49,69,8d,6d,49
+,8e,69,6d,b6,b2,92,69,44,49,44,8d,8e,92,6d,8d,92,8d,92,92,db,91
+,8d,69,91,6d,8d,69,69,8d,6d,b2,b1,69,8d,8d,b1,6d,b2,b2,db,b2,d6
+,69,fb,ad,91,8d,24,44,69,69,48,69,69,69,48,48,49,69,68,44,44,48,48,48
+,89,69,68,68,69,48,68,8d,44,24,69,44,68,68,64,68,68,24,48,48,48
+,8d,88,44,24,ad,a8,a8,84,84,a8,a4,cc,88,a8,88,c8,c8,ed,a8,44,64
+,84,64,a8,c8,c8,f0,f0,88,cc,ed,ec,ec,f0,ac,d5,8c,89,44,64,24,0
+,44,24,24,48,24,44,24,24,44,24,44,44,44,24,68,88,68,44,8d,44,68
+,44,8c,44,92,6d,d7,4d,92,92,6d,6e,92,ff,db,ff,6e,db,b7,ff,df,92
+,6e,db,bb,ff,db,bb,b6,b2,b6,ff,b6,df,92,b7,db,db,8e,b6,db,b7,b6
+,db,b7,92,6e,92,b6,b7,92,92,72,b7,b7,b7,96,96,db,db,bb,bb,bb,14*db
+,df,df,db,db,8*df,4*ff,db,49,69,49,49,6d,6d,49,69,6d,6d,8d,49
+,92,8e,8d,8e,8d,8d,8d,69,69,6d,6d,6d,92,92,8d,69,b6,b2,92,91,b2
+,8d,92,8d,91,69,b2,45,49,45,91,8d,8d,69,8d,b1,69,8d,69,b2,6d,ff
+,d6,b2,8d,8d,69,6d,69,69,24,49,69,44,68,44,69,24,44,24,69,48,44
+,48,44,44,44,69,24,24,24,44,24,24,68,24,44,64,ad,88,64,88,88,cc
+,88,ad,88,68,88,c8,68,88,68,44,44,a8,68,a8,c8,88,88,a8,cd,a8,a8
+,c8,cc,a8,ed,c8,a8,c8,ec,c8,ec,cc,88,a8,c8,ec,c8,cc,ad,89,68,44,44
+,0,20,44,20,44,44,44,24,0,68,44,24,44,24,ad,20,24,d1,24,0,20,44
+,24,4*44,49,6d,92,6d,ff,92,4d,92,b7,db,db,92,b6,49,92,92,92,6d
+,92,92,db,92,db,4*92,db,ff,b7,92,92,df,b6,db,92,db,db,92,92,b7
+,72,bb,b6,b7,b7,b7,92,92,b7,b7,b7,96,b7,b7,db,bb,db,bb,bb,12*db
+,12*df,4*ff,6d,69,49,6d,69,6d,69,69,6d,49,49,69,8d,b2,49,6d,69
+,49,4*69,8d,6d,b2,92,69,49,8d,24,92,b2,92,b6,91,8d,8d,6d,49,8d
+,92,49,69,6d,49,8d,69,8d,69,b1,d6,8d,6d,8d,8d,49,fa,69,69,8d,8d
+,48,49,44,24,44,69,69,44,69,48,48,44,89,48,44,48,48,69,69,44,44
+,69,48,68,68,68,44,68,68,69,64,64,a8,44,88,64,88,64,88,a8,88,64
+,68,48,68,88,cc,88,a8,64,88,cc,cc,88,a8,88,a8,84,c8,c8,a8,ec,ec
+,c8,c8,ec,c8,cc,cc,cc,64,c8,cc,ac,d1,24,64,44,20,24,0,24,24,68
+,44,44,24,44,44,24,68,44,44,44,64,68,44,8d,0,24,20,68,d6,d5,8c
+,ad,8d,b6,49,6e,49,6d,6d,92,6d,6e,b7,d6,92,6e,49,6e,b6,db,6e,b7,b7
+,db,92,df,92,db,8e,92,b7,db,6d,b6,b6,b7,db,db,6e,b6,db,92,92,96
+,db,96,6d,b6,96,6e,db,92,96,92,96,b7,b7,96,92,4*bb,12*db,10*df
+,5*ff,6d,49,49,25,69,69,49,69,6d,69,6d,69,49,92,49,6d,69,49,6d
+,49,69,69,6d,6d,69,92,6d,91,92,69,24,92,69,92,92,92,8d,8d,24,69
+,92,8d,8d,8d,69,91,8d,8d,8d,69,8d,8d,24,b2,d7,d7,b2,8d,d7,8d,6d
+,69,69,49,44,24,24,68,48,24,48,48,69,69,69,24,44,49,68,44,69,69
+,ad,24,24,68,44,24,24,20,68,44,88,64,68,cd,a8,a8,cc,a8,64,88,64
+,a8,68,64,24,44,48,64,88,ec,c8,a8,cc,a8,a8,88,cc,88,a4,c8,ec,ec
+,e8,c4,ec,c8,ec,c8,cc,a8,68,a8,88,44,68,44,48,44,24,24,20,44,44,44
+,20,44,20,68,24,24,68,24,24,20,8d,44,8c,68,44,ad,68,8d,68,24,24,24
+,44,6d,29,92,6d,6e,b7,6e,92,b7,93,49,6d,72,6d,6e,92,db,6d,6e,bb
+,ff,db,92,db,92,92,6e,72,92,6e,72,db,db,b7,ff,b6,92,b6,db,ff,b6,b6
+,72,92,72,92,bb,b6,96,b6,b6,bb,b7,bb,96,b6,96,b7,bb,b7,bb,b7,db
+,df,7*db,10*df,5*ff,49,49,49,69,6d,6d,49,6d,49,6d,49,49,6d,92
+,44,6d,69,69,6d,49,49,69,24,69,6d,6d,8d,8d,6d,b6,8d,8d,6d,92,b2
+,91,8d,69,6d,25,6d,8d,6d,69,4*8d,b2,b2,8d,6d,69,69,b2,6d,fb,8d
+,b1,db,8d,8d,8d,49,44,48,68,49,5*44,8d,68,68,48,44,69,44,44,68
+,6d,69,24,44,24,44,48,44,ad,20,68,68,88,64,88,88,68,44,64,68,88,88
+,a8,a8,a8,24,44,24,88,8c,68,84,c8,cd,cc,a8,88,a8,ac,88,cc,c8,c8
+,84,e8,a8,c8,cc,88,ec,cc,44,cc,68,68,24,44,24,64,24,24,44,ad,44
+,24,44,44,20,68,24,68,24,20,44,44,8d,24,20,b1,44,24,69,d1,8d,69
+,44,44,20,72,49,db,6e,49,49,bb,6e,92,92,db,6e,92,6e,6e,b7,92,b6
+,97,92,b6,92,72,92,6e,92,92,6e,b6,b6,b7,db,6e,b6,92,6e,b7,db,b7
+,b6,db,db,b7,92,72,72,92,db,b7,b7,96,92,db,b7,b7,92,92,bb,b7,4*bb
+,df,db,db,db,df,df,df,db,9*df,5*ff,10*49,d7,24,6d,69,49,44,92
+,69,69,49,49,49,44,24,8d,69,6d,8d,6d,49,69,8d,6d,4*8d,6d,69,69,69
+,91,8d,91,69,8d,6d,b1,b2,6d,8d,8d,69,49,69,db,ff,d6,8d,b1,49,68
+,44,68,69,69,48,24,44,69,44,68,44,48,48,48,44,48,68,4*48,68,69
+,68,68,8d,24,44,44,69,68,64,68,88,ad,a8,cc,c8,88,88,64,4*a8,c8
+,64,24,68,24,48,88,88,a8,64,a8,ec,88,a8,cc,a8,84,a4,c8,ec,c8,a8
+,cc,cc,f0,cc,ec,44,68,44,44,89,24,44,24,24,44,24,44,20,0,24,44,44
+,68,64,64,24,20,20,69,68,20,44,24,44,49,b1,20,24,f1,ad,44,d5,6d
+,49,92,92,49,6d,92,92,92,b7,b7,b7,92,6d,b6,92,b6,96,b6,bb,b7,6e
+,db,db,92,b7,b7,92,92,8e,72,b2,db,bb,db,6d,b6,92,6e,bb,db,b7,db
+,72,92,db,b7,b7,92,92,96,bb,b7,db,bb,b7,92,92,bb,db,b7,b7,bb,db,db,db
+,12*df,5*ff,92,49,49,6d,69,49,49,69,49,49,4*6d,69,69,6d,6d,49
+,6d,69,6d,69,49,6d,24,69,69,69,6d,8d,24,69,6d,69,6d,92,8d,8d,8d
+,49,49,8d,48,8d,69,69,69,8d,8d,8d,69,44,6d,49,6d,69,b2,d6,d6,db
+,d2,8d,49,69,44,44,69,69,48,49,24,24,44,68,69,24,24,48,48,44,44
+,68,b1,8d,44,68,8d,48,68,24,68,89,8d,68,88,ad,88,88,88,ad,68,84
+,a8,a8,a8,44,c8,ed,84,84,a8,a8,20,44,20,44,64,4*a8,ec,c8,88,a8
+,ec,c8,a8,ec,cc,cc,ec,cc,cc,88,44,44,44,24,24,20,24,44,20,24,44
+,48,b1,68,24,64,44,24,20,20,0,68,48,44,44,24,24,b1,8d,68,20,ad
+,89,d6,ac,89,b1,b6,92,6e,49,6d,6d,d7,6d,92,b7,92,6e,6e,6d,6d,db
+,ff,b7,db,b7,92,72,ff,6e,b7,92,df,db,4d,92,92,b7,92,b7,92,6e,92
+,b7,96,db,96,b7,b6,b7,b7,b6,b7,b6,92,db,db,72,b7,b7,96,92,bb,bb
+,b7,bb,bb,bb,b7,bb,db,11*df,5*ff,4d,49,49,6d,69,69,49,49,49,69
+,6e,49,6d,69,6d,69,49,6d,49,6d,49,6d,69,69,6d,6d,6d,24,69,8d,49
+,8d,b2,24,49,6d,69,8d,8d,8d,91,6d,6d,6d,8d,6d,b2,69,69,69,8d,8d
+,69,49,69,69,49,69,8d,d6,6d,91,b1,48,b1,8d,49,68,44,48,49,69,49
+,48,69,69,44,48,44,48,48,44,68,44,68,69,8d,44,44,44,20,44,68,8d,8d
+,68,44,8c,cd,88,44,64,a8,c8,a8,88,a8,44,88,a8,a8,c8,a4,a4,a4,84
+,c8,cc,64,88,84,c8,c8,a8,c8,88,cc,cc,ec,a8,88,88,f0,c8,cc,cd,c8
+,48,24,24,44,44,44,24,20,44,69,24,68,44,44,24,44,24,24,20,20,44
+,89,44,89,44,20,ad,8d,44,24,b1,89,69,d1,ac,20,ad,b1,92,b7,b6,b7,b7
+,6d,92,b6,b7,db,b7,6e,b7,6e,49,6e,72,db,db,db,92,92,ff,db,db,ff
+,db,92,b7,92,6e,b7,ff,92,b6,92,92,96,b7,92,92,b6,b6,96,92,92,92
+,bb,b6,bb,db,92,b7,b7,96,db,92,96,96,bb,db,bb,bb,db,bb,db,9*df
+,4*ff,db,29,25,49,69,69,49,69,45,24,69,6d,49,8d,49,45,8d,49,49
+,44,69,8d,6d,24,49,49,69,24,69,24,69,44,49,49,8d,24,6d,69,6d,b2
+,69,8d,6d,8d,69,8d,6d,da,8d,8d,69,8d,89,24,49,69,48,8e,d6,91,b6
+,91,69,48,d6,8d,8d,48,48,24,48,48,69,48,24,48,69,68,44,44,44,48,48
+,68,24,44,44,89,91,48,69,69,69,68,44,68,68,44,68,44,20,68,88,88
+,64,a8,88,20,68,64,88,44,a8,ed,c9,c8,a4,84,84,a8,44,84,a4,c4,a4
+,84,a8,a4,c8,a8,c8,64,24,cc,cc,ec,c8,a8,68,6d,0,44,68,24,44,44
+,24,24,44,44,20,24,24,24,44,20,24,68,69,68,68,d1,68,69,68,24,24
+,68,8d,88,68,24,ad,64,44,69,8d,92,6d,92,92,45,49,6d,49,92,b6,bb
+,92,8e,92,92,b6,ff,92,92,96,92,6d,92,db,92,db,db,bb,db,92,92,6d
+,ff,b7,b7,6e,b6,4*92,b7,bb,bb,49,b7,96,92,bb,96,db,db,b7,92,bb
+,b7,db,b7,92,bb,db,bb,b7,b7,bb,bb,8*df,4*ff,bb,49,25,24,49,69
+,49,24,49,45,49,6d,69,6d,49,69,69,49,24,69,45,6d,6d,69,0,24,8d,8d
+,5*24,25,48,49,24,6d,69,91,8d,b1,8d,8d,8d,6d,b6,6d,b1,b1,8d,8d
+,69,69,8d,49,b2,8d,d6,8d,49,69,48,8d,8d,8d,69,91,4*44,49,44,69
+,49,44,44,5*48,44,44,68,68,64,8d,8d,24,ad,b1,68,68,8d,44,68,8d
+,44,68,a8,88,a8,a4,c9,c8,4*44,20,0,a8,c8,a4,c8,a4,c4,a8,a8,c8
+,84,84,64,a8,84,64,a8,24,a8,c8,a8,44,44,a8,cc,d1,ac,68,48,44,44
+,24,0,20,24,0,44,24,44,20,20,24,24,20,44,44,68,69,24,44,49,24
+,8d,88,24,64,20,48,24,68,b1,4*68,44,49,49,bb,6d,db,6d,4d,6e,db
+,96,6e,b7,b7,6e,72,49,6e,bb,6e,db,b7,72,6d,ff,db,db,b6,db,5*92
+,db,db,96,92,db,b6,6e,b7,92,db,b7,92,b6,92,6e,b6,92,b7,db,b7,b7
+,db,bb,db,b7,b7,db,bb,db,b7,b7,bb,bb,b7,4*df,ff,df,df,4*ff,25
+,24,24,25,25,49,25,24,24,45,4*49,8e,69,6d,69,49,8d,6d,49,49,49
+,0,69,6d,6d,49,24,6d,8d,8d,6d,8d,6d,6d,8d,69,6*8d,b1,89,8d,69
+,8d,8d,69,69,49,49,48,48,69,69,49,d6,6d,6d,8d,8d,69,69,48,44,24
+,48,44,24,24,4*44,48,69,48,48,44,24,44,24,68,b1,8d,24,69,68,69
+,64,cc,ac,88,44,a8,a8,c8,a8,a8,c8,44,a8,40,68,24,44,24,44,24,44
+,c8,a4,e8,c8,64,e8,c8,84,a8,84,c8,cc,a8,c8,a8,24,44,88,88,20,64
+,cd,f1,cc,64,20,44,20,20,44,0,64,24,44,24,68,44,44,8c,44,69,44,44,44
+,ad,44,ad,24,44,44,68,48,44,44,68,24,8d,d1,68,69,48,68,fa,d1,b6
+,6e,6e,b6,b7,92,6d,92,49,6d,72,8e,db,96,db,92,b7,6e,8e,72,b7,b7,b7
+,df,db,db,6e,db,92,6e,92,69,6e,92,b7,ff,96,92,db,bb,92,b7,db,96
+,92,92,b6,49,92,b7,db,db,b7,db,b7,b7,bb,db,96,96,bb,b7,97,bb,b7
+,bb,db,df,ff,df,6*ff,df,24,24,4,25,49,49,25,4,24,69,25,69,6e,69
+,49,92,49,49,69,8d,49,6d,6d,49,69,24,69,6d,24,24,6d,6d,49,8d,69
+,8d,68,69,6d,69,8d,91,6d,8d,8d,b1,8d,8d,ad,ad,69,69,6d,24,24,49
+,8d,48,69,44,92,8d,b1,8d,d6,69,44,69,49,24,44,44,48,48,24,48,48
+,69,48,44,68,24,44,44,8d,8d,69,68,d1,68,68,68,20,89,ac,88,ad,64
+,cc,c8,a8,c8,a8,88,88,a8,a8,a8,88,44,24,68,44,68,84,a8,a8,c8,84
+,e8,c8,a8,e8,44,a4,ec,c4,c8,ec,44,20,44,cc,cc,44,44,cd,cc,ad,68,68
+,48,69,20,68,68,20,89,44,24,44,0,68,44,24,69,44,0,24,69,b1,49
+,89,68,44,68,44,ad,b0,b1,8d,24,b1,69,68,24,24,24,d1,fb,92,49,6e
+,97,bb,49,6d,6e,b7,b7,6e,db,92,b2,6d,b6,72,b7,db,92,49,49,b6,ff
+,92,92,92,ff,8d,6e,6d,6d,92,b7,92,db,bb,b7,db,4*92,db,b7,bb,b6,b6,b6
+,db,db,db,b7,db,4*b7,4*bb,97,4*bb,7*ff,4d,49,25,25,25,4*49,24,24
+,4,49,49,6d,6d,24,69,49,6d,69,69,69,49,49,49,69,44,49,69,49,6d,6d,6d
+,69,8e,44,45,49,69,69,69,b1,8d,8d,8d,69,b1,8d,69,ad,8d,48,49,44
+,48,44,49,8d,b6,b2,48,d6,68,8d,69,6d,44,8d,48,24,24,24,44,44,24
+,48,44,69,44,44,48,48,44,24,68,68,8d,88,48,b1,24,44,20,24,ac,ac
+,cc,cd,88,84,4*a8,cc,88,c8,88,64,88,68,24,24,44,44,a8,64,6*c8
+,a4,ec,84,a8,88,c8,e8,44,44,44,24,ac,88,68,ac,68,44,44,68,b1,d6
+,44,24,44,44,44,24,24,20,48,24,0,24,44,20,24,44,48,24,8d,24,44
+,24,b1,44,ad,64,44,64,68,b1,fa,44,20,68,20,b1,49,6d,49,92,ff,6e
+,b7,6e,92,b7,6e,db,b6,db,92,92,db,6e,6d,92,b7,92,97,92,92,b7,92,92
+,4d,b6,6d,6e,6e,ff,6d,92,b7,bb,b6,6e,92,92,92,b6,b6,db,b7,92,72
+,b7,bb,b7,5*db,b7,bb,96,db,bb,db,b7,b7,bb,bb,b7,db,5*ff,db,49
+,24,25,49,49,25,49,49,24,24,49,69,49,49,6d,69,49,6d,69,49,49,49
+,45,49,69,69,69,44,6d,8d,8d,6d,69,69,6d,6d,8d,6d,69,8d,6d,8d,69
+,b1,b1,b2,ad,8d,b1,8d,b1,69,69,44,44,48,6d,8d,6d,49,d6,8d,69,49
+,44,69,8d,48,69,24,48,48,44,44,48,48,44,44,48,68,44,48,68,69,b1
+,8d,44,8d,44,24,44,44,68,ad,88,cc,cc,ac,c8,c8,a8,c8,88,a8,a8,cd
+,c8,f1,f1,f5,cc,f0,4*44,a9,a8,c8,c8,e8,a4,c4,c8,a4,a4,c8,64,44
+,ec,e8,48,24,44,24,cd,44,44,68,44,69,44,44,8d,44,68,20,44,44,20
+,88,44,48,44,68,24,20,20,24,69,ad,b2,69,8d,d1,44,d1,69,68,b1,68
+,44,89,ad,44,68,44,20,44,68,d1,49,92,49,92,6e,92,b2,b7,d7,6d,4e
+,92,6e,b7,bb,db,db,4d,6d,db,b7,d7,6d,49,b2,ff,6e,b7,db,92,92,6e
+,92,db,b7,92,db,92,db,92,b6,92,49,6e,72,db,92,6e,4d,6e,92,b7,db,db,db
+,b7,92,db,db,b6,bb,bb,db,db,4*bb,db,db,ff,ff,ff,49,49,25,25,49
+,69,69,49,45,49,24,25,6d,6d,49,49,49,24,49,49,6d,49,49,69,49,69
+,49,4*69,44,6d,69,4*6d,49,49,6d,91,8d,ad,b1,8d,b1,8d,b1,8d,b1
+,8d,69,44,69,6d,48,69,49,44,69,69,44,69,8d,69,91,b2,44,44,44,48,48
+,44,69,24,69,48,24,69,48,69,44,49,68,44,68,24,b1,8d,89,8d,68,20
+,68,cd,a8,a8,cc,cc,a8,a8,e8,ed,a4,88,a8,a8,a8,ac,cc,64,ac,ad,88
+,68,24,44,88,c8,84,a4,c8,64,84,ed,c8,c8,a8,68,88,ec,a8,24,0,8d
+,48,44,44,68,68,24,8d,44,24,68,44,24,68,24,69,20,20,44,24,44,20
+,24,8d,44,8c,69,ac,44,69,88,44,44,68,44,b2,44,d6,ad,ad,68,d1,48
+,44,0,24,24,68,49,49,6e,6e,db,49,6d,ff,6d,6e,6d,db,df,b6,92,72
+,92,6e,6d,6d,db,b6,db,b7,6e,92,72,ff,db,bb,92,b7,92,b6,db,b7,bb
+,96,bb,92,49,6d,6e,92,b6,b6,6e,49,b6,92,b7,92,6*db,bb,92,db,b7
+,db,db,bb,bb,bb,db,bb,b7,df,ff,49,49,24,25,24,24,4*49,24,25,25
+,92,4*49,45,6d,49,49,44,69,24,49,6d,69,49,49,69,8d,6d,8d,6d,92
+,8d,8d,24,48,69,69,48,8d,8d,8d,b2,8d,89,b1,b2,68,44,69,45,fa,69
+,6d,8d,48,8d,d6,b2,d6,69,b1,8d,8d,69,49,24,44,24,44,69,24,49,44,44,44
+,24,68,24,8d,b1,68,68,ad,48,44,88,24,44,64,ac,cc,a8,c8,e8,84,c8
+,a8,a4,a8,cd,ec,a8,f0,ac,44,68,44,b1,ad,ad,8c,44,89,20,24,a8,ed
+,c8,c8,84,a8,c8,ec,c8,a8,68,44,ec,a8,20,4*24,68,44,68,24,68,44,44
+,68,48,24,d1,68,20,24,24,44,24,0,0,44,b1,69,68,88,24,24,8d,24
+,88,44,68,44,44,ad,69,89,89,88,68,4*24,20,89,6e,49,6e,b6,92,92
+,49,db,92,92,25,92,b7,db,b7,ff,96,96,92,6d,92,92,92,db,92,92,92
+,db,92,b7,db,6e,92,6e,ff,b7,b7,b6,72,92,92,6d,49,6e,92,96,6e,49,49
+,db,92,96,b7,db,b6,db,b7,db,bb,db,b7,b7,bb,db,db,4*bb,db,bb,ff
+,25,49,49,25,24,24,49,49,24,4,4,4d,6d,6d,6*49,69,69,4,24,24,69
+,49,6*69,6d,6d,69,8d,6d,49,8d,69,48,69,6d,69,8d,8d,db,b2,ad,8d
+,69,49,44,8d,69,8d,49,8d,69,48,b6,49,4*69,44,69,48,48,48,69,68,68
+,48,48,44,48,24,b1,69,8d,69,8d,44,8d,b2,69,d5,44,24,88,cd,cd,f1
+,ed,cd,ed,84,88,44,88,88,a8,cc,a8,64,44,44,44,88,4*68,24,89,b1
+,68,88,a8,a8,ed,a8,88,cc,ec,44,88,48,64,c8,68,24,20,5*24,0,ad
+,44,8d,64,68,44,24,44,20,24,69,20,68,8d,24,20,8d,44,44,24,64,69
+,68,44,44,24,44,44,24,24,d5,ad,d1,69,d1,44,0,44,68,68,8d,8d,49
+,92,25,92,92,6e,29,db,db,df,b6,db,bb,db,b7,b7,ff,db,69,6d,b7,92
+,6d,6e,6e,6e,49,92,6e,92,db,6e,92,92,db,db,d7,ff,bb,6d,6e,6d,6e,6e
+,92,49,b7,92,49,92,49,b6,92,db,bb,db,db,b7,db,db,db,bb,b7,b7,b7
+,db,bb,db,db,6e,6d,49,24,24,49,24,24,24,49,25,24,24,25,49,49,6d
+,49,45,45,69,24,69,49,45,49,69,24,24,69,49,6d,49,69,6d,69,69,8d
+,69,69,8d,69,44,69,8d,8d,91,8d,b2,8d,b1,d1,69,48,49,8d,6d,48,6d
+,8d,48,44,48,69,48,b2,68,69,69,48,44,24,48,44,44,68,48,69,48,44,44
+,48,44,b2,8d,68,8d,68,d1,88,48,8d,b1,24,68,cc,ed,a8,c8,a8,c8,c8
+,ac,68,68,64,44,44,68,44,68,88,8d,88,44,24,88,69,44,24,64,68,68
+,ad,64,c8,ec,cc,a8,cc,88,44,24,24,44,68,ac,24,48,24,24,48,24,24
+,69,68,69,20,24,24,24,20,d1,6d,69,45,b1,d6,8d,68,69,48,68,44,68
+,88,ad,68,44,20,20,20,24,20,89,44,f5,f1,24,89,24,44,44,20,88,44
+,f5,49,49,49,6e,4d,92,92,4d,92,bb,b7,49,b7,bb,b6,db,db,ff,db,6e
+,92,92,6d,db,4d,49,49,97,db,92,97,b7,db,92,db,ff,92,72,92,ff,b6
+,6e,49,6d,92,6d,db,6d,72,49,49,b6,96,92,bb,b7,db,92,db,db,db,bb,bb,bb
+,b7,bb,bb,db,96,25,24,24,25,5*24,49,24,24,25,49,49,49,69,69,49,49,49
+,24,6d,24,24,92,6d,69,69,24,24,24,69,6d,5*69,44,6d,92,6d,8d,69,69,69
+,8d,69,8d,68,69,49,69,44,69,6d,48,69,44,24,24,b2,49,48,44,45,b2
+,48,49,44,69,49,48,69,44,24,24,24,68,24,8d,24,b1,8d,68,b1,d1,89
+,8d,d1,8d,88,ad,f1,cc,cc,64,44,44,64,ac,44,44,44,68,44,68,cd,68
+,c8,68,cc,cd,a8,8d,88,68,69,68,68,44,68,ad,68,ec,cc,ec,f1,ec,44
+,24,24,24,44,44,24,20,6*24,b1,68,24,ad,44,24,d5,24,68,88,89,69
+,24,ad,ad,68,48,44,68,88,88,48,24,ac,20,0,44,44,48,44,20,d1,d2
+,44,b1,68,68,44,24,68,68,8c,ac,49,25,49,6e,49,69,49,6e,db,92,49,49,49
+,db,db,bb,bb,db,ff,ff,6e,96,b7,49,6e,49,49,db,bb,db,92,b6,6e,b6
+,6e,ff,df,49,96,6e,6e,96,49,49,b6,6d,6e,db,92,49,6d,b6,b6,92,4*db
+,bb,92,bb,bb,db,96,db,bb,db,db,6d,24,24,24,49,24,24,0,24,24,49
+,24,24,24,25,45,6*49,24,6d,29,24,69,24,69,48,24,24,25,69,69,6d
+,49,6d,49,69,69,49,8d,69,69,69,8d,8d,b2,8d,68,69,69,24,91,44,49
+,69,6d,8d,ff,92,68,69,48,8d,69,44,8d,49,44,69,44,44,68,24,48,44
+,49,68,24,8d,8d,8d,d6,44,8d,8d,d1,ad,ad,20,d1,88,cc,68,ac,4*68
+,24,69,68,24,44,cc,f1,cc,cc,ac,a8,88,f6,88,a8,cd,88,24,8d,44,48
+,68,44,ad,d1,ec,c8,c8,c8,ec,44,24,48,24,20,a8,5*24,48,68,8d,8d
+,24,68,24,68,88,44,20,44,24,44,24,ad,68,24,48,64,d1,24,44,68,20
+,b1,d1,68,20,68,b1,68,44,68,68,b1,d1,ac,8d,24,48,68,44,6c,d1,ac
+,db,49,6d,6e,69,6d,6d,49,69,6e,69,49,4*92,49,b7,b7,df,db,db,4d
+,6d,49,49,49,ff,db,6e,6e,ff,92,92,49,db,ff,b7,b6,b7,6e,96,92,49
+,b6,6e,6e,92,92,6d,49,6d,b7,92,b6,bb,db,b6,92,bb,bb,db,96,bb,b7
+,bb,db,72,24,4,4*24,45,25,24,24,4,24,49,6d,6d,49,24,24,24,6d,49,49
+,69,49,6*24,49,69,69,69,6d,49,69,49,69,48,49,6d,49,69,91,8d,48
+,8d,8d,b1,69,48,44,6d,6*8d,49,44,44,25,6d,44,6d,6d,8d,68,49,24
+,44,24,48,24,48,48,68,48,69,68,69,8d,8d,8d,d6,8d,8d,68,ad,44,88
+,cc,88,68,68,44,44,24,24,44,ac,44,88,88,cc,ec,c8,88,ec,a8,c8,4*64
+,cd,64,8d,68,cc,44,ad,44,44,ac,a8,cc,ec,cc,44,4*24,f0,20,0,5*24
+,d1,24,8d,68,44,24,44,20,44,8d,24,44,44,44,68,68,d1,68,68,48,8d
+,68,ad,44,24,24,24,d1,d1,b1,f5,8d,44,d1,24,8d,44,68,f6,b1,d1,ad
+,8d,24,49,6e,49,49,49,92,25,49,6d,6d,6e,6d,db,b7,6e,92,6e,92,6e
+,b7,92,6e,92,49,49,49,6d,49,b7,ff,69,b6,92,6e,49,92,ff,92,92,72
+,92,49,6d,92,49,92,6d,db,b6,92,4e,6e,b6,db,6e,92,96,92,96,96,db
+,b7,96,b7,db,b7,69,0,24,49,24,24,45,0,24,24,4,4*24,45,24,6d,69
+,24,25,49,49,6d,49,69,49,0,24,24,6d,69,24,69,69,49,49,44,49,69
+,6d,49,6d,49,69,44,b2,8d,8d,8d,4*69,44,48,69,b2,69,49,b6,48,6d
+,b1,44,68,8d,8d,48,68,44,48,44,48,48,44,44,48,6d,68,48,48,91,b1,b1
+,8d,ad,b1,b1,89,88,64,44,ad,ac,64,68,24,4*44,68,24,24,cc,ec,cc,cc
+,c8,c8,a8,88,c8,c8,24,68,a8,84,64,84,cc,c8,64,68,a8,ac,ad,cc,88
+,ec,a8,a8,44,24,24,24,68,cc,20,0,24,20,20,0,ad,44,d1,8d,69,64
+,69,ad,68,44,24,69,44,44,ad,88,d1,68,24,24,44,88,68,69,24,ad,44,44
+,68,b1,44,8d,44,68,d1,fa,44,44,88,44,b0,b1,44,8c,b0,bb,db,92,6e
+,6d,49,25,49,49,b7,6d,49,6d,49,49,df,92,92,6e,49,b6,49,6d,92,72
+,49,6d,6d,92,6d,49,49,92,b2,4d,92,b7,6d,db,6e,b6,6e,4d,49,49,6e
+,92,92,b6,92,6e,6d,6e,bb,b7,72,db,b6,bb,b7,b7,92,b6,b7,96,6d,24,24
+,49,69,24,49,24,24,25,24,4,24,24,0,49,25,69,25,6d,24,45,49,49,49
+,24,24,49,24,92,6d,24,24,6d,69,69,69,49,69,69,69,49,6d,6d,69,49
+,91,69,b2,69,69,69,49,69,49,69,6d,ad,b1,48,48,8d,48,69,6d,44,48
+,49,8d,64,48,48,24,24,69,48,69,69,69,68,44,44,ad,b1,d1,8d,68,8d
+,b1,48,44,44,68,d1,ac,64,68,64,91,20,68,68,ac,44,a8,cc,a8,a8,c8,c8
+,a8,cc,84,a8,84,c8,c8,84,a8,88,20,64,a8,84,ec,88,ec,64,ec,ec,ec
+,a8,a8,88,44,4*24,84,44,0,44,24,24,44,44,68,24,8d,89,8d,b1,b1
+,24,48,20,f1,64,68,44,24,44,48,44,0,24,89,68,69,d1,68,44,88,44,44
+,88,cd,68,f5,88,68,8d,44,8c,44,d1,44,d1,d1,91,b7,db,49,49,49,6e
+,25,29,49,8e,49,92,6d,4d,49,4e,6e,96,db,92,8d,49,72,49,6d,6e,6d,6d
+,69,49,6e,6e,6d,92,92,db,6d,b6,49,49,8e,49,49,6d,b6,49,72,db,db
+,ff,db,49,6d,db,db,db,72,92,b7,92,b7,bb,96,b7,49,0,0,4,24,45,49
+,4,24,0,24,4,4*24,6d,6d,49,25,49,24,24,25,24,24,24,69,24,24,24
+,49,69,8d,8d,69,49,69,69,49,69,69,69,6d,44,69,69,8d,b1,89,44,69
+,24,48,69,49,48,69,69,24,24,49,69,6d,6d,49,6d,6d,44,48,48,48,44,44,44
+,48,48,44,44,68,69,44,6d,d6,ad,8d,68,b1,ad,b1,b1,88,88,68,44,44
+,0,20,69,88,8d,68,44,68,68,88,88,88,64,84,88,24,44,a8,64,84,a8
+,44,88,a8,88,88,44,44,24,88,ec,ec,88,cc,f1,cc,f1,cd,f5,5*24,88
+,24,44,69,24,b1,68,0,ad,24,ad,ad,ad,68,f6,8c,44,24,20,48,68,8d
+,48,8d,20,69,24,a9,88,24,69,24,68,44,d2,24,44,8d,68,69,69,ac,68
+,44,44,44,88,d1,8c,f6,48,48,45,72,b7,29,25,92,6d,6e,6d,92,db,49
+,29,6e,4d,6e,db,6e,92,97,92,92,8e,b6,6d,6e,6e,6d,6d,92,6d,6e,92
+,b6,6e,b7,6d,6e,49,49,6e,6e,49,b6,92,6e,72,49,92,db,db,92,db,b7,b7
+,92,b6,96,db,bb,db,b7,b7,49,24,4,24,24,49,49,9*24,49,49,6d,44
+,6d,24,24,49,5*24,49,69,44,24,69,91,69,6d,69,69,49,69,6d,69,49
+,6d,69,6d,69,b1,8d,48,69,68,44,49,48,69,8d,49,69,69,6d,8d,d6,b2
+,69,6d,8d,b1,8d,69,24,24,5*44,69,20,44,48,8d,89,68,88,8d,8d,8d
+,44,ad,b1,68,cc,64,24,44,ad,68,8c,88,8d,68,68,d0,c8,4*a8,84,84
+,44,88,a8,a8,c8,c8,c8,44,84,64,a4,64,c8,e8,c8,88,c8,24,c8,cc,f1
+,f0,88,7*24,4*44,ad,24,8d,44,68,d1,44,44,89,68,d1,cd,8d,68,d1
+,89,24,24,68,68,69,44,44,68,88,44,ad,68,68,d5,ad,ad,64,44,44,48
+,5*44,b1,44,b0,cc,48,48,db,bb,db,b7,49,92,6d,49,49,6d,ff,b7,b7
+,6e,92,49,b6,4e,b6,49,ff,92,b7,92,49,72,db,69,49,92,92,92,6e,92
+,6e,6e,b7,4d,6e,49,4d,6e,92,b6,92,49,6d,49,db,db,db,b6,db,b7,b6
+,92,b6,db,db,db,b7,db,96,5*24,25,24,24,0,4,24,24,24,0,24,24,49
+,24,69,6d,49,24,6d,49,24,24,44,24,24,69,24,24,49,8d,69,69,49,5*69
+,6d,6d,69,8d,8d,8d,44,48,48,69,44,48,49,44,8d,48,69,69,48,48,8d
+,b1,44,24,49,89,d6,44,24,44,69,44,69,44,48,68,68,44,68,b1,44,89
+,68,44,b1,68,ad,8d,d1,b1,68,24,69,64,68,44,68,ad,68,ad,ac,ac,c8,c8
+,64,c8,a4,e8,60,88,88,64,c8,20,64,a4,c8,c8,84,a8,88,84,84,64,c8,c8
+,88,24,84,a8,cc,cc,f1,24,48,44,24,24,44,24,69,44,44,68,d1,68,44
+,24,68,44,d1,68,d1,ad,ac,89,44,68,68,ad,24,b1,44,88,68,d1,ad,44
+,24,8d,d1,f6,24,44,8d,88,20,b1,68,ac,88,24,24,0,88,44,44,44,84
+,48,44,69,49,db,db,b7,24,49,6e,49,25,49,b7,b7,92,6d,49,92,6e,92
+,db,92,92,4e,b7,6e,4a,92,b7,db,db,4d,6e,92,b7,4d,4*92,ff,df,db,db,db
+,92,6e,6d,92,db,b6,db,db,b6,db,db,b6,92,92,bb,df,db,db,49,24,24
+,49,6*24,4,4,12*24,6d,24,24,49,0,24,6d,0,24,24,6d,8d,5*69,49,5*69
+,8d,48,44,48,69,44,44,24,69,69,8d,69,44,6d,48,69,8d,69,69,8d,69,69
+,89,44,44,48,24,24,48,24,44,69,48,69,d1,44,68,44,20,8d,ad,8d,68
+,24,88,64,44,24,44,20,8d,8c,88,64,68,ac,88,ec,c8,a8,a8,a8,44,84,84
+,44,20,64,64,a4,64,a4,44,20,84,e8,88,a4,44,88,64,ac,c8,ec,a8,88
+,f5,88,cc,48,48,4*24,68,69,88,68,68,d6,d6,44,ad,d6,6d,d5,88,88
+,69,20,68,8d,fa,44,20,b1,8c,68,44,44,b1,68,69,48,24,ad,44,d1,68
+,44,20,20,24,48,44,20,20,0,cc,24,44,44,44,f5,24,24,92,db,b7,b6
+,96,49,25,db,db,69,92,db,b6,29,b6,6e,49,49,db,6e,db,db,6e,ff,b7,b7
+,ff,bb,bb,db,92,6e,6e,b7,97,92,72,49,db,b7,b7,6e,6e,6e,b6,6e,92
+,49,db,b7,db,b6,92,bb,db,db,92,b7,92,b7,db,49,24,24,44,24,0,4*24
+,4,4,4*24,49,10*24,48,69,49,24,24,5*69,49,49,69,69,6d,49,44,44
+,48,69,48,69,69,24,44,44,48,44,69,48,6d,44,69,8d,44,44,48,44,69
+,6d,8d,91,b1,44,44,44,49,49,24,44,44,6d,24,b1,8d,8d,44,44,68,69
+,68,d1,b1,8d,48,68,68,44,44,6d,88,68,24,88,44,ac,a8,a8,c8,a8,c8
+,a8,a8,c8,64,20,84,a4,88,44,44,a8,c8,64,64,a8,c4,64,88,e8,88,68
+,20,44,c8,cc,f0,f0,f0,88,24,24,24,0,0,89,44,8d,b1,44,88,68,b1,b1
+,44,20,44,44,68,44,ad,44,24,20,44,88,68,68,44,20,24,8d,b1,44,24
+,68,68,f6,d1,b1,f6,20,44,20,69,44,20,24,ad,44,b1,68,24,0,68,8c
+,24,24,92,92,b7,6e,49,92,92,49,49,92,49,b7,6d,d7,6e,92,92,6d,49
+,6e,6e,db,db,6e,97,6e,df,db,db,bb,ff,92,92,96,92,92,b7,6e,db,b7
+,92,96,6e,6d,6d,b7,6e,49,db,b6,92,92,db,db,92,db,92,72,96,b6,db
+,0,24,49,24,24,0,49,4*24,4,6*24,49,24,24,49,69,49,9*24,69,6d,69,69,69
+,44,69,8d,44,6d,24,69,44,48,68,24,44,8d,69,69,44,69,44,24,44,49,49
+,44,24,24,45,44,48,69,68,b1,8d,69,44,20,24,44,44,44,68,24,ad,8d,8d
+,68,8d,44,68,b1,b1,4*68,44,24,69,89,8d,44,20,0,cd,44,68,64,a8
+,a4,a4,64,88,88,88,cc,a8,a8,88,84,88,68,44,88,44,20,c8,c8,c8,64
+,44,a8,cc,8c,64,a8,f0,ec,f0,f0,f4,48,24,24,24,88,44,89,44,ad,68
+,88,8c,88,48,d1,68,24,68,88,88,44,8d,24,ad,d1,d1,b1,24,44,20,20
+,8d,d1,b0,a8,44,24,d1,44,8c,20,44,68,68,44,69,68,ad,24,f5,68,24
+,20,44,ac,20,24,20,49,b6,6e,db,92,6d,b6,6e,49,6e,96,49,72,49,92
+,b7,b6,ff,92,6e,6e,49,b2,df,fb,db,b7,db,b6,6d,b6,6e,ff,92,b7,db
+,b7,49,49,6e,6e,92,6e,49,6e,49,b6,6d,49,db,96,92,db,db,db,bb,db
+,b6,92,92,44,5*24,20,24,24,24,49,44,6*24,44,4,24,69,49,4,6*24
+,0,48,24,69,69,8d,8d,44,69,69,6d,6d,6d,69,48,48,44,44,24,48,24
+,68,69,69,24,69,48,48,48,44,69,48,49,44,48,b1,69,69,69,44,48,44,44
+,48,68,44,44,68,44,68,8d,8d,8d,b1,8d,8d,8d,b1,68,8c,44,68,68,8d,8d
+,68,b1,8d,20,44,ac,64,24,88,c8,e8,64,c8,e8,c8,88,a8,c8,c8,84,64
+,20,64,48,64,44,44,84,a8,88,ec,ec,c8,88,ac,88,ac,ec,cc,c8,f0,f0,f0
+,24,44,69,44,44,44,88,b1,44,68,44,44,d5,20,ad,ad,88,44,69,68,ad
+,44,f1,d1,20,68,44,d1,44,20,8d,44,ad,f6,88,ad,fa,b1,8c,68,88,24
+,0,24,88,8d,8d,b1,ad,68,48,b1,b1,68,44,68,24,24,b7,6e,92,db,b7
+,6d,49,92,6e,49,72,6d,25,49,96,92,b2,b7,b7,49,92,4d,6d,b7,69,92
+,db,92,96,6d,92,b6,ff,db,4d,db,ff,ff,72,92,6e,72,92,4d,92,49,49
+,6e,4e,49,6e,92,92,db,db,db,bb,24,b6,0,24,24,24,44,45,24,24,4
+,24,24,24,0,5*24,45,24,24,49,4*24,0,44,48,4,69,24,24,6d,6d,49
+,6d,6d,49,69,44,69,49,69,69,44,44,44,69,44,48,68,24,44,69,44,68
+,44,d6,4*49,8d,6d,68,68,b1,89,68,48,48,68,69,69,48,48,4*68,69
+,d6,ad,b1,d1,8d,8d,b1,68,68,b1,ad,b1,b1,b1,88,44,68,64,cc,ac,cc
+,4*a8,e8,84,84,84,c8,64,64,40,84,64,cc,20,64,c8,64,cc,a8,44,64
+,c8,ac,f0,ec,88,64,f0,84,a8,a8,ec,f0,4*24,44,20,68,ad,d6,d1,d6
+,44,24,68,fa,44,8d,24,24,44,d6,44,d1,68,8d,d6,88,68,64,d2,69,b1
+,d6,48,44,44,89,44,44,68,20,20,69,44,89,68,8c,cd,68,fa,68,f0,d5
+,88,44,24,88,48,8d,6d,6d,72,bb,db,72,b7,49,92,db,bb,49,25,49,b6
+,6d,92,92,db,49,6d,6e,49,ff,92,49,6e,92,97,49,92,6e,ff,bb,b7,b7
+,bb,ff,db,ff,db,6e,6d,92,92,72,b7,6d,b7,b6,4d,72,6e,72,92,b7,b6
+,0,0,6*24,49,24,0,0,4*24,6d,4,0,10*24,49,24,24,24,8d,91,69,6d
+,8d,69,8d,8d,48,69,48,48,44,24,44,48,24,44,48,6d,49,69,91,44,48
+,44,6d,d6,8d,49,48,6d,48,49,b1,69,89,69,48,44,44,44,20,24,24,48
+,69,68,48,49,ad,ad,8d,8d,ad,ad,ad,d1,68,8d,ad,ad,8d,8d,ad,68,ad
+,8d,8c,a8,a8,a8,88,cc,20,a8,84,c8,84,a8,e8,a8,88,a8,44,a8,a8,84
+,88,68,88,a8,e8,ec,ec,ec,f0,ec,c8,ec,f0,ac,ec,f0,f0,f0,88,24,44
+,20,44,44,89,69,44,44,44,68,8d,44,cd,24,68,8c,ac,68,44,88,44,68
+,44,ad,88,ad,44,8c,d5,8c,48,d1,8d,8d,44,24,44,68,44,69,68,68,44
+,d1,44,b1,68,88,44,b1,88,d1,44,68,68,88,cd,44,92,6d,49,92,db,b7
+,b6,49,49,49,bb,b7,6d,6d,6e,6d,96,b6,92,92,49,6e,49,49,db,4e,49
+,6e,bb,bb,49,49,bb,db,db,92,db,b7,ff,b6,ff,db,b6,b6,49,bb,96,db
+,92,92,6e,6e,6d,b6,db,b7,6d,20,24,49,24,0,6*24,48,24,24,45,24,24
+,44,0,24,4,24,44,24,24,24,49,7*24,91,69,69,49,69,49,49,48,24,69
+,4*44,24,24,69,69,44,24,49,5*44,48,b1,4*69,d6,8d,68,68,44,48,44
+,48,48,44,44,68,24,44,44,b1,ad,8d,ad,8d,b1,d1,d6,8d,44,b1,44,8d
+,b2,8d,8d,ad,8d,69,ad,8d,88,ac,64,ac,68,a8,84,c8,64,c4,44,88,c8
+,ec,a8,64,88,88,64,cc,ec,44,c8,a8,e8,e8,84,ec,c8,ec,f0,f4,f4,f0
+,ec,f1,88,20,20,8d,0,44,24,8c,b1,44,24,48,68,b1,68,88,88,ad,f5,f5
+,64,44,f1,69,24,89,24,d1,d6,64,68,ad,24,48,44,b1,24,44,8d,cd,b1
+,69,d1,68,88,88,44,44,f6,d6,88,88,68,44,44,44,68,f6,d1,89,88,db
+,92,25,6d,b6,db,db,b6,49,24,b6,49,96,25,49,92,8e,92,92,49,b6,6d,6d
+,49,6d,ff,6d,49,b6,b6,49,4d,4*db,92,92,db,92,db,b7,49,92,96,6e
+,49,92,b6,49,92,96,92,49,db,91,24,24,20,24,69,0,0,0,6*24,4,24,24,24
+,49,10*24,48,24,24,24,49,69,b2,5*69,49,49,24,48,24,49,44,48,8d
+,44,69,24,44,48,68,8d,69,44,69,69,49,69,48,68,48,69,69,8d,45,69
+,44,48,48,24,68,68,48,44,48,68,69,8d,d1,b1,8d,68,68,8d,88,d1,ad
+,88,68,69,8d,91,8c,b1,8d,b1,ad,88,ac,8c,88,ac,a8,88,84,a8,84,20
+,cc,84,84,ec,ec,a8,64,ec,a8,c8,c8,ec,e8,a8,ec,84,c8,f1,c8,f0,ec
+,f0,f0,f5,f1,88,44,24,64,ad,88,44,68,68,68,48,68,44,ad,24,ad,68
+,ad,68,44,ac,64,88,f5,68,44,44,44,68,88,8d,88,8d,44,24,68,d1,d1
+,8c,d6,68,6c,ac,68,68,44,8c,44,b1,ad,8d,d1,f5,8c,ac,44,44,68,68
+,d5,d1,68,db,49,b6,69,6e,b6,92,6e,8e,24,69,db,92,92,6d,6e,49,49
+,b2,6d,92,49,49,b7,49,92,92,6e,49,49,6d,6d,8d,6d,db,ff,b7,b7,92
+,db,6e,72,b6,49,92,b6,92,db,b6,72,96,b7,6e,4d,49,24,24,0,24,24,24
+,0,24,24,6d,24,24,24,20,24,0,24,24,49,69,24,24,24,6d,5*24,44,24,24,24
+,6d,7*69,6d,69,44,44,44,48,24,44,44,44,8d,24,6d,49,b1,69,69,44
+,b2,d6,69,8d,48,48,6d,49,fa,8d,d6,68,44,24,4*44,89,68,44,48,24
+,b1,ad,d1,ad,b1,d1,8d,68,d1,8d,8d,24,44,b1,69,8d,ac,68,8d,88,8c
+,ac,ac,ac,cc,ec,cc,a8,c8,ec,e8,ec,ec,88,84,a8,88,c8,a8,84,c8,64
+,88,a8,c8,ec,a8,e8,f0,88,ec,f0,f0,f0,c8,cd,64,44,20,69,64,68,24,24
+,44,68,44,24,44,69,24,24,d5,68,68,44,48,24,24,68,88,68,20,24,88
+,48,ad,69,68,44,b1,ad,ad,ad,69,88,8d,d1,88,68,44,24,44,44,44,8d,8d
+,44,24,24,68,44,68,ad,d6,ad,b1,44,44,69,b2,6e,49,b6,92,b7,b7,49
+,6d,6d,49,92,92,b7,49,92,49,49,49,92,bb,6d,92,db,49,92,49,49,6d
+,49,49,49,6d,b6,fb,b7,92,96,db,96,92,db,4d,92,49,49,92,b7,b7,4*92
+,0,24,0,20,24,20,49,4*24,69,4*24,0,69,15*24,6d,49,69,69,69,49
+,69,69,49,49,48,48,44,48,44,44,69,8d,44,44,68,44,69,24,48,49,24
+,69,69,d6,48,69,44,69,69,b1,b1,69,44,24,69,44,48,44,69,68,68,48
+,24,d1,68,ad,8d,69,b1,ad,44,44,68,8d,8d,69,8d,8d,b1,44,ad,88,44
+,68,68,ac,88,c8,cc,c8,ec,a4,c8,c8,c8,e8,ec,ec,a8,c8,88,64,84,e8
+,a4,44,a8,a8,a8,ec,c8,c8,e8,f1,f5,ec,f0,f1,cc,88,68,88,68,68,20
+,44,68,68,24,44,68,24,44,68,8d,f6,88,24,68,d1,8d,44,44,24,68,ad
+,24,68,44,68,68,ad,d1,48,8d,88,48,68,8c,b1,d1,68,8c,ad,44,24,20
+,0,68,ac,b1,24,ac,f5,68,44,44,68,44,cd,44,ad,d1,6e,b6,b6,b6,92
+,49,b6,b7,4a,49,92,92,b7,92,b6,92,49,92,49,49,25,72,93,45,6e,49
+,b6,6e,49,ff,6e,49,49,4d,92,db,df,b7,6e,92,b7,b7,92,db,4e,49,49,49
+,92,b6,b6,49,96,24,24,0,24,24,24,20,24,24,20,24,20,49,24,24,0
+,24,0,24,44,24,24,24,49,24,24,69,24,44,5*24,49,9*69,48,44,24,24
+,44,49,44,69,49,72,49,44,24,6d,49,49,49,44,69,44,44,44,6d,b2,b1
+,89,68,69,4*44,69,44,48,48,44,48,8d,d1,8d,ad,8d,ad,ad,44,d1,8d
+,69,8d,8d,91,8d,8d,68,8d,8d,24,24,88,ac,ac,ec,ec,ec,c8,a8,ec,84
+,c8,64,84,84,ec,c8,a8,c8,e8,a8,a8,ec,c8,88,c8,84,e8,4*ec,cc,f0
+,f1,ec,64,88,44,24,44,68,8c,44,24,69,0,48,44,68,6d,6d,d1,68,20
+,44,88,68,24,8d,44,ad,ad,f6,24,8c,a8,68,44,ad,fa,8c,8d,8c,8c,68
+,ad,b1,44,d1,d5,44,ad,68,20,44,8d,d6,24,ad,8c,8d,44,68,20,68,8c
+,88,d1,d1,88,6d,92,6d,24,49,69,92,6e,db,b7,24,8e,92,72,72,92,49
+,6e,6d,db,b7,49,b7,92,6e,49,49,92,49,6e,6e,49,49,49,92,b7,b7,db
+,b7,92,92,92,db,92,6d,49,49,6e,92,6e,db,db,44,20,20,0,69,24,24
+,44,20,24,b2,8d,49,49,6d,69,24,44,20,4*24,0,24,24,48,24,49,6d
+,8d,45,24,24,6d,69,69,49,49,69,69,69,49,69,24,44,49,24,69,24,24
+,6d,44,b6,49,92,69,44,48,69,b6,45,8d,69,24,f6,ad,d6,69,69,48,24
+,44,44,48,48,44,44,48,68,24,ad,b1,b1,ad,d1,d1,8d,d1,d1,b1,ad,8d
+,b1,d6,8d,69,89,ad,d1,88,44,24,88,cd,8c,cc,cc,a8,64,ec,e8,c8,a8
+,c8,a8,c8,ec,64,a8,c8,ec,a8,e8,a8,a8,cc,cc,a8,4*ec,f1,f0,a8,cc
+,d0,68,88,64,ad,68,68,68,44,44,44,24,44,24,44,44,68,44,d1,89,24
+,44,d1,68,d1,8d,44,24,88,24,cd,d1,24,24,0,ad,44,d1,48,d1,8c,48
+,44,68,68,44,24,b1,89,89,b1,f5,68,ad,ad,ad,d1,8d,44,24,24,24,68
+,ac,b1,d4,64,49,92,92,bb,24,49,92,92,b7,b2,b6,6d,5*92,6d,6d,49
+,6d,49,b7,db,92,49,92,49,92,92,b6,b6,49,29,6d,92,92,b7,db,92,b7,b7
+,db,4d,6d,49,92,b6,49,49,db,6d,20,24,20,49,20,20,44,24,49,44,69,69,69
+,6d,69,6d,24,0,6d,24,24,44,24,44,24,92,69,24,24,69,6d,6d,6d,24
+,6d,69,69,6d,69,69,49,69,49,44,44,69,24,44,44,48,44,45,49,6d,24
+,68,69,fb,49,8d,6d,92,49,44,69,6d,44,8d,69,69,44,48,48,44,48,44,44,44
+,24,48,48,ad,d1,b1,b1,ad,d1,ad,b1,d1,d1,8d,68,68,44,8d,68,d2,b2
+,b1,b1,68,ad,8d,44,88,88,a8,ec,e8,e8,84,c8,a8,ec,ec,4*88,a8,a8
+,c8,4*ec,c8,88,ec,ec,ec,c8,f0,f1,a8,f5,48,8c,68,24,68,44,68,24
+,20,48,8c,88,0,0,0,24,8d,8c,24,68,ad,d1,8d,44,44,ad,f6,68,68,8d
+,68,44,44,68,68,f6,44,68,8d,88,44,24,44,68,20,44,20,d1,88,8c,88
+,ac,ad,44,ad,d1,ac,ac,20,20,24,b1,68,f0,f5,f8,d4,6e,8d,69,92,92,92
+,6d,92,6e,b6,92,b7,92,92,25,96,92,92,6d,49,49,b2,92,6d,df,92,6e
+,6d,49,49,96,92,92,92,49,49,6d,b7,b7,db,b7,b6,92,49,96,92,6d,92
+,b6,49,92,24,20,0,44,44,24,69,24,49,6d,6d,49,69,24,49,8d,6d,6d
+,20,25,20,24,49,20,24,24,20,24,44,24,24,69,8d,44,24,69,8d,49,49
+,8d,69,69,69,6d,44,44,24,44,49,48,49,49,6d,44,48,69,69,44,6d,8d
+,25,69,6d,49,44,8d,44,68,69,89,44,48,48,44,24,69,68,68,24,49,ad
+,8d,b1,ad,68,69,b1,ad,d1,8d,8c,8d,ad,44,8d,b1,8d,ad,b1,88,ad,8d
+,8c,8c,ad,ac,68,64,c8,ec,a8,e8,e8,c8,c8,c8,cc,88,88,68,cc,cc,a8
+,d0,ec,ec,cc,ec,64,ec,cc,f0,f5,cc,cc,f1,88,64,88,4*44,68,44,20
+,68,68,44,44,44,8c,88,44,68,69,48,d1,b1,68,b1,d1,69,d1,d1,69,64
+,8d,88,ad,d1,d1,24,88,8d,44,88,68,44,20,24,24,0,8d,b1,24,88,d0
+,24,ad,b1,d5,f6,d1,4*44,68,f5,f5,68,ad,20,90,8e,6d,69,49,6e,6d
+,25,92,92,92,db,b6,b6,92,6d,96,b6,25,6d,49,49,6e,92,6e,6d,b7,6d
+,b7,b7,49,6d,92,72,6d,49,49,49,92,b7,db,92,b6,92,b6,96,96,b7,92
+,24,6e,5*20,24,48,20,69,8d,6d,69,69,6d,69,6d,6d,69,6d,69,8d,24
+,44,69,24,44,24,49,48,24,24,24,8*69,6d,69,49,48,44,69,48,48,24
+,69,49,48,48,49,49,24,24,48,69,6d,24,69,44,6d,44,69,b2,25,48,8d,8d
+,48,48,44,68,48,68,68,24,8d,b1,b1,68,b1,b1,68,b1,d1,b1,ad,b1,48
+,69,44,8d,b1,ad,88,d1,b1,44,44,8d,8d,44,44,88,88,44,ec,84,a8,64
+,c4,c8,a8,e8,ec,a8,ac,cc,f0,ec,ec,c8,c8,a8,a8,a8,ac,a8,cc,ac,cc
+,f0,f0,cc,44,64,20,68,88,64,64,88,44,68,44,64,44,24,68,44,44,24
+,48,ad,ac,24,ad,cd,44,d1,b1,b1,44,44,68,44,ad,f5,24,fa,68,ad,ad
+,69,d1,d1,0,24,8c,24,b1,ac,44,b1,44,68,8c,69,ad,64,44,88,64,44,44
+,68,f1,f5,f0,89,44,d1,48,92,92,69,6e,6e,49,db,49,b6,92,b6,92,b6
+,b2,92,92,8e,92,49,25,49,6d,24,49,49,92,db,92,b2,92,6e,92,92,8d
+,6d,6d,92,b7,72,db,db,b6,b6,92,72,6d,6e,92,24,49,20,24,20,20,24
+,20,0,5*69,49,69,6d,48,8d,69,6d,69,69,44,44,24,49,69,44,44,24
+,6d,45,69,69,69,6d,6d,69,69,69,8d,69,44,69,44,24,48,48,49,49,49
+,24,49,69,8d,44,6d,49,24,69,69,45,69,92,69,24,49,b6,b2,b1,68,48
+,44,44,68,68,48,24,44,69,b1,8d,8d,b1,68,b1,44,d1,d5,8d,8d,ad,ad
+,8d,8d,8d,68,68,b1,8d,68,d1,68,8d,68,8d,68,a8,cc,64,cc,c8,ec,a4
+,e8,84,c8,ec,cc,d0,f1,ac,ec,cc,a8,a8,cc,f0,a8,cc,cc,cc,88,88,cc,cc
+,64,68,68,44,68,24,64,64,68,44,44,68,ad,88,44,44,44,24,0,24,68
+,48,24,64,68,44,88,24,d1,24,ad,68,24,20,ad,d6,68,6d,44,44,88,d1
+,f5,68,ad,ad,44,d1,ad,88,d5,d1,d0,8d,ad,d5,f6,ad,ad,4*44,24,ad,ad
+,88,68,44,44,24,6e,b2,92,69,92,6e,b6,92,b2,6e,92,b6,92,6e,92,92,92
+,b6,24,25,25,92,6e,6d,92,6e,b6,92,49,b6,92,6d,6d,92,6d,96,6d,92
+,b7,92,92,b6,4*92,49,6e,20,0,24,0,69,24,24,0,69,69,8d,69,49,69
+,8d,92,6d,69,92,8d,69,69,69,8d,6d,69,69,49,49,69,6d,69,6d,6d,69
+,6d,69,8d,4*69,6d,69,44,44,48,24,49,49,45,92,24,24,6d,92,24,8d
+,49,8d,45,24,91,69,48,49,69,b2,ad,b2,b1,68,24,89,44,48,24,24,24
+,69,ad,8d,8d,b1,d1,b1,48,48,b1,8d,ad,8d,8d,8d,88,68,69,8d,b1,68
+,b1,ad,44,8d,d6,44,8c,44,8c,88,a8,a8,ec,e8,ec,c8,ec,ec,88,8c,88
+,ec,cc,ac,88,88,cc,f0,ac,88,68,44,88,44,44,68,44,64,44,68,24,24
+,68,44,24,24,24,64,24,64,44,8c,88,20,0,d1,44,68,20,ad,20,68,d1
+,44,24,24,8d,f1,8c,68,d1,d1,ad,24,ad,8d,8d,68,68,88,44,68,68,89
+,d1,44,68,ad,ac,d0,24,8c,48,8c,d1,d1,44,24,44,44,88,44,ad,68,24
+,44,24,68,6d,92,69,6d,49,8e,8d,91,96,6d,4*92,b6,92,92,6d,72,29
+,6e,6d,49,49,92,49,92,b6,b7,92,b6,ff,b7,6d,8d,b6,6e,6e,b6,b6,b7
+,b6,92,72,92,b6,b6,91,24,20,20,44,24,24,6*69,8d,68,69,69,68,6d
+,69,69,8d,69,8d,6d,69,6d,6d,6d,69,8d,49,6*69,49,4*69,48,68,8d
+,44,49,25,69,44,6d,45,69,8d,b6,92,69,24,49,49,49,6d,49,6d,24,69,69
+,b1,69,89,4*68,69,44,24,48,68,8d,d1,ad,ad,ad,8d,b1,ad,b1,68,8d
+,ad,68,8d,48,44,44,68,89,8c,68,88,68,ac,68,8d,68,88,88,68,88,a8,a8
+,ec,e8,ec,c8,f1,f0,ac,88,ac,ec,a8,a8,a8,f0,44,a8,44,24,20,20,68,68
+,44,24,68,68,68,88,68,44,68,44,20,20,20,64,24,44,0,44,44,44,d1
+,88,ad,24,8c,44,ad,b1,ad,ad,88,64,d0,88,8d,68,f5,88,89,ad,ac,8c
+,b1,68,8d,ad,ad,68,44,8c,ac,68,ad,ac,48,d1,44,68,44,d6,20,d1,88
+,24,20,d2,24,ad,88,48,24,24,24,6d,6d,8d,8d,6e,6e,92,8e,69,91,92,92
+,6d,b6,b2,92,92,b2,92,6d,49,25,6d,92,25,6d,6e,49,b6,b6,6d,92,b6
+,29,b7,6d,92,92,92,72,b6,5*92,24,24,20,20,24,44,20,24,5*69,44
+,8d,9*69,8d,6d,69,8d,6*69,6d,6d,69,69,69,49,69,8d,6d,69,69,69
+,48,44,49,8d,24,8d,6d,91,25,44,49,69,44,49,8d,49,49,6d,24,49,69
+,44,48,6d,8d,68,68,48,69,44,48,20,68,69,8d,8d,68,d1,68,b1,48,8d
+,d1,b1,b1,8d,b1,ad,69,89,24,6d,b1,68,b1,b1,b1,8c,68,24,20,8d,20
+,ad,44,88,88,cd,ec,f0,4*ec,cc,c8,cc,ec,ec,ac,c8,cc,f0,24,20,8d
+,44,ad,b1,8c,44,64,44,68,6*44,24,8d,24,ad,68,44,24,0,0,44,ac,ad
+,88,8c,88,68,6c,24,44,d1,ad,20,8c,88,44,d1,8d,d1,24,44,68,68,ad
+,d1,44,ad,88,69,d1,68,b1,ad,20,b1,f5,44,68,68,24,44,f1,d5,ac,68
+,ac,88,44,f6,ac,44,44,24,20,44,64,b1,6d,8e,6d,49,8d,6d,49,69,8d
+,8e,44,6*92,b6,92,29,25,29,92,b2,6d,69,6d,b7,49,49,49,92,b7,b6
+,69,92,49,5*92,6d,6e,20,24,24,0,20,24,24,69,8d,69,49,8d,8d,b2
+,8d,69,69,69,49,69,69,48,69,8d,69,8d,4*69,6d,69,69,69,6d,69,49
+,48,8d,6*69,44,44,24,49,49,24,25,69,69,49,6d,49,69,49,92,45,44
+,49,49,44,49,44,b2,8d,b1,b1,68,48,6d,44,44,24,8d,44,ad,ad,8d,8d
+,d6,b1,8d,b1,b1,b1,8d,ad,48,4*8d,44,89,68,8d,68,d1,8c,68,44,44
+,89,68,b1,8d,68,44,cd,ec,a8,cc,e8,cc,ec,ec,a8,ec,e8,e8,f0,f0,ec
+,f0,cc,88,88,68,8d,88,ad,8d,44,44,24,44,68,44,68,20,69,24,44,8c
+,44,64,ac,44,44,8d,44,68,44,44,48,68,68,ac,68,d1,8c,64,24,64,44
+,8c,68,f5,88,ad,d1,44,d5,44,d1,ad,68,f6,44,68,8d,88,68,44,b1,8c
+,88,f5,d1,44,fa,8c,89,88,44,44,44,88,24,69,88,68,44,24,0,20,48
+,24,24,8d,8d,69,6d,6d,8d,92,24,68,24,91,5*92,b2,b6,92,6d,49,45
+,92,8e,6e,6d,b6,b6,92,49,49,69,b6,92,6d,92,49,6d,4*92,8d,20,24,24
+,20,44,24,8d,69,6d,44,48,49,69,48,69,49,8d,49,44,6d,6*69,8d,69
+,49,8d,8d,69,69,44,69,48,6d,69,48,6d,69,49,49,49,44,48,45,69,44
+,6d,49,69,91,44,69,45,24,6d,49,48,69,49,8d,24,48,68,4*8d,ad,68
+,44,44,69,44,69,8d,b1,8d,89,ad,b1,ad,b1,b1,8d,8d,b1,ad,89,44,8d
+,68,8d,69,8d,8d,4*68,8d,24,24,ad,8c,68,ad,64,88,cc,cc,cc,ed,ec
+,e8,f0,ec,f0,e8,ec,ec,f0,e8,f1,a8,c8,cc,88,cc,88,8c,88,8c,48,ad
+,8c,24,24,20,20,24,0,24,44,88,b1,d1,44,24,68,44,8c,68,88,64,44
+,88,68,ac,48,8c,44,8d,d6,44,44,d5,d1,ad,48,44,68,89,ad,68,d1,88
+,ad,b1,69,8d,8d,ad,4*44,8c,d6,20,44,48,ac,68,68,4*44,88,f5,f5
+,b0,68,24,24,0,24,89,24,24,49,69,6d,6d,6e,6e,69,24,24,49,d1,8c
+,49,6e,8e,4*92,8d,b1,24,b6,49,92,49,b6,b6,49,92,8d,48,49,92,92
+,6e,72,49,49,49,92,49,24,20,24,20,24,24,69,69,69,44,48,49,69,49,49
+,8d,69,8d,44,69,69,8d,5*69,6d,6d,69,69,49,69,69,69,48,49,69,69
+,48,69,69,49,6d,8d,44,8e,6d,6d,6d,49,69,6d,69,49,49,8d,49,6e,49
+,92,49,6d,69,44,68,44,69,8d,b1,b1,68,48,44,44,91,48,89,8d,8d,b1
+,d6,89,69,8d,b1,68,b1,ad,8d,8d,88,68,49,44,69,68,44,b1,ad,b1,b1,b1
+,ac,b1,d1,ac,ac,a8,ed,ec,a8,c8,cc,f0,f0,f0,ec,ec,c8,ec,ec,e8,ec,ec
+,cc,e8,88,cc,cc,88,ac,8c,ac,68,20,24,48,8d,89,44,44,64,b1,d1,88,88,88
+,d1,88,a8,ac,8c,44,64,ac,44,20,20,da,68,d1,68,44,88,ac,b1,8d,b2
+,d1,44,68,8c,8d,ad,d1,ad,48,44,68,24,88,ac,8c,68,44,0,0,24,69
+,b1,68,44,44,ac,68,68,8d,24,20,24,44,ac,d1,20,ac,ad,24,24,89,44
+,8d,24,24,24,6*49,6e,69,69,69,b1,49,6d,6e,5*92,b6,8d,8d,49,91
+,45,6d,92,49,b6,69,6d,49,6d,6d,69,49,6d,25,49,6d,5*24,20,8d,69,69,69
+,8d,48,8d,69,24,69,69,69,44,49,48,4*69,49,44,48,69,49,69,49,69
+,49,69,49,9*69,44,44,24,69,48,92,92,6d,44,24,6d,24,24,24,69,92,92
+,49,8d,b2,69,48,8d,8d,8d,b1,8d,48,69,68,8d,8d,8d,ad,8d,89,8d,68
+,ad,d1,8d,ad,8d,8d,ad,ad,68,ad,8d,8d,8d,68,8c,8c,88,48,68,64,ac
+,88,d0,cc,ad,ec,ec,cc,ec,ac,a8,cc,e8,cc,ec,ec,a8,f0,ec,c8,c8,e8
+,c8,88,a8,cc,a8,88,68,88,88,d0,b0,8c,ad,24,b1,d5,ac,d0,20,68,68
+,88,64,44,d5,ac,f5,88,f5,88,88,68,44,24,b1,68,44,cd,88,8c,68,68
+,24,88,ad,cd,68,68,ad,b0,b1,a9,b1,b1,24,68,ad,44,24,88,24,24,24
+,ad,ad,d1,d1,d1,ad,48,68,48,ad,44,24,24,20,24,8c,d0,f5,24,44,d1,d1
+,6d,8d,f5,4*24,49,49,8e,6d,92,b1,8d,ad,6e,49,92,68,b1,24,49,b6
+,92,92,69,8d,8d,24,44,8d,ad,8d,49,8d,69,6e,6d,49,69,69,6d,49,49
+,6d,20,24,24,44,24,24,5*69,6d,69,49,44,44,49,69,49,69,69,69,8d
+,49,69,48,69,8d,69,69,69,8d,69,49,49,69,69,6d,69,69,6d,69,69,49
+,69,69,44,49,92,69,44,44,69,69,b2,44,6d,69,45,69,44,92,b6,24,68
+,8d,68,44,68,8d,b1,68,44,44,68,24,44,8d,b1,4*8d,b1,b1,8d,44,88
+,8d,8d,44,68,68,68,44,8d,68,44,88,88,ad,88,68,d1,d0,ec,f0,a8,ac
+,ec,ec,cc,cc,88,a8,ec,ec,c8,a8,e8,cc,ec,a8,f1,ec,a8,c8,88,a8,cc,cc,cc
+,88,a8,f0,f8,f4,f4,ac,f4,f4,f4,f8,d0,ac,f4,f4,f8,44,f4,f4,f4,f8
+,d0,f9,d0,f4,44,44,68,8d,d1,8d,cd,88,68,ad,d6,8c,69,68,8d,8d,44,44
+,88,44,68,d1,b1,ad,44,88,44,44,68,89,8c,24,ad,d1,68,44,d6,da,8c
+,8d,88,b1,68,24,20,20,20,8c,68,68,ad,ad,fa,64,64,ad,f1,6*24,6d
+,8d,6d,8e,6d,d1,92,49,44,44,68,24,48,92,92,69,49,8d,ad,8d,24,49
+,8d,69,45,6d,49,6d,6d,49,69,92,6e,49,4*24,20,24,24,8d,69,6d,69
+,8d,6d,8d,8d,69,48,48,8d,69,69,69,6d,69,69,91,48,6d,69,69,44,69
+,44,4*69,8d,69,69,49,6d,69,69,8d,69,49,24,68,69,49,24,44,44,49
+,24,8d,8d,69,44,68,48,44,69,8d,68,44,8d,48,8d,89,b1,69,44,69,b1
+,44,69,68,ad,8d,b1,8d,8d,68,ad,ad,69,8d,ad,8d,8d,8d,64,68,68,88
+,ac,8c,8c,68,8c,88,88,68,ac,d0,88,cc,cc,a8,ec,f0,c8,f1,a8,cc,ec
+,e8,c8,ec,e8,ec,ec,cc,c8,c8,c8,88,c8,ec,cc,cc,cc,ac,88,f4,f4,ac
+,f0,f8,d0,f4,f8,f4,f8,f8,f0,f8,f4,ac,ac,d4,f8,f4,d4,f9,f4,f8,f8
+,f9,f9,f9,fa,20,44,d1,88,44,44,69,ad,cd,44,d6,b1,f6,ad,69,ad,b1
+,44,44,44,24,4*44,20,8c,ad,d6,ad,ac,68,8d,b2,44,d1,68,48,4*24
+,44,ad,d1,64,ad,b1,ac,f4,d1,8d,24,0,7*24,6d,49,b6,8c,44,4*24,48
+,b1,91,49,6d,8d,8d,69,b2,49,49,45,49,49,24,49,25,49,49,24,69,24,24,24
+,20,24,44,45,69,69,6d,69,69,69,48,49,6d,48,69,69,49,8d,69,69,48
+,49,69,6d,49,69,69,44,69,44,69,44,69,44,49,69,69,6d,6d,24,69,44
+,69,69,69,44,48,69,b6,24,24,69,24,44,69,44,44,44,6d,44,68,44,44
+,8d,69,44,b1,8d,ad,88,8d,8d,69,89,48,8d,ad,8d,ad,b1,8d,b1,b1,8d,8d
+,89,8d,8d,8d,ad,8d,ad,ad,ac,ac,ac,8c,8c,68,68,68,ac,44,8c,cc,88,88
+,f0,a8,cc,f0,ec,c8,e8,ec,ec,c8,ec,a8,c8,ec,ec,a8,f0,f4,f0,f4,f8
+,f0,f4,f0,f4,f8,5*f4,f8,f4,d0,f4,f4,f4,f8,f4,f4,f8,f8,f4,d0,f4
+,f8,fc,f8,fc,f4,4*f8,f9,f4,cc,d0,ad,d1,ad,88,ac,d1,88,44,b1,44
+,ad,d1,68,d1,d1,8c,ac,44,68,44,44,44,88,88,68,88,d1,88,8d,89,8c
+,d1,ad,8d,44,24,20,f6,69,24,f4,f5,44,ad,f6,ac,f4,8c,44,24,24,24
+,49,7*24,6d,69,5*24,b1,88,b1,24,24,b1,b1,24,ad,69,92,4*24,44,24,24
+,44,49,6d,24,24,24,0,24,69,69,69,6d,69,69,8d,49,69,44,44,69,49
+,69,49,44,49,69,44,69,69,69,49,69,24,48,44,69,8d,44,68,44,44,8d
+,69,44,69,49,69,69,6d,44,48,24,69,44,69,69,6d,24,44,69,69,48,b2
+,24,69,20,8d,48,69,8d,68,69,b1,8d,91,b1,8d,8d,48,8d,8d,ad,68,b1
+,8d,8d,b1,8d,ad,8d,88,8d,8c,68,8d,88,b1,88,ac,8c,8c,88,64,68,68
+,44,ac,88,88,ac,ac,f4,d0,ec,f8,88,f0,f0,e8,c8,ec,88,cc,a8,cc,ec
+,f4,f0,ec,f4,f0,a8,f8,f0,f4,f8,f4,f8,f8,f8,6*f4,f8,f4,f4,f4,f8
+,f4,f4,f4,6*f8,f4,4*f8,fc,f8,fc,f4,f8,f8,f8,d4,ac,d0,8c,ad,d6
+,68,d5,8c,ad,ad,8d,ad,64,68,44,44,20,44,44,6c,48,68,d5,88,88,44
+,68,b1,88,8d,fa,8d,8d,8d,ad,88,d1,cd,d0,b0,d6,cc,d4,90,6c,68,ad
+,24,69,6d,20*24,49,d1,44,ad,ad,7*24,69,48,49,24,24,20,24,24,8d
+,69,69,69,44,69,69,69,6d,69,48,44,69,44,6d,69,44,6d,49,48,69,49
+,44,48,8d,44,44,69,44,69,69,44,44,69,69,6d,69,49,69,6d,69,69,44
+,49,68,69,44,24,49,24,6d,24,44,44,24,6d,69,44,69,69,68,44,44,69
+,68,ad,b1,6d,8d,44,44,20,ad,8d,b1,8d,ad,8d,88,b1,89,68,68,68,ad,ad
+,8d,68,88,d0,ac,ac,88,ac,ac,a8,ac,64,44,88,c8,f4,f4,f0,cc,88,ec
+,f4,f0,ec,ec,f4,a8,ec,ec,a8,ac,cc,cc,f8,f4,f4,f4,f0,f8,f4,f4,f8,f8
+,f4,f8,f8,f0,f4,d0,f4,f4,d0,f4,f8,f4,f8,f8,f8,f4,fc,f8,f8,f4,f4
+,f8,f8,d0,f0,f8,fc,6*f8,fc,f8,f4,f8,f8,f8,88,68,8c,8c,d1,f5,ac
+,68,20,24,8c,68,68,24,ac,44,48,68,88,88,88,ad,b1,20,68,ac,8d,44
+,d1,44,d0,ad,d4,d0,44,d0,f0,ac,d0,f5,8c,90,b0,68,20,24,45,44,44
+,4*24,4,6*24,44,7*24,44,44,44,8*24,69,49,44,24,24,20,24,24,69
+,68,8d,44,69,69,69,44,24,8d,8d,69,69,69,49,69,69,6d,6*69,44,48
+,69,69,8d,44,69,69,49,49,69,6d,69,69,49,69,69,69,6d,24,44,69,44,44
+,69,6d,69,6d,44,48,69,44,44,68,44,44,68,48,68,8d,68,68,b1,68,69
+,8d,8d,48,68,8d,8d,44,8d,8d,8d,89,ad,8d,8d,cc,68,8c,ad,88,68,68
+,a8,ac,8c,48,ac,a8,f0,88,64,ac,68,a8,f0,f0,ec,88,cc,88,cc,ec,ec
+,cc,ec,ec,cc,f0,f4,b0,f4,88,f4,f0,f4,ac,d0,f4,f4,ac,f0,cc,f4,f8
+,f4,f4,cc,f4,f4,d0,f8,f4,4*f8,f4,f8,f8,f8,f4,4*f8,f4,f8,f4,f8,f8
+,f0,f4,f4,8*f8,f9,b0,64,d1,d6,88,24,20,68,68,69,d5,b1,ac,a8,88
+,68,68,ad,44,68,68,44,68,8d,8c,68,b1,ad,64,d0,f5,8c,68,ad,ad,cc
+,d0,f5,d4,b0,90,24,44,8d,4*24,49,5*24,0,8*24,48,48,24,44,48,9*24
+,69,69,49,24,0,24,20,24,89,69,6d,69,8d,8d,8d,48,44,44,44,24,69,69,69
+,8d,49,44,69,69,68,68,44,69,68,49,69,69,44,24,24,48,6d,49,6d,69
+,44,69,8d,69,49,69,6d,6d,44,8d,68,92,69,49,b1,44,48,24,44,48,6d
+,69,44,69,69,44,44,69,b1,b1,8d,b1,8d,69,8d,64,8d,44,8d,68,8d,8d
+,ad,8d,ac,88,ad,cc,ac,ac,cd,d1,cc,cc,a8,88,88,68,44,68,a8,88,88
+,ac,a8,cc,a8,cc,ac,ec,cc,cc,e8,a8,f4,cc,cc,a8,ec,84,ec,f0,d0,d0
+,f4,f8,f4,f0,8c,8c,cc,f4,88,ac,f0,f0,cc,cc,f4,f0,f4,f0,d0,f0,f4,f4,f4
+,f8,f4,5*f8,f4,f8,f8,f0,f0,f8,f8,fc,f8,f8,f8,fc,f4,f4,f8,fc,7*f8
+,44,d1,f4,44,68,64,ac,ad,b1,88,88,64,88,88,d1,68,44,44,88,44,b1
+,d1,a8,b1,ad,d5,d0,44,f0,f4,44,f4,b0,f4,d0,f0,b0,b0,48,48,89,d1
+,24,24,0,7*24,0,0,0,24,4,24,24,24,44,44,24,48,44,8*24,89,6d,44
+,24,24,24,20,44,24,8d,49,68,69,44,69,69,49,48,49,49,69,8d,49,48,48
+,69,69,69,4*8d,44,69,69,6d,24,69,69,48,44,69,49,69,44,44,6d,49
+,4*69,48,44,69,8d,24,44,44,b2,44,44,68,44,69,68,44,48,8d,48,48
+,69,8d,44,8d,44,ad,8d,ad,68,8d,68,88,68,68,8d,ac,8c,68,8c,8c,88
+,8c,ac,ac,ac,8c,a8,64,a8,64,68,88,68,8c,68,a8,d0,d0,64,cc,ac,ec
+,cc,cc,a8,cc,a8,cc,f4,ac,d0,f4,c8,ec,88,ec,a8,cc,f4,cc,cc,ac,f4
+,f8,f8,f8,ac,fc,ac,cc,f4,f8,f8,f4,f8,d0,7*f4,f8,f4,9*f8,f4,f8
+,fc,fc,f8,fc,11*f8,f4,f8,f4,f0,f4,8c,88,ac,d1,d5,88,44,24,20,20
+,ad,44,44,24,ac,ad,88,ac,ac,24,ac,a8,cc,ac,b0,d0,d0,b0,d0,68,ac
+,d0,8c,6c,48,48,d1,44,24,0,24,0,8*24,0,24,0,24,24,48,24,24,69
+,5*24,20,24,0,24,24,49,44,24,24,24,44,24,24,68,65,44,20,68,69
+,44,6d,5*69,44,44,6d,8d,24,44,69,6d,68,49,69,8d,6d,44,69,49,6d
+,69,6d,24,6d,69,44,69,44,69,44,44,44,69,69,48,44,69,44,8d,24,69
+,68,44,44,48,24,69,68,69,68,44,48,68,44,68,69,68,8d,8d,8d,68,68
+,cd,4*a8,cc,88,ac,68,ac,b1,8c,8c,88,ac,68,68,88,88,cc,f0,ac,88,88
+,ac,88,ac,d0,ac,68,ac,ac,ac,cc,ac,cc,f0,f4,f0,d0,ac,ac,f8,f0,5*f4
+,f0,cc,f4,f4,f4,f8,f4,f8,f8,fc,f4,f8,f0,f8,f8,f4,f4,f8,f8,f4,cc
+,f8,f4,f0,f4,f4,f8,f4,f4,f8,f4,f8,cc,f4,f4,f4,f8,f0,b0,d0,f8,f4
+,f8,f4,f4,7*f8,f4,f8,f8,f8,4*f4,44,88,44,24,24,88,44,88,d5,ac
+,8c,68,d1,88,d0,f5,ac,d0,ac,f5,d4,8c,b0,68,f4,d4,8c,b0,44,b4,6c
+,24,48,48,44,ad,24,0,24,4,24*24,44,8c,6d,44,69,24,24,44,20,24
+,69,69,8d,69,69,69,6d,24,69,6d,44,8d,6d,5*69,44,8d,44,49,44,24
+,69,49,68,89,69,45,ad,69,69,48,69,8d,24,44,69,8d,4*69,8d,69,69
+,8d,b2,48,44,69,44,44,24,44,44,24,5*68,8d,68,b1,ac,8c,a8,cc,44
+,68,7*cc,a8,cc,d0,d0,f0,f0,a8,f4,a8,a8,68,64,68,88,e8,cc,f0,f4
+,cc,8c,b0,8c,ac,ac,ac,d0,d0,d0,f4,f0,d0,8c,ac,f4,8c,f0,f0,f4,f0
+,cc,f4,f4,f8,f8,f4,f8,f8,f8,f4,f4,f4,f8,f8,f4,f8,7*f4,f8,f8,f4
+,ac,cc,f0,f0,f4,f4,f8,f4,f4,f4,f8,f8,f4,f4,f8,f8,d0,4*f4,d0,6*f8
+,f4,f8,f4,d4,d4,d0,f4,d0,4*f4,44,d0,44,ac,ac,d0,d0,d1,b1,d6,d1
+,b0,f4,f0,f0,f4,d0,b0,d0,8c,b1,f4,b0,d4,d4,d4,90,6c,4*68,89,89
+,24,0,21*24,0,24,24,24,ad,69,49,49,24,24,24,20,24,44,69,8d,69,69
+,b1,6d,4*69,8d,48,6d,8d,8d,6d,b6,69,45,6d,69,69,8d,69,20,89,8d
+,69,69,24,8d,44,49,44,69,69,8d,6d,8d,44,6d,44,4*69,44,6d,b1,44
+,8d,68,69,44,49,68,68,44,b1,44,44,44,24,44,cc,ad,d1,cc,cc,a8,f0
+,d0,d0,f0,f0,d0,f0,d0,cc,d0,d0,cc,d0,d0,f0,f0,f0,cc,d0,d0,88,f0,f0
+,88,88,cc,f4,d0,8c,b0,d0,d0,f4,8c,f0,d0,8c,ac,ac,d4,b0,6c,7*f4
+,f0,f4,f8,f4,f8,f8,f8,f4,f8,f4,f4,f8,f0,f8,f4,f4,ac,f4,f4,ac,f4,f4,f4
+,f8,f8,f8,ac,d0,d0,f0,4*f4,f0,d0,f0,d0,fc,f4,f4,f4,f8,d4,f8,f8
+,f4,f4,b0,d4,f8,f8,f8,f4,f4,f8,f8,f4,ac,f8,f4,f8,f4,f8,f8,f8,f4
+,f8,d4,f4,0,f4,ac,f4,d1,44,89,ac,f4,f9,f4,f4,f4,d0,d4,48,8c,4*b0
+,6c,6c,8c,d0,68,64,ad,b1,89,0,0,0,6*24,0,24,20,11*24,68,24,24,24
+,48,24,24,69,49,8d,8d,69,69,68,69,44,24,69,44,69,69,49,44,48,6d
+,44,69,8d,92,49,8d,69,8d,69,69,6d,69,44,0,24,44,49,68,48,8d,69
+,48,b1,89,8d,89,91,44,8d,69,69,6d,69,44,69,44,69,69,20,69,44,69
+,20,44,44,68,68,44,ad,d0,88,68,f0,a8,cc,cc,88,cc,d0,f0,b0,ac,ac
+,8c,cc,cc,f0,f0,d0,d0,ac,ac,cc,d0,f4,f4,f0,d0,f0,f4,cc,f0,f0,f4,f4,f4
+,d0,d0,ac,cc,f4,f4,d0,f4,8c,48,d0,8c,d0,f4,68,f0,f0,f4,f0,f4,f4,f4
+,f0,f4,f4,f8,f4,f8,f4,f4,f4,f8,f4,f4,f4,f0,f0,f0,f4,f4,f0,f4,f0
+,f4,f8,f8,f0,f4,cc,f4,f8,f0,f8,f4,f4,f4,f0,d0,d0,f8,f4,f4,f4,4*f8
+,f4,f8,f8,4*d0,f8,d0,d0,f8,f8,f4,f8,f4,f4,d4,f8,f8,f8,f4,f8,f4,f4,f4
+,d4,f4,f4,f4,20,f8,d5,f4,f0,f4,d0,f0,f4,f4,8c,48,d4,d4,4*90,8c
+,b0,ac,b1,89,ad,b0,d6,48,24,0,24,b2,b2,4*b6,49,25,49,8*24,20,24
+,44,4*24,91,b1,69,b2,8d,44,8d,69,24,8d,48,69,48,69,69,69,8d,69,69,69
+,8d,69,89,69,69,8d,69,8d,24,69,8d,44,8d,0,44,64,8d,b2,44,68,69
+,44,b1,8d,8d,68,68,44,91,b1,68,8d,8d,69,6d,69,8d,44,44,44,68,44
+,8d,44,a8,68,88,44,f1,f0,f0,f0,cc,88,cc,ec,c8,f0,ac,d0,d0,cc,8c
+,d0,d0,cc,f0,d0,ac,f0,d0,d0,d0,9*f4,cc,f4,cc,f0,f4,ac,b0,f4,8c,8c
+,f0,ac,f4,8c,68,ac,d0,f4,f8,f4,f4,f4,f0,f4,f4,f4,f8,f0,f4,f4,f8
+,f0,f4,4*f8,cc,cc,f4,f4,f0,d0,f4,f4,f0,f0,f8,f4,f4,f0,f0,ac,f4,f4,f4
+,f8,f0,f0,ac,f4,f4,f4,f8,f4,f8,f8,f4,f4,f4,f0,f8,6*f4,d0,d0,8c
+,d4,5*f8,d0,f8,f8,d4,d0,f8,f4,f4,d4,f8,d0,d4,d4,f8,f4,f8,f4,f0
+,f4,f4,d0,ac,b0,cc,d4,d0,f4,d4,b0,d4,6c,f4,d4,68,d5,ac,d5,b0,90
+,68,89,8d,8d,44,89,64,20,ad,44,64,8d,8d,b1,91,6d,6d,24,8d,d6,8d
+,ad,8d,b2,b2,69,48,8d,8d,69,69,4*8d,69,91,44,69,8d,69,69,8d,69
+,8d,44,44,69,69,49,b1,69,68,8e,68,b1,8d,44,69,5*8d,b1,8d,8d,68
+,69,44,8d,8d,8d,45,89,ad,8d,8d,44,8d,69,69,24,68,4*44,24,69,8d
+,68,68,cc,f0,cc,f5,f0,f0,f0,cc,ac,a8,a8,5*f0,ac,f0,f0,ac,f4,f4
+,88,d0,cc,f4,d0,d0,f4,f4,d0,ac,f4,f0,f4,f0,d0,f4,f0,f8,6*f4,d0
+,f4,f0,f4,f0,d0,ac,d4,d0,f4,f0,f4,f4,d0,f4,f4,f8,f0,f8,f8,d0,f8
+,d0,f8,f4,f4,f8,f0,ac,f4,f4,f4,f0,cc,f0,f0,f8,f8,f4,f4,f0,f4,ac
+,f8,5*f4,f8,cc,4*f4,f0,f8,f4,f0,f4,f4,f0,f8,f4,cc,b0,f4,d0,d0
+,d4,d4,d0,f4,f8,d0,f4,f8,f8,b0,f4,f8,f4,f4,f9,f8,b0,f4,f8,5*f4
+,d4,d4,f9,d0,d4,f4,d0,f4,f4,f4,d4,b0,b0,d4,d4,f8,d4,f8,d4,d4,d0
+,90,b4,90,b2,b1,b2,44,8d,88,69,ad,20,68,44,64,44,44,89,ad,b1,8d
+,ad,92,8d,8d,8d,44,92,69,6d,69,8d,20,68,8d,44,6d,8d,8d,8d,69,b2,b2
+,8d,8d,48,69,69,24,24,69,8d,89,69,68,8d,44,8d,44,8d,20,24,44,24
+,44,68,8d,89,88,20,8d,69,b2,6d,69,b1,8d,ad,8d,b2,69,b1,b6,8d,44
+,69,68,24,68,88,44,44,cd,d1,88,f4,f4,f4,cc,f4,d0,f4,f4,f0,f4,f4
+,a8,cc,f4,cc,f0,f0,f0,f4,cc,f0,88,f0,f0,f4,f8,d0,f4,ec,f4,f8,f0
+,f4,f8,f4,f4,f0,f4,f0,f0,f4,f0,f0,f4,f8,f0,f0,f8,f4,f4,8c,f0,b0
+,f8,d0,ac,f4,f4,f0,ac,4*f4,f0,f4,f0,f4,cc,f4,cc,f4,f8,f4,f4,f4
+,f0,f8,f0,f8,f0,f8,f0,f0,5*f4,f8,f0,f4,f0,f4,f8,f4,f0,f8,f4,f0
+,f8,f4,f0,f0,ac,f4,d0,f8,cc,f0,cc,f0,8c,6c,ac,f4,b0,d4,f8,b0,f4
+,ac,f4,f8,b0,90,b0,d4,b0,d4,b4,8c,90,b0,d0,d0,d4,ac,d0,f4,f4,f8,f8
+,d4,f4,f0,f4,f4,f8,f8,f9,b0,d4,d4,d4,f4,d0,b0,4*d4,b0,8c,8d,8d
+,ad,69,44,24,24,68,88,d6,91,b1,24,69,89,44,69,44,8d,69,64,b2,8d
+,ad,b2,b6,8d,8d,49,69,89,69,69,69,8d,4*44,49,8d,44,49,b2,49,69,69
+,6d,89,b2,6d,24,69,68,8d,ad,68,b1,69,ad,69,24,8d,b1,44,69,48,8d,8d
+,64,da,d6,44,68,69,b2,ad,89,88,88,8d,ac,8c,68,a8,f0,5*f4,f8,f0
+,ac,d0,f0,d0,f4,f0,f4,f0,f0,f0,f4,f0,f4,f4,f0,f0,cc,f4,f0,f0,f4
+,f0,f4,f4,f8,f0,f0,f0,f4,f4,f4,f0,f4,f8,f4,f4,f4,f0,f8,f8,f4,f4,f4
+,f0,f8,4*f0,d0,d0,d4,d0,d0,d0,f0,d0,f8,f8,f4,cc,f4,d0,4*f4,f8,f8
+,f0,f0,f0,f8,f4,f8,f4,f0,f8,f4,d0,f4,f4,f8,f4,f0,f4,f4,f4,f0,f4
+,ac,f0,f0,f4,ac,cc,f0,f4,f4,5*f0,cc,a8,ac,ac,f4,f0,d0,ac,b0,88
+,d4,b0,d0,b0,8c,8c,6c,8c,ac,8c,b0,6c,90,6c,6c,b0,8c,6c,b0,d0,d4
+,b0,f4,d0,f4,f4,f4,d0,f4,f4,f8,f8,d4,f4,f4,d4,b0,8c,b0,b0,b0,ac
+,d4,d4,d4,b4,b0,8c,8c,68,8d,ad,b2,8d,b1,44,68,44,b1,24,b2,b1,8d
+,69,89,8d,8d,48,91,69,8d,8d,8d,b6,b1,91,44,8d,89,69,8d,69,b6,b1
+,91,68,8d,69,68,69,8d,24,44,24,48,44,44,69,24,44,69,8d,4*24,68
+,8d,d6,64,24,8d,69,d6,d6,b1,69,44,ad,44,ad,44,24,8d,b1,ac,ac,69
+,88,cd,a8,ac,cc,f0,f0,f4,d0,f4,f4,d0,f0,f4,f4,d0,f4,88,f4,cc,f0
+,f4,f4,f4,cc,f0,88,f4,d0,f8,f0,f0,f0,ec,f0,f4,f4,f0,f4,f4,f0,ec
+,cc,cc,f0,ac,f4,f8,d0,f4,f4,f8,f4,f4,f8,f8,f8,68,f8,f4,f4,f8,f8
+,ac,68,f0,d0,f0,f8,d0,d0,f8,cc,f0,f4,f4,cc,d0,f4,f4,cc,f8,f0,d0
+,f4,f8,f8,f0,ac,ac,f0,f4,f4,d0,f0,f0,f4,f0,d0,f4,f8,f4,f0,d0,d0,d0
+,f0,f0,d0,64,f0,f0,a8,f0,f0,a8,f8,ec,f0,f8,ac,f0,f4,cc,ac,d0,f4
+,48,d0,d0,b0,8c,6c,b0,6c,8c,8c,ac,d4,6c,b0,8c,6c,68,90,b0,6c,d4
+,ac,b0,b4,d0,f4,d0,d0,d0,5*f4,d4,f4,b0,b0,b0,6c,b0,b0,8c,d0,b0
+,ac,b0,48,ac,48,8d,8d,ad,24,ad,8d,44,44,0,89,24,8d,24,24,b2,8d,8d
+,44,68,44,24,20,24,68,89,69,24,24,44,24,89,44,68,8d,69,20,20,44
+,8d,20,68,44,69,89,44,44,68,68,44,8d,69,64,8d,24,24,44,24,24,b2
+,ad,44,24,68,b2,24,44,44,b1,68,44,8d,88,24,44,a8,cc,ac,f0,c8,d0
+,f4,f0,c8,4*f0,f4,f8,f4,f0,f4,f0,d0,5*f4,f8,f8,ac,f0,f0,f0,68
+,f4,f4,f0,f4,f0,f0,f4,f0,f0,f0,cc,f4,f0,f0,ec,f4,cc,f0,5*f8,f0,f0
+,f8,4*f4,ac,4*f4,f0,d0,d0,d0,cc,f0,f4,f4,f4,f0,f4,f4,f0,f8,f4,f4
+,f0,d0,d0,f0,7*f4,88,f4,ac,cc,f4,f8,f0,f0,f4,cc,f0,f4,f4,cc,f4
+,d0,cc,f0,f0,f4,f0,f0,f0,cc,f0,cc,f8,cc,20,88,44,44,ec,cc,68,88
+,ac,d4,8c,b0,d0,b0,8c,68,68,6c,48,6c,8c,68,6c,6c,8c,8c,48,6c,6c,6c
+,8c,8c,6c,d4,f4,f4,8c,d4,b0,f4,f8,d0,f4,d0,d4,f4,b0,8c,8c,d0,8c
+,90,6c,6c,8c,8c,90,48,b0,8c,24,44,20,8d,24,45,44,49,8d,44,68,44
+,20,8d,89,8d,44,68,8d,20,20,24,20,20,20,8d,24,69,20,20,24,8d,69
+,44,69,69,44,8d,69,69,8d,8d,68,68,8d,69,48,24,b1,69,ad,ad,d2,44
+,ad,64,64,a8,d6,44,88,f0,44,88,ad,ac,d6,88,b1,a8,cc,ec,24,24,cc,cc,cc
+,d0,f0,f4,f4,f4,f0,f4,f0,f9,ec,f4,f0,f0,cc,f4,f0,f4,f0,4*f4,f0
+,f4,f4,f0,5*f4,f0,f0,f0,f4,f4,f0,f0,f4,f0,f0,f8,f0,f4,f4,f4,cc
+,f4,f4,ec,f0,f4,f8,f4,f8,f4,f4,f0,f0,f8,f8,f0,f0,f4,f0,f4,d0,f4
+,f8,d0,d0,f4,d0,f4,f4,f4,f0,d0,f8,f4,f0,ac,ac,f4,f8,ac,f0,f0,cc
+,f4,f8,cc,f4,d0,cc,f0,f8,f0,f0,f8,f8,f4,d0,f4,f8,f8,d0,f0,f0,d0
+,ac,f4,84,64,40,cc,f4,f0,ac,88,a8,cc,44,24,ac,f4,ac,8c,8c,64,b0
+,d4,8c,68,48,48,6c,90,68,68,68,8c,48,48,48,6c,6c,6c,48,8c,8c,6c
+,90,f4,d0,8c,8c,ac,ac,d0,d0,f4,f4,8c,b0,8c,68,ac,8c,d4,b0,68,6c
+,8c,6c,90,8c,d0,48,24,44,8d,8d,44,91,8d,24,8d,68,48,91,69,20,64
+,44,69,44,68,8d,44,20,24,69,24,20,68,8d,b1,8d,8d,69,44,24,8d,24
+,8d,8d,69,44,24,8d,89,69,24,8d,89,44,69,8d,44,ad,d2,a8,cc,f0,c8
+,ec,f0,cc,ec,cc,f0,f0,cc,ec,f0,88,f0,f1,cc,ec,44,cc,f0,cc,f4,88
+,f0,f4,f0,f0,f0,cc,cc,ac,cc,cc,f0,88,88,f0,f4,f0,f0,f8,f0,f8,f4
+,cc,f8,f4,f0,4*f4,f8,f4,f0,f0,f0,f4,f4,ec,e8,a8,f8,f4,fc,f4,f4,f4
+,f0,f8,f4,f4,ac,f0,f8,f4,f4,f8,f4,f8,f0,f8,f4,f0,f0,f4,f4,ac,f4,f4,f4
+,f8,f8,d0,f4,f0,f8,f0,f4,f0,f0,f4,cc,cc,f4,f4,d0,8c,cc,cc,f4,f8
+,f4,f0,f0,f0,ec,f4,cc,f4,f0,f4,f4,f8,d0,f4,f4,f0,d0,f4,8c,f0,d0
+,f4,f4,88,f4,ec,44,f0,f0,64,a8,f4,44,88,f8,cc,f4,ac,8c,f0,68,8c
+,6c,68,48,b0,90,6c,68,90,68,44,48,48,24,48,48,6c,68,6c,68,6c,d0
+,b0,d0,d0,d0,b0,ac,b0,d0,f4,f4,ac,d0,d4,6c,48,68,6c,48,48,d4,68
+,8c,8c,68,68,b0,49,44,24,8d,44,69,69,8d,69,24,69,8d,24,44,44,20
+,44,44,44,24,5*8d,69,44,20,89,68,89,24,69,44,8d,68,69,69,20,44
+,ad,89,69,68,44,8d,ad,ad,b1,44,f1,b1,f5,cc,c8,a8,a8,ec,ec,f0,cc
+,f0,f0,ec,f0,c8,f0,f0,f0,f4,f0,f0,ec,f0,ec,cc,a8,a8,f0,cc,ec,f0
+,ec,cc,c8,f0,f0,ac,f4,f4,88,f4,f4,4*f8,f0,5*f4,f0,f4,f4,f4,f8,f8
+,f0,f0,d0,f0,f0,a8,f0,f0,f8,f4,f4,f4,f8,f0,f4,f8,f4,cc,8c,f0,d0,d0
+,f0,f0,f4,f4,f4,f0,d0,5*f0,d0,d0,cc,f0,d0,f4,f4,f0,f8,f0,f0,f4
+,cc,f0,f4,f4,d0,f4,f0,f4,4*f0,f8,f4,f0,f0,f4,f8,f0,f0,d0,f0,f0
+,f4,d0,f0,f4,f0,f0,f0,f4,ac,f0,f4,f0,f0,ac,f0,a8,84,f4,20,44,cc,cc
+,8c,cc,cc,d0,b0,8c,d0,ac,b0,ac,44,48,b0,48,48,8c,68,4*48,6c,48,48
+,24,24,44,48,6c,6c,d0,ac,ac,68,68,b0,b0,ac,f4,cc,4*8c,88,6c,6c
+,90,d0,d0,68,48,8c,ac,ac,8c,44,44,20,24,24,68,8d,44,69,8d,44,20
+,24,44,64,48,20,6d,24,20,44,8d,44,69,b2,69,44,89,24,20,0,68,24
+,44,69,44,8d,8d,89,89,8d,24,ad,ad,88,8d,ad,ad,f1,f1,ad,ad,ec,ac
+,cc,c8,ec,cc,a8,f0,f0,4*f4,f0,f4,f0,f4,f0,f4,ec,cc,c8,ec,a8,68
+,cc,ac,c8,ec,cc,f0,ec,cc,f0,f4,f0,f4,f0,f4,f8,f4,f4,f4,f0,f0,ec
+,f4,f4,f0,f4,f0,ec,f0,f0,4*f4,f0,f0,f0,ec,cc,d0,f4,f4,fc,f8,f8,f8
+,f4,f8,f4,f0,f0,d0,f0,b0,68,f4,4*f0,5*f4,f0,f8,d0,4*f4,f0,f4,d0
+,f0,f4,f4,f0,cc,d0,f8,f0,f0,f4,f0,f4,ec,f8,f0,cc,f4,cc,f4,cc,f8
+,f0,f4,cc,cc,ac,f0,f4,f0,f0,f4,f8,f8,f0,f4,68,68,ac,f4,cc,ec,f0
+,f4,ec,f0,d0,f8,a8,ac,f0,f0,8c,b0,8c,68,d0,8c,d0,b0,6c,90,44,28
+,44,48,48,48,6c,44,68,90,48,48,24,48,6c,6c,b0,48,68,ac,68,68,b0
+,8c,8c,b0,b0,ac,8c,48,8c,6c,8c,8c,48,8c,8c,68,8c,48,8c,68,48,44,44
+,20,44,24,24,24,69,8d,44,24,44,69,44,44,44,8d,69,44,20,69,24,48
+,44,b2,44,91,69,68,20,69,68,89,24,44,24,49,44,68,44,8d,24,20,24
+,89,88,ec,ec,ec,c8,ec,88,88,ec,88,88,88,cc,f4,f0,f0,ec,f4,cc,f4,f4
+,f0,f0,ec,f4,f4,f0,f0,c8,c8,a4,84,64,cc,88,ec,ec,ec,f0,ec,ec,f0,f0,f0
+,d0,f4,f4,f0,f4,f0,f4,f4,f4,f0,f4,f8,cc,f0,f4,6*f0,cc,f4,88,cc
+,f4,f0,f0,f0,f4,f0,f8,f8,f8,f4,f4,f0,f4,f0,ac,d0,8c,cc,d0,ac,f0
+,4*f4,f8,f4,f4,cc,f0,f8,f4,f4,d0,f0,f0,ac,f0,f4,f0,cc,f0,d0,d0
+,f4,f4,f0,cc,f0,f0,cc,ec,f0,ac,f4,f8,f4,f0,f0,f0,a8,ac,68,d0,ac
+,f4,d0,cc,f8,f8,f4,d0,f0,d0,68,cc,d0,f4,c8,64,f0,f0,f0,ac,f4,f4
+,f8,d0,ac,88,8c,b0,d0,b0,6c,8c,68,6c,48,44,44,48,48,48,28,44,48
+,24,48,44,28,24,24,6c,6c,6c,b0,6c,68,68,ac,8c,68,88,8c,b0,8c,68,68,68
+,88,8c,48,68,68,68,48,68,8c,68,ac,68,68,24,20,20,24,0,44,44,69
+,48,8d,20,20,24,24,69,69,68,20,20,24,44,4*24,69,24,8d,69,8d,68
+,8d,44,44,44,48,68,44,48,24,44,88,cc,f0,a8,a8,a8,c8,a8,e8,a8,88
+,e8,f4,a8,f4,f4,f0,f0,f4,f4,ec,ac,f4,f0,f0,f4,ec,f0,f0,f4,ec,a8
+,c8,c8,64,44,64,88,a8,cc,c8,88,cc,f0,cc,f4,f4,d0,f4,f0,f4,ec,f8
+,f4,f0,f4,f0,f4,f4,f0,cc,cc,f4,f0,f0,f0,f4,f8,f0,f8,f4,f4,f8,cc,cc
+,f8,f0,f4,f8,f4,f8,f0,f0,f8,f4,f0,ac,8c,68,f0,88,8c,f0,f0,f4,f8
+,f4,f0,cc,4*f0,f8,f8,f4,f0,cc,f0,cc,f4,f0,ac,f0,ac,f0,f8,f0,f0,f0
+,f4,f4,f0,ec,f0,f0,f0,f4,f4,f0,f0,f0,cc,ac,d0,b0,88,8c,cc,f0,f8
+,d0,d0,8c,d0,f8,ac,cc,b0,ec,cc,44,f0,cc,cc,88,88,64,f0,cc,68,8c
+,b0,b0,d0,ac,68,8c,d0,48,44,68,48,8c,48,68,6c,44,24,24,44,24,24,24
+,8c,6c,68,6c,68,68,44,68,88,68,ac,8c,68,b0,8c,8c,48,8c,44,ac,44
+,b0,8c,6c,8c,68,8c,68,8c,24,44,44,20,44,20,24,20,24,24,20,24,44
+,24,20,24,91,0,24,24,24,48,24,24,20,24,69,24,24,24,44,24,68,24
+,64,68,48,68,48,a8,88,ac,f0,cc,c8,a8,68,c8,c8,cc,e8,e8,a8,c8,f0
+,f4,ec,f0,ec,cc,ec,f0,cc,f0,cc,f0,88,f4,f0,cc,f0,ec,cc,a8,cc,84
+,a4,a8,64,64,44,ec,a8,ec,64,a8,f4,f4,f0,d0,cc,f0,f4,f8,f0,f0,f4,f4
+,f0,cc,cc,f0,ec,88,cc,f0,ac,f8,5*f4,f0,a8,d0,f4,a8,cc,f4,cc,f8
+,4*f4,f8,b0,ac,88,ac,b0,f0,d0,8c,ac,f0,d0,f8,ec,ac,cc,cc,f4,f0,f0,f0
+,ec,f4,ac,cc,ac,ac,f0,f4,88,ac,cc,f8,f0,f0,cc,ac,f0,ec,f4,88,88
+,f0,f0,f0,f8,ec,f0,cc,ac,b0,88,88,4*ac,f0,f0,ac,68,b0,ac,f4,cc
+,64,cc,88,f0,68,f0,a8,20,68,f4,d0,ac,8c,d0,d0,d0,8c,8c,88,8c,8c
+,24,68,24,24,6c,44,44,44,48,24,24,20,24,48,48,24,48,24,68,68,d0
+,88,48,68,ac,44,48,88,68,68,44,68,68,88,44,68,b0,68,d0,48,44,44,44
+,68,44,68,20,24,44,6d,48,20,44,24,20,20,69,24,24,8d,91,0,24,44
+,24,24,49,24,20,44,24,20,24,69,44,8c,48,68,44,44,88,44,44,88,68
+,cc,c8,a8,c8,88,a8,84,a8,ec,c8,c8,cc,f4,f0,a8,f0,f0,d0,88,ec,a8
+,cc,f0,cc,f4,cc,cc,a8,a8,ac,a8,ec,cc,c8,64,a8,c8,84,84,88,cc,a8
+,c8,88,6*f4,f0,cc,f0,f8,f0,f0,f0,cc,d0,ac,f4,f4,f0,f4,f4,cc,f4,f4
+,d0,d0,f8,f8,cc,f4,ad,d1,88,8c,88,f0,f4,f4,f4,f0,f4,f0,8c,68,88,88
+,d0,88,68,88,ac,f0,ac,f0,f4,cc,88,f4,f4,f0,a8,f4,f4,f4,d0,ac,88
+,f4,ec,f0,cc,64,d0,a8,f0,ec,a8,8c,88,a8,cc,88,ec,cc,ec,f0,f0,cc
+,f0,f0,f0,ac,88,d0,8c,88,88,d0,f0,d0,68,8c,d0,d0,f0,68,f4,d0,cc
+,f0,a8,f0,f0,44,20,d0,ac,88,68,6c,b0,8c,8c,6c,8c,68,ac,8c,44,24
+,48,8c,d4,6c,24,48,24,24,24,20,24,24,24,48,48,48,44,44,d0,8c,68,68,68
+,d0,b0,68,6c,8c,8c,b0,68,44,8c,68,68,24,48,68,48,24,48,24,48,20
+,48,44,24,0,24,68,24,0,48,68,20,20,24,24,0,20,20,24,24,20,24,20
+,24,24,44,44,24,44,88,88,84,a8,44,68,64,ad,88,88,88,64,a8,84,a8
+,e8,ec,f0,c8,a8,cc,f4,f0,c8,cc,cc,ac,a8,68,f0,ac,64,cc,f0,cc,d0
+,f0,88,c8,88,cc,cc,88,88,68,64,a8,64,40,88,24,84,f0,d0,a8,4*f4
+,cc,f0,cc,f0,cc,a8,cc,cc,cc,d0,f0,f8,f4,f4,f0,ac,cc,f4,f4,cc,f4
+,f8,f4,f4,cc,69,ad,64,8d,44,f4,8c,ac,ac,b0,f4,b0,8c,f0,ac,68,8c
+,68,d0,8c,88,88,8c,f8,f4,f4,4*f0,f4,c8,cc,f0,a8,a8,4*f0,ac,d0
+,ac,ac,a8,ac,88,44,88,a8,ac,64,cc,f0,cc,cc,f0,cc,a8,cc,cc,68,68
+,48,68,48,44,ac,ac,cc,68,44,8c,8c,f4,88,68,ac,44,20,88,8c,f0,a8
+,8c,b0,68,8c,f0,8c,d0,ac,6c,6c,68,68,8c,8c,20,20,48,90,88,44,48,48
+,24,24,24,44,48,0,20,88,48,24,44,88,cc,d0,44,44,24,8c,ac,68,d0
+,b0,68,8c,48,44,68,44,68,68,20,48,24,24,44,0,44,6d,8d,44,5*20
+,24,8d,24,24,20,44,20,20,44,24,24,20,0,20,24,24,20,44,48,44,a8,a8
+,a4,a4,c4,c4,a8,a8,c8,64,88,a8,cc,c8,a8,c8,c8,88,ec,ec,f0,f0,ec
+,f0,f4,cc,ec,68,88,cc,f4,d0,cc,cc,f0,d0,cc,cc,a8,88,68,cc,68,cc
+,44,64,cc,a8,64,a8,88,68,ec,f0,ac,cc,cc,f4,4*f0,f4,a8,f0,f0,d0
+,ac,d0,ac,cc,f0,f0,f4,f4,f0,88,f0,f4,d0,f8,d0,f4,f4,f0,ac,68,d1
+,8d,f8,88,f4,f0,ac,ac,d0,d0,8c,ac,ac,cc,24,88,68,cc,8c,88,68,4*f0
+,88,f0,f0,f8,ec,88,cc,f4,ac,f4,f0,d0,ac,d0,cc,ac,cc,64,cc,f0,68
+,a8,ac,cc,88,68,f4,a8,88,f0,f0,a8,44,cc,68,6c,6c,44,68,48,d0,d0
+,ac,68,68,68,8c,f4,48,68,44,44,ac,64,ac,d0,ac,f0,8c,68,68,d0,6c
+,ac,8c,68,6c,8c,8c,68,68,44,48,6c,6c,ac,68,24,48,48,24,44,24,48
+,4c,44,a8,48,48,48,cc,ac,8c,68,68,44,68,68,8c,4*68,44,20,b0,8c
+,20,20,20,24,24,24,68,20,48,44,44,20,0,24,24,24,20,49,69,48,20
+,24,24,24,69,68,48,68,44,44,69,20,20,64,88,88,a8,64,a4,a4,a8,a4
+,c8,c8,e8,a4,c8,84,c8,84,c8,a8,84,a8,84,f0,ec,ec,5*f0,f4,64,a8
+,d0,64,ec,64,cc,ac,f0,a8,cc,c8,44,a8,88,a8,a8,64,64,a8,88,ac,ac
+,64,64,a8,ac,ac,cc,d0,f0,f4,f0,ac,a8,f0,ac,88,cc,cc,f0,ac,f4,ac
+,f0,cc,f4,f4,ac,88,f0,f0,ac,f4,f4,f4,d0,88,8d,89,88,64,64,68,d0
+,f0,8c,f0,68,ac,8c,88,ac,f0,68,68,a8,ac,d0,68,f8,88,f0,f4,cc,a8
+,f0,f0,f0,f4,ac,ac,f0,f0,f0,a8,ac,68,cc,88,88,cc,44,88,d0,64,44
+,68,f0,f4,68,f0,a8,88,cc,ec,88,64,88,68,44,44,64,68,48,b0,cc,44
+,f0,88,48,d0,ac,68,8c,20,44,44,64,44,88,68,cc,88,8c,44,68,68,d0
+,8c,8c,48,68,8c,90,48,20,24,6c,6c,8c,44,b0,48,48,6*24,88,48,8c
+,20,44,d0,68,8c,48,68,0,48,d0,88,b0,20,20,24,20,48,68,68,68,20
+,0,48,44,20,68,44,44,20,44,44,0,24,8d,44,69,69,44,48,44,48,20
+,b1,44,49,8d,44,44,68,88,4*84,64,a4,a4,a8,a4,4*c8,a4,ec,c8,c8
+,c4,c8,ec,84,ac,68,ec,f0,cc,f0,f0,f0,f4,f4,f0,44,44,cc,a8,68,68
+,88,d0,cc,cc,a8,64,44,a8,88,64,88,88,64,64,a8,44,a8,64,20,a8,88
+,d0,d0,d0,cc,f0,cc,a8,68,ac,d0,64,a8,88,ac,68,f0,ac,d0,f4,f0,f0
+,f4,cc,8c,cc,d0,cc,cc,68,64,68,68,64,88,ad,ad,d0,cc,88,68,f0,f0
+,68,68,68,8c,68,ac,44,68,d0,44,cc,f8,f8,a8,d0,cc,ec,f0,f4,f0,ec
+,88,f0,f4,f0,f0,a8,88,68,88,20,24,cc,f4,68,f0,f0,cc,64,a8,f4,88,88
+,c8,84,cc,c8,64,24,44,68,68,88,68,68,48,48,d0,88,cc,24,48,ac,8c
+,68,20,20,88,44,24,68,44,90,cc,ac,44,44,68,44,68,68,8c,48,68,68
+,8c,8c,20,0,6c,44,8c,68,8c,90,24,24,68,0,24,48,20,ac,48,48,24
+,44,d0,88,ac,44,68,0,8c,b0,44,20,24,48,44,68,64,24,ac,88,48,0
+,44,20,24,64,44,69,69,8d,8d,24,24,44,8d,24,69,24,8d,24,89,44,69
+,44,ad,89,69,68,64,64,64,84,64,84,84,a4,a4,a4,a8,c8,a8,c8,e8,ec
+,c8,ec,e8,a8,ec,84,84,a8,c8,c8,f0,f0,cc,cc,f0,88,cc,cc,a8,44,f0
+,44,88,d0,cc,a8,88,88,44,24,24,64,a8,88,64,44,64,64,64,44,88,64
+,ac,44,88,d0,f0,cc,d0,cc,a8,d0,88,cc,d0,68,88,68,ac,ac,cc,68,ac
+,d0,cc,f0,f0,4*ac,d0,d0,68,8d,89,89,8d,44,88,68,88,ac,68,88,68
+,8c,68,d0,ac,68,88,8c,a8,48,44,b0,cc,4*f0,cc,cc,ec,a8,88,d0,cc
+,a8,f0,ac,cc,a8,ac,88,d0,ac,88,cc,a8,8c,f0,f0,f0,cc,cc,f0,f0,88
+,68,f0,64,f0,88,44,cc,88,b0,8c,88,48,48,48,d0,68,f0,88,48,68,8c
+,b0,64,8c,20,24,ac,44,44,44,ac,88,68,88,8c,ac,8c,8c,68,90,48,48
+,8c,48,68,68,44,48,b0,48,24,6c,48,24,6c,44,24,88,44,88,88,8c,48,48
+,cc,88,68,24,48,24,24,24,68,68,44,44,24,20,0,20,24,0,0,20,20,20
+,24,40,6c,20,68,69,24,24,20,8d,20,44,24,44,89,24,24,68,44,8d,68,68
+,44,44,5*64,84,a8,a4,a4,a8,a8,84,a8,a8,ec,ec,c8,c8,c8,a4,c8,f0
+,cc,a8,cc,64,f0,f0,cc,cc,88,88,88,ac,d0,84,ac,ac,68,64,88,8c,88
+,a8,44,44,44,68,44,20,44,20,44,20,24,88,44,64,44,68,b0,d0,d0,cc,cc
+,ac,a8,cc,88,ac,88,cc,88,88,88,68,8c,68,68,ac,cc,d0,cc,88,88,8c
+,68,d4,ac,88,b1,88,44,ad,44,0,44,68,88,48,48,68,88,24,8c,d0,68
+,64,68,8c,ac,68,cc,8c,88,f0,ac,cc,cc,ac,44,f0,a8,ac,f0,ec,f0,ac
+,f0,64,ac,48,68,ac,44,ac,a8,24,a8,cc,44,f0,40,cc,ec,cc,68,88,68
+,a8,44,68,cc,ac,20,ac,44,24,68,48,f4,ac,f0,ec,44,ac,6c,8c,d0,44
+,20,89,64,44,24,44,d0,68,44,68,44,ac,6c,ac,68,48,48,6c,68,8c,24,24
+,48,48,8c,48,68,8c,48,20,48,24,48,44,88,44,48,24,8c,ac,cc,8c,4*44
+,48,48,68,20,44,20,20,68,44,24,24,48,24,0,68,24,44,24,24,0,8d
+,68,24,0,24,69,24,69,24,24,48,44,44,24,24,68,89,68,68,84,64,64
+,44,64,64,84,84,a4,a4,c8,a8,84,a8,a8,c8,c8,a8,c8,c8,a8,a8,ec,a8,a8
+,f0,f0,a8,cc,cc,ac,ac,ac,88,68,cc,d0,cc,8c,20,64,44,44,64,44,44
+,48,44,44,68,68,24,68,44,44,44,24,44,24,68,44,8c,88,b0,88,ac,64
+,ac,a8,68,68,64,88,68,68,44,88,68,44,44,8c,ac,d0,ac,d0,88,8c,ac
+,8c,8c,ac,68,20,8d,69,8d,68,44,8c,68,44,44,20,68,44,68,68,44,ac
+,d0,68,68,64,88,44,f0,ac,8c,88,d0,64,f0,ec,f0,cc,cc,f0,88,88,cc
+,68,cc,cc,88,68,88,68,84,44,cc,cc,ac,ec,cc,d0,cc,a8,a8,a8,f0,cc
+,20,44,cc,88,44,48,4*24,f0,f8,f4,cc,68,68,48,8c,20,68,ad,8d,8d,8d
+,b1,ad,ad,88,24,68,44,ac,ac,ac,68,28,48,48,6c,48,0,90,6c,6c,68
+,48,68,6c,0,44,24,24,24,44,c8,88,24,24,24,68,44,88,64,68,ac,68
+,44,48,6c,20,0,44,48,48,44,44,48,88,4*20,0,20,48,24,68,8d,20,0
+,24,8d,69,20,20,20,69,69,24,69,69,48,68,44,64,64,44,64,44,64,5*84
+,a4,88,84,a8,84,64,a4,a8,64,88,c8,88,a8,88,ac,88,88,d0,cc,ac,88
+,68,44,88,88,44,69,68,24,44,44,68,44,44,68,68,44,68,68,68,44,48
+,44,68,69,48,48,69,24,48,44,88,ac,68,ac,68,44,ac,88,64,68,88,44
+,48,64,68,64,88,88,44,88,8c,68,ac,d0,ac,8c,44,44,68,8c,44,68,48
+,8d,68,44,68,8c,68,68,24,68,48,24,68,48,48,68,ac,d0,8c,68,88,8c
+,d0,68,68,f0,88,44,f0,cc,a8,44,8c,88,68,44,cc,88,a8,8c,68,44,88
+,a8,20,44,68,cc,68,ec,cc,a8,f0,68,40,cc,cc,88,20,ac,ac,68,48,24
+,48,28,24,6c,8c,d0,f0,ec,88,68,6c,6c,8d,88,44,89,69,8d,68,68,44
+,8d,89,44,24,ac,ac,d0,48,44,24,48,6c,68,24,68,48,68,6c,68,68,48
+,28,44,48,0,48,44,64,ac,8c,48,24,68,24,88,68,44,44,b0,48,68,68,68
+,24,24,48,44,44,44,68,8c,20,68,68,cc,0,ad,24,20,44,69,20,0,0,68
+,69,48,0,24,69,69,44,69,68,89,44,44,64,64,64,44,40,64,84,88,68
+,a8,84,64,68,44,84,64,84,44,a8,a8,68,a8,84,a8,88,88,d0,ac,ac,89
+,68,24,69,44,8d,44,64,20,68,44,89,4*68,69,44,68,20,48,48,68,44
+,48,44,68,68,48,68,48,6d,68,88,68,ac,ac,68,cc,44,88,88,68,8c,8c
+,48,44,64,68,44,44,68,68,68,ac,44,44,44,68,44,68,68,8d,69,6d,8d,8d
+,6d,44,48,44,88,48,68,68,8c,48,68,48,44,ac,8c,4*68,44,88,68,88
+,68,68,8c,88,a8,44,88,44,ac,5*44,24,68,68,68,44,44,68,68,8c,ac
+,d0,64,44,d0,24,ac,64,a8,88,44,64,44,24,44,24,24,6c,24,48,ac,88
+,68,88,88,ad,b1,8d,8d,68,8d,68,8d,24,44,b1,68,44,44,44,20,8c,ac
+,8c,f9,24,24,24,68,48,44,24,48,48,48,44,6c,6c,8c,44,8c,44,24,24
+,0,24,24,24,6c,68,68,68,48,24,b0,24,6c,68,68,48,68,68,8c,24,d0
+,24,6c,8c,48,68,44,68,44,24,68,44,44,69,0,0,24,69,69,69,20,20
+,68,8d,24,8d,64,68,44,44,4*64,44,64,4*88,64,64,88,a8,a8,64,88
+,44,88,64,64,44,88,8d,68,88,89,68,89,64,64,48,68,8d,68,48,44,44
+,69,8d,68,68,69,69,6*44,68,68,68,44,68,48,68,44,68,44,68,68,44
+,88,88,44,68,d0,68,8c,68,48,8c,44,68,64,68,44,68,24,68,48,8c,6c
+,68,8c,8d,44,24,69,24,24,8c,8c,68,44,64,88,20,8d,44,88,68,68,8c
+,8d,68,24,68,6c,68,68,44,44,44,8c,b0,8c,ac,64,68,68,88,d0,8c,ac
+,44,68,44,8c,8c,8c,44,48,ad,8c,68,68,44,88,88,ac,d1,ac,b0,8c,68
+,d0,48,68,88,88,44,68,68,24,24,48,68,44,68,68,8c,88,88,b1,68,b1
+,d6,d5,20,b6,48,8d,ad,b6,8d,69,48,91,48,8c,68,f9,d4,f4,44,68,44,44
+,48,68,20,0,48,44,48,24,48,68,48,0,24,48,24,68,88,48,68,90,48
+,44,88,44,44,8c,b0,b0,6c,90,b0,d0,68,24,68,0,ac,8c,8c,90,8c,48,48
+,68,44,68,44,0,44,b1,0,0,24,8d,69,8d,20,24,8d,ad,24,68,8c,88,8c
+,ac,8c,ac,8c,8c,84,d0,88,d0,ac,d0,cc,44,a8,d0,f4,cc,d5,d5,8c,b0
+,88,89,44,88,68,44,44,68,8c,88,8c,8d,8d,88,68,8c,8c,68,44,68,44
+,20,68,44,68,68,44,68,69,68,68,68,8c,44,68,20,44,48,20,48,88,68,68
+,20,44,44,20,68,44,44,44,24,48,44,68,68,68,24,68,8d,68,24,7*68
+,8d,64,4*68,44,24,44,44,69,69,44,68,44,44,44,68,68,48,48,48,68
+,44,68,8c,6c,44,68,68,8d,ac,69,b0,ac,b0,b0,b0,d1,44,ac,68,8c,48
+,68,68,88,b1,d1,44,8c,88,b0,8c,88,ac,44,ac,48,44,b0,d0,68,24,68,68
+,44,24,48,24,48,8c,68,68,44,91,69,ad,d5,b1,b1,b1,d1,44,d5,b6,8d
+,88,68,b1,b1,b1,b0,b1,b0,cc,d0,d0,90,44,24,24,44,0,48,48,24,44
+,20,48,48,6c,0,20,24,24,f4,d0,f4,f9,8c,90,b0,d4,8c,6c,68,6c,b0
+,48,88,8c,88,6c,68,ac,48,24,24,68,8c,b0,6c,44,44,48,68,44,24,68,68
+,48,48,6c,8c,68,8d,8c,8c,ac,d1,68,8c,68,88,88,8c,68,ac,ac,ac,d0
+,ac,8c,ac,d0,ac,cc,d0,f4,ac,f4,f4,d0,b0,b0,b0,8c,88,89,68,6c,8c
+,8d,8c,4*68,8c,8c,68,8c,88,8c,68,68,44,24,24,68,44,8c,68,68,44
+,68,68,8c,8c,88,8c,6*68,48,48,8c,8c,68,68,69,48,44,24,44,44,24
+,44,68,8c,69,44,20,68,8c,68,44,48,48,68,8d,24,44,68,44,68,44,48
+,44,20,8d,8d,69,68,68,44,44,48,68,8d,48,48,48,6c,8c,8d,44,68,48
+,24,8c,8c,8d,8c,88,ac,b0,8c,68,b1,b1,8c,68,48,8c,68,44,68,68,8c
+,ac,68,24,44,8c,88,88,8c,68,88,44,8d,b0,8d,48,68,69,68,68,48,6c
+,8c,48,68,8c,44,b1,49,d1,b1,8d,8c,8c,8d,ac,b0,8d,8d,91,b2,b2,ac
+,d5,b1,6c,68,d0,ac,8c,ac,6c,68,24,24,44,24,20,48,44,44,24,48,48,48
+,24,24,24,8c,ac,b0,88,d0,48,90,ac,b1,44,68,68,48,68,8c,68,44,44
+,68,8c,44,68,44,24,90,8c,90,8c,6c,8c,48,44,44,8c,48,8c,ac,8c,48
+,44,48,8c,68,8c,ac,b0,68,48,44,8c,8c,48,b0,8c,ac,8c,ac,88,ac,68
+,8c,ac,b0,ac,ac,8c,8c,ac,ac,ac,d0,d0,88,ad,68,68,68,48,68,68,44
+,68,8c,68,88,8c,68,48,68,88,88,68,20,24,9*68,44,5*68,8c,68,68
+,48,48,44,5*68,48,44,44,4*24,68,6d,24,68,44,8d,48,48,24,44,44
+,48,48,48,6c,6d,48,44,24,44,48,44,6d,68,68,68,44,44,24,24,44,68
+,48,48,24,48,68,68,8d,48,44,24,44,68,8c,88,68,8c,48,b0,8c,68,ac
+,8c,8c,68,8c,68,68,48,24,68,8c,ac,20,b0,8c,68,68,8c,68,68,8d,ad
+,8c,8c,8c,44,68,6c,6c,68,6c,68,44,20,6c,8c,4*b1,88,8c,8c,68,8c
+,88,b1,b2,b6,b1,d6,b1,8c,88,44,68,88,44,8c,44,d0,48,48,6c,24,24
+,0,44,68,24,48,68,24,0,24,44,44,8c,ac,ac,8c,8c,24,68,48,68,48
+,44,48,68,8c,48,48,8c,24,44,68,b0,48,44,48,b0,b0,68,b0,68,6c,8c
+,68,24,8c,b0,68,8c,b0,ac,ac,ac,68,24,8c,8c,88,44,24,48,8c,68,44
+,68,68,88,68,8c,68,88,68,68,48,d0,ac,68,d0,ac,8c,68,88,68,68,ac
+,88,48,44,44,68,68,68,24,44,68,68,44,44,68,24,44,68,68,88,68,20
+,68,4*44,68,88,68,44,68,44,48,44,68,68,44,68,44,44,44,68,68,68
+,48,48,44,6*24,48,44,44,44,24,24,68,24,48,24,48,44,24,48,48,48
+,44,48,48,48,24,48,68,5*48,24,24,24,68,48,4*24,68,68,24,48,24
+,44,24,44,68,68,44,8c,44,68,8c,48,68,44,48,68,68,44,44,48,24,44
+,68,44,44,88,24,44,44,24,44,68,b1,6c,68,8c,b1,68,48,6c,48,44,24
+,48,48,20,44,8d,8d,91,b1,ac,68,44,4*68,b1,5*d6,68,48,68,8c,8c,8c
+,24,6c,48,6c,68,6c,8c,24,24,24,6c,68,90,48,48,48,6c,0,20,48,68
+,8c,88,68,24,24,8c,24,6c,68,48,68,68,68,24,44,68,20,44,68,48,8c
+,6c,ac,68,ac,6c,68,24,8c,8c,68,8c,d0,d0,ac,ac,8c,88,88,8c,ac,8c
+,ac,44,48,68,b0,ac,8c,8c,ac,88,88,8c,44,68,8c,44,8c,44,88,8c,24,24
+,44,68,8c,68,68,8c,88,8c,48,44,44,44,64,44,20,44,24,68,24,44,24,24
+,44,44,68,68,88,8d,68,44,44,24,44,44,68,68,44,48,44,24,44,68,48
+,68,44,24,24,0,44,44,44,24,44,48,24,48,24,0,24,24,20,44,68,68
+,b1,b1,8c,24,24,20,44,24,44,24,44,48,24,44,44,24,44,48,69,68,44
+,24,48,44,4*24,0,24,24,68,24,24,44,44,24,0,24,24,24,44,24,68,68,68
+,48,4*44,68,24,44,48,24,24,44,48,44,64,88,ac,68,44,24,24,44,24
+,44,68,44,24,44,68,48,48,24,24,24,48,48,0,68,8c,88,6c,8c,68,44
+,24,68,48,24,44,8c,d6,da,d6,b6,b1,48,0,68,68,8c,48,24,48,48,7*68
+,8c,6c,68,48,48,44,48,68,24,48,24,44,68,88,24,24,48,24,6c,24,24
+,68,24,44,20,0,20,24,48,68,44,8c,48,b0,68,24,6c,68,24,6c,44,68
+,d0,ac,ac,d0,b0,8c,8c,68,88,68,8c,8c,68,90,b0,8c,8c,8c,68,b0,b0
+,d0,d0,ac,68,44,8c,b0,b0,8c,44,24,44,44,68,48,44,44,68,6c,44,48
+,44,24,44,48,44,48,44,44,24,44,44,44,24,24,0,68,68,44,68,64,0
+,44,48,44,20,44,44,24,20,0,20,24,44,24,20,24,24,20,0,44,68,24
+,0,44,44,44,24,20,0,0,0,20,20,24,44,64,69,68,24,0,0,24,0,24,24,24
+,48,48,24,24,0,24,24,68,20,24,24,0,24,24,48,24,0,48,0,24,24,44
+,24,44,68,24,0,0,0,20,20,20,44,48,24,24,20,24,20,20,0,0,24,24,24
+,20,0,0,24,44,64,88,24,44,0,0,44,24,68,44,24,24,44,b1,44,20,20,20
+,24,20,24,0,24,68,48,20,68,48,48,20,24,24,20,20,68,69,89,ad,b6
+,b1,24,68,48,8c,8c,48,68,8c,68,68,20,24,8c,88,88,8c,6c,6c,68,68
+,24,20,68,68,8d,8c,48,20,68,68,44,0,24,28,44,44,24,44,0,48,68
+,0,0,0,48,24,24,44,24,68,24,0,24,48,24,48,48,24,8c,68,8c,8c,88
+,8c,68,88,4*68,8c,68,68,8c,ac,4*8c,68,88,ac,64,8c,8c,b0,8c,68,68
+,24,20,44,24,0,20,0,24,24,24,44,48,48,68,44,48,48,24,44,24,44
+,20,4*0,44,24,44,44,68,4*24,0,68,24,44,0,0,0,24,24,0,20,4*0,24
+,0,0,0,20,0,24,20,5*0,44,0,49,69,8d,69,48,20,0,0,24,24,24,20,24
+,48,24,0,24,24,44,69,24,24,24,0,24,24,24,44,0,24,20,0,24,0,0,44
+,6d,24,7*0,8c,9*0,24,24,0,24,0,24,44,6d,24,7*0,44,0,24,68,20,44
+,0,20,0,20,24,24,0,48,24,24,24,ac,24,24,5*0,ad,8d,b2,44,8d,8d
+,44,48,44,44,68,48,44,24,68,20,8c,24,24,44,88,68,44,4*24,44,44
+,68,44,44,68,48,68,68,0,20,48,24,20,6c,24,20,24,24,6c,0,0,0,24,24
+,44,24,24,68,24,24,24,48,48,6c,44,20,48,44,44,68,88,44,88,68,68
+,44,68,8c,f5,f5,fa,fa,6*f5,fa,f5,f5,f9,f9,fa,fa,f9,f9,fa,4*f5
+,f9,f9,fa,fa,d5,8d,8d,8d,68,8d,89,88,8d,8d,ad,ad,b1,ad,8d,8d,b1,b1
+,ac,8d,88,88,8c,b1,b1,68,68,ad,44,68,44,20,44,0,24,20,24,44,20
+,4*24,0,24,20,8d,44,24,20,0,20,24,24,24,6d,8d,8d,69,44,44,0,0
+,24,44,44,24,24,44,20,48,20,0,24,44,69,24,48,0,0,24,0,0,0,24,24
+,0,20,44,0,24,20,49,44,44,24,24,44,24,24,0,20,7*0,20,24,24,24
+,48,0,24,44,68,48,68,44,24,24,24,4*0,20,24,68,44,44,68,24,24,44
+,24,44,44,24,0,68,44,20,24,44,8d,68,68,8d,24,68,8d,8d,b2,b2,64
+,24,44,5*0,20,20,48,24,ac,8c,68,48,24,24,8c,68,88,68,8d,8d,69
+,44,48,44,20,20,24,68,64,24,44,44,90,48,24,0,44,68,48,44,24,68
+,64,44,68,8d,68,44,44,24,20,24,24,20,24,15*f5,f9,f5,f9,4*f5,f9
+,f5,f5,f5,fa,f5,fa,fa,f5,fa,f5,f5,4*fa,d5,fa,b1,68,8c,68,24,24
+,20,24,24,20,20,24,0,0,20,0,24,20,0,0,20,69,4*24,0,20,20,24,0
+,49,69,48,24,44,8d,48,24,44,24,44,24,24,0,68,44,20,20,20,24,48
+,69,8d,b2,20,d6,b6,d6,20,44,24,24,20,24,44,4*24,44,4*24,b2,8d
+,44,20,24,0,0,24,48,24,24,24,0,0,48,24,6d,8d,69,20,20,24,24,20
+,44,44,24,48,48,24,44,68,48,68,68,68,24,24,24,44,48,24,44,48,24,24,24
+,44,24,44,6c,24,68,48,48,48,24,44,48,44,68,68,48,48,68,6c,48,48,48
+,69,90,68,48,6c,68,68,6c,b2,4*b6,6c,8d,68,4*8c,b1,68,8c,6c,68
+,b0,8c,68,8c,b1,20,68,44,b2,b1,d6,b6,d6,b2,d6,44,68,68,44,68,88
+,44,44,68,44,44,44,24,24,44,44,44,24,20,d4,d5,ac,8c,d4,d4,f9,d5
+,d4,f9,d9,f5,d5,4*f1,d0,f1,d0,f1,f1,d0,4*f1,f5,f5,f1,f5,f5,f5
+,f9,fe,f5,f5,f9,fa,f5,f9,f1,f5,f9,4*f5,f9,f5,f5,f9,f9,f9,d1,b1
+,8c,6c,48,44,48,68,4*44,4*24,68,68,44,68,68,5*44,88,68,44,44,24
+,44,64,64,64,5*44,5*68,88,68,68,4*44,48,68,68,68,88,68,88,68,8c
+,68,68,68,88,88,68,68,8c,68,68,64,68,68,88,88,88,68,68,44,44,44
+,48,14*44,68,64,68,88,4*68,64,64,44,44,68,5*44,68,68,64,88,68,68
+,44,44,64,64,68,64,68,68,68,64,7*44,24,48,68,88,68,68,68,4*44
+,48,44,68,68,88,68,88,88,68,44,48,68,68,44,44,48,48,44,48,24,44
+,24,10*44,24,5*44,4*24,44,44,44,24,24,44,44,24,20,20,44,48,48,48
+,68,8c,8c,8c,b0,68,8c,6c,8c,8c,d1,4*f1,f5,f1,4*f5,f1,f5,f1,f5,f5,f5
+,fa,f1,f1,f5,5*fa,f5,fa,fa,fe,f9,fe,f5,f5,fa,fa,fa,f5,f5,fa,f5
+,f9,b0,d6,8c,68,8c,8d,91,6c,7*44,68,88,44,68,88,44,44,44,68,44
+,68,68,64,44,44,44,64,64,68,64,68,44,24,44,68,68,88,68,68,88,7*44
+,68,88,64,88,68,88,68,88,4*68,5*88,4*68,6*88,68,88,88,88,68,68
+,44,68,68,44,4*68,64,88,68,88,88,88,ac,a8,a8,a8,88,ac,88,88,68,68
+,88,44,64,64,64,88,88,64,88,a8,4*88,a8,88,88,a8,a8,ac,88,88,88
+,68,64,68,68,88,68,88,a8,88,a8,14*88,4*68,88,88,68,68,68,48,48,48
+,44,24,24,6*44,4*24,7*44,68,68,44,6*68,8*44,48,8*44,f5,f5,f9,fa,fa
+,f0,f5,f9,fa,fa,f5,f5,d0,fa,fa,f5,fa,fa,f5,fa,fa,fe,fe,f6,fe,f9
+,fa,d5,fe,fa,d0,d5,fa,fa,f5,fe,fa,b0,f9,d1,f9,d1,f5,f5,8c,48,6c
+,48,24,24,68,68,64,4*44,88,88,64,88,88,64,44,64,68,64,88,68,68
+,44,64,64,64,4*68,44,44,44,68,88,88,68,64,88,44,44,44,20,44,20
+,44,68,68,68,88,68,88,68,64,44,68,68,68,88,68,88,68,68,68,44,44
+,68,88,68,68,68,88,7*68,44,68,68,64,44,4*68,5*88,ac,a8,a8,a8,88,88
+,68,88,88,88,a8,68,68,64,64,ac,a8,64,ac,a8,88,88,a8,88,a8,a8,88
+,a8,ac,a8,88,88,88,68,64,48,68,44,44,88,ac,a8,a8,ac,5*88,68,64
+,88,88,88,8c,88,ac,68,64,68,44,8c,68,68,68,48,44,44,44,48,24,24
+,44,44,48,44,44,44,5*24,7*44,68,64,44,44,48,44,44,68,44,44,24
+,44,44,68,44,44,68,6*44,24,44,f5,f1,f5,fa,f1,fe,d1,fa,d1,f5,ff
+,f5,f5,f5,fe,4*f5,f1,f6,f5,f5,fa,d1,f6,ad,fa,fa,f5,fa,f5,fa,fa
+,f9,f5,fa,f5,fa,f4,f9,fe,f5,f4,8c,24,24,24,0,24,48,68,68,44,44
+,68,64,8c,88,64,68,88,64,4*68,88,88,88,68,64,64,84,64,68,64,68
+,44,44,44,68,68,88,88,68,88,44,68,44,24,64,44,44,68,68,68,88,68
+,88,68,88,68,68,68,64,88,68,88,88,68,68,64,44,68,88,68,68,68,88
+,68,44,4*68,44,44,68,64,68,64,68,68,68,88,88,88,a8,88,a8,cc,cc
+,ac,ac,a8,a8,5*88,44,64,68,88,a8,88,88,a8,a8,88,a8,88,88,88,a8
+,88,a8,a8,a8,64,88,68,68,44,68,64,44,44,68,ac,8c,a8,ac,88,88,8c
+,6*88,a8,ac,88,ac,68,68,68,48,8c,88,68,68,48,44,44,48,44,24,24
+,44,44,44,48,48,4*24,20,44,44,64,68,44,48,44,68,68,64,44,44,48
+,4*44,4*24,44,24,44,68,48,5*44,24,44,fe,f1,f5,f5,fa,f5,fa,d1,f5
+,ac,f1,f6,ad,ff,ff,ad,f0,d1,d1,d1,fa,d1,cc,fa,ff,f5,fa,f5,fa,fa
+,d0,ff,f6,d4,f4,d0,f5,b0,b0,90,8c,b5,70,b4,6c,24,24,24,0,24,88,88,88
+,68,68,88,88,ac,88,64,88,88,68,68,88,88,64,88,88,88,64,64,84,88,88
+,64,64,68,44,44,64,88,88,a8,88,88,a8,64,88,64,44,64,44,64,5*88
+,ac,a8,4*88,8c,ac,88,ac,ac,ac,68,88,44,68,88,88,68,68,88,68,68,68
+,88,68,68,44,44,68,68,68,64,88,68,68,88,a8,68,a8,88,a8,cc,cc,ac,ac
+,a8,ac,5*88,68,88,68,88,a8,88,64,a8,cc,88,a8,a8,88,a8,a8,88,cc
+,a8,a8,88,88,a8,64,44,68,64,64,68,ac,cc,a8,a8,ac,88,88,8c,88,68,68
+,88,88,a8,ad,a8,ac,88,88,68,68,68,88,88,88,68,68,48,48,68,44,24
+,6*44,6*24,44,64,68,44,24,44,68,68,4*44,48,44,68,44,24,24,24,44
+,64,24,24,68,6*44,24,44,f5,fa,fa,f9,ff,fa,f5,fe,fa,f5,f6,d1,ad
+,d1,d1,fa,f5,f5,f5,fa,fa,d9,fa,fa,d1,f9,d4,f9,f9,d4,b1,b0,d0,f9
+,b0,b0,8c,6c,48,6c,28,24,70,28,4c,28,68,48,68,68,7*88,a8,a8,64
+,88,88,68,68,88,88,68,88,88,88,64,88,64,88,88,68,68,68,44,64,64
+,88,a8,ac,a8,88,a8,88,64,44,44,68,44,44,88,88,68,88,68,88,88,ac
+,68,88,68,88,88,68,ac,88,68,64,64,48,68,88,88,4*68,64,68,68,44
+,68,48,44,68,68,44,68,68,68,44,88,88,64,88,88,88,cc,cc,ac,ac,ac
+,c8,4*88,a8,4*88,cc,a8,64,cc,cc,88,5*a8,88,ac,cc,a8,84,88,68,68
+,44,44,68,68,68,88,cc,ac,ac,ac,88,8c,8c,88,68,88,88,88,a8,4*ac
+,88,68,68,68,8c,88,88,68,68,48,44,68,44,20,24,5*44,24,24,20,24,24,24
+,44,64,68,44,44,44,68,68,64,44,64,64,44,68,68,68,7*44,68,4*44
+,24,44,24,44,d1,f5,d1,d5,f5,f5,d0,f5,cc,d0,d1,fa,f5,f9,b0,d0,f5,f5
+,fa,d1,f5,fa,f5,d0,f5,d4,b0,b0,48,24,48,48,6c,68,48,48,b5,24,48
+,8c,24,b0,24,28,24,68,8c,4*88,a8,a8,88,ac,88,88,ac,88,64,88,88
+,68,88,88,68,4*88,64,84,64,a8,64,88,88,4*64,88,a8,ac,88,a8,a8
+,64,88,64,44,64,44,68,4*88,68,7*88,8c,68,ac,88,88,4*68,5*88,68
+,44,64,88,44,68,44,44,68,88,68,64,64,68,44,88,68,68,88,64,88,cc,cc
+,a8,ac,a8,88,64,64,88,68,88,44,44,64,64,ac,88,64,cc,ac,88,a8,a8
+,4*88,a8,ac,ac,64,68,68,44,24,4*44,68,cc,ac,ac,ac,68,88,88,68
+,64,88,64,88,ad,ad,ad,d1,ac,68,44,48,68,8c,88,68,68,48,48,44,48,48
+,20,24,24,44,44,44,48,4*24,0,24,44,68,68,68,48,24,6*44,48,44,48
+,44,24,24,44,44,24,24,24,68,44,44,24,44,44,44,24,44,4*f5,ac,fa,fa
+,fe,ac,fe,ac,fa,f5,f5,f5,d5,f9,d0,8c,b0,8c,b0,6c,b5,90,8c,6c,48
+,6c,24,44,24,24,6c,24,48,5*24,8c,24,24,48,44,ac,a8,ac,a8,cc,4*a8
+,88,a8,a8,88,64,5*88,64,88,64,4*88,64,a8,88,88,68,88,64,68,88
+,a8,a8,cc,cc,a8,c8,64,88,64,44,68,64,68,4*88,68,ac,88,ac,5*88
+,68,ac,a8,88,68,64,44,64,88,88,68,88,88,68,64,5*68,48,4*68,88
+,68,64,64,ac,88,a8,84,88,cc,cc,a8,ac,88,a8,68,88,64,88,88,44,64,64,64
+,ac,64,64,cc,cc,ac,88,a8,88,ac,88,88,cc,a8,ac,44,68,64,44,44,24
+,44,44,44,68,4*ac,68,4*88,68,88,88,ad,ad,ad,b1,ac,68,44,48,68
+,b0,8c,68,68,68,4*44,20,4*44,48,68,24,44,20,20,20,44,44,68,68
+,44,44,24,68,68,68,5*44,68,44,24,24,5*44,68,44,44,24,44,44,24,24
+,44,f5,d0,ff,fe,fa,f5,cc,f9,f5,f5,ac,fe,f9,ac,8c,6c,68,48,68,b0
+,6c,24,d5,48,24,6c,48,48,24,24,24,48,6c,4c,24,48,6c,6c,44,6c,24,24
+,48,48,48,68,ac,ac,cc,cc,cc,a8,a8,a8,cc,a8,a8,ac,88,64,84,88,88
+,64,a8,88,84,64,4*88,64,84,88,88,64,88,64,88,64,ac,cc,cc,cc,a8
+,ec,84,a8,68,64,88,68,68,a8,84,88,a8,64,88,a8,ac,cc,a8,a8,ac,a8
+,68,cc,ac,ac,68,64,68,68,68,88,68,88,88,64,64,68,68,44,88,68,68,68
+,ac,68,44,88,88,68,ac,a8,88,88,88,84,cc,cc,ac,cc,ac,a8,68,88,88
+,68,88,64,64,68,88,ac,88,64,cc,f0,5*a8,88,88,cc,a8,a8,44,44,88
+,4*44,24,68,68,cc,ac,a8,cc,68,68,ac,88,68,88,68,88,b1,ad,ad,d1
+,ac,68,44,44,44,ac,88,88,88,44,44,48,48,44,20,24,44,44,44,48,48
+,44,24,20,24,24,44,68,64,68,44,24,44,68,68,6*44,68,44,24,44,24,24
+,44,24,24,48,48,44,24,24,24,44,20,44,f5,b0,b0,d0,d5,ac,fa,68,8c
+,68,8c,48,6c,48,48,4c,24,48,24,24,48,24,d5,24,24,48,24,6c,48,0
+,24,0,20,44,6c,24,24,4c,68,68,48,88,68,88,88,a8,a8,c8,c8,cc,cc,cc
+,a8,cc,cc,a8,a8,cc,88,88,88,a8,88,88,a8,88,88,64,a8,a8,a8,84,64
+,88,64,88,88,4*64,4*cc,a8,ec,88,cc,68,88,88,64,68,a8,a8,88,88
+,68,88,a8,ac,cc,ac,ac,a8,cc,88,cc,ac,88,68,68,68,64,68,68,68,88
+,ac,64,68,88,68,44,88,68,68,68,88,88,44,88,64,68,a8,ac,88,cc,a8,a8
+,ec,ec,cc,cc,a8,c8,88,88,a8,88,a8,64,88,64,a8,cc,88,88,cc,cc,a8
+,cc,cc,a8,a8,88,88,cc,cc,a8,44,88,64,44,44,24,44,44,68,8c,cc,88
+,ac,d0,68,88,88,88,64,88,68,88,8c,ac,88,ac,ac,68,68,68,64,ac,88,88
+,68,44,24,44,44,44,20,24,44,48,44,48,48,24,44,0,24,20,24,68,64
+,88,44,24,44,48,68,44,44,44,48,44,44,48,44,44,44,24,24,44,24,24
+,48,44,44,24,44,20,24,24,24,68,48,6c,44,48,8c,4*48,6c,44,24,24
+,28,6c,48,24,4,48,28,0,24,48,24,24,68,24,8c,0,0,48,24,48,24,48
+,68,8c,8c,88,88,88,a8,a8,88,a8,c8,cc,ec,cc,ec,4*cc,a8,a8,c8,a8,a8,a8
+,cc,84,88,a8,64,64,44,88,88,84,64,64,84,64,84,64,84,44,84,64,a8
+,cc,f0,ec,cc,f0,a8,cc,88,a8,a8,88,64,a8,a8,88,a8,68,ac,c8,cc,f0
+,cc,ac,ac,cc,88,a8,cc,cc,88,68,68,68,64,88,88,88,ac,88,ac,88,88
+,68,88,88,68,88,a8,68,64,88,88,88,cc,d0,a8,cc,a8,cc,ec,ec,cc,cc
+,a8,a8,a8,4*88,44,88,68,88,a8,88,88,cc,a8,ac,cc,4*a8,88,a8,a8,a8
+,64,68,88,44,44,48,44,44,44,8c,cc,88,cc,a8,88,88,ac,88,68,44,64
+,88,88,ac,ac,ac,88,8c,44,44,44,88,8c,ac,68,44,48,24,44,44,20,24
+,44,24,44,44,48,24,48,4*24,44,44,88,44,44,24,44,68,44,44,44,48,48,48
+,44,44,44,24,24,20,44,24,24,68,44,44,24,20,24,24,20,44,24,24,48
+,24,24,6c,24,4,24,48,24,0,24,24,6c,4*24,28,24,48,0,44,4*24,48
+,4*24,48,24,68,88,88,ac,a8,a8,a8,c8,88,a4,a8,c8,c8,ec,6*cc,a8
+,ac,c8,4*a8,84,a8,c8,a8,64,64,a8,a8,a8,84,44,4*64,a8,64,64,84
+,a8,f0,f0,cc,f0,f0,a8,cc,88,88,cc,a8,88,a8,88,a8,ac,88,6*cc,a8
+,ac,ac,cc,cc,ac,88,64,68,68,88,88,88,8c,a8,68,68,88,68,68,88,88
+,64,ac,a8,64,44,88,68,88,a8,cc,88,a8,c8,a8,ec,f0,cc,c8,c8,ec,88,88
+,a8,88,a8,88,88,64,88,a8,88,88,cc,f0,a8,cc,cc,cc,64,a8,84,c8,c8,c8
+,64,88,68,64,48,44,44,24,48,8c,cc,ac,ac,ac,68,88,8c,88,44,88,68,68
+,88,44,68,88,88,88,64,44,44,ac,88,88,44,48,44,44,24,44,0,24,44,44,44
+,48,48,44,44,0,24,24,24,44,44,44,24,44,44,68,68,44,44,44,48,48
+,44,68,48,44,24,20,20,24,24,24,48,24,24,20,20,24,24,20,44,24,0
+,5*24,0,24,0,48,24,24,24,68,6*24,20,28,24,0,28,24,48,8c,24,48
+,6c,48,68,68,68,a8,a8,a8,4*c8,84,a4,c8,c8,e8,c8,cc,ec,cc,cc,cc
+,ec,a8,a8,cc,cc,a8,a8,c8,a8,a8,c8,a8,64,44,84,a4,84,64,64,84,64
+,88,64,84,64,88,88,cc,ec,f0,ec,ec,f0,cc,ec,88,a8,cc,cc,a8,84,a8,a8
+,88,68,a8,f0,f0,ec,cc,cc,ac,cc,88,cc,f0,d0,88,68,64,88,88,64,88
+,ac,cc,68,ac,88,a8,88,88,88,68,88,88,88,44,68,64,88,a8,f0,a8,ec
+,a8,c8,ec,ec,c8,cc,c8,ec,a8,a8,cc,a8,a8,64,88,64,88,cc,88,84,ec
+,cc,ac,c8,cc,cc,88,a8,84,c8,cc,a8,64,64,64,44,44,44,24,44,48,88
+,cc,88,a8,a8,64,88,ac,88,44,68,68,44,88,88,88,68,8c,68,68,64,44
+,88,8c,8c,48,48,48,44,48,24,0,24,48,24,48,24,48,24,24,4,24,24,24
+,44,44,44,24,24,24,68,88,68,44,48,44,44,44,68,44,24,24,20,24,44
+,24,24,24,7*20,44,24,24,0,0,24,24,24,0,0,0,24,0,24,24,48,24,48
+,24,48,24,24,24,48,24,24,48,48,68,44,44,4*88,68,4*a8,c8,a8,c8,c8
+,a8,a8,c8,e8,e8,ec,ec,f0,f0,ec,ec,c8,a8,c8,c8,a8,84,c8,ec,cc,ec
+,c8,a8,64,64,a8,c8,a8,84,40,64,64,84,64,a8,44,84,a8,cc,cc,ec,ec
+,f0,f0,c8,ec,88,a8,cc,cc,cc,4*a8,ac,cc,ec,ec,ec,cc,cc,ec,ec,a8
+,ec,cc,d0,88,68,64,64,88,88,88,a8,f0,ac,a8,a8,ac,88,88,88,68,88
+,cc,68,68,68,88,ac,cc,cc,a8,ec,a8,cc,f0,f0,cc,ec,c8,cc,a8,a8,c8
+,84,cc,68,88,88,84,cc,a8,88,cc,cc,a8,cc,a8,a8,88,a8,cc,ec,ec,cc,cc
+,88,64,68,64,68,44,24,44,ac,f0,ac,ac,ac,64,88,ac,88,68,68,64,88,88
+,68,64,88,88,88,44,64,68,8c,8c,68,68,4*48,24,0,24,48,44,48,48,48
+,7*24,44,64,20,24,44,44,88,68,44,48,44,44,68,48,44,44,24,20,20
+,44,24,24,44,44,24,44,24,24,24,20,44,0,24,24,0,0,24,24,0,0,24,24
+,0,24,24,48,48,48,24,24,48,24,4,6c,44,6c,6c,68,68,88,84,88,88,88
+,a8,88,84,a8,a8,a8,c8,a4,c8,c4,84,a4,a4,ec,ec,e8,ec,ec,ec,cc,ec
+,cc,c8,a8,84,cc,a8,c8,c8,a8,f0,ec,ec,cc,a8,a8,c8,a8,4*84,a4,84,84
+,64,a8,a8,cc,cc,ec,f0,f0,f0,c8,ec,ec,ec,c8,c8,a8,cc,ec,cc,cc,ac
+,ec,f0,f0,ec,c8,cc,f0,f0,ac,f0,f0,cc,ac,6*88,cc,ec,a8,cc,d0,a8
+,88,ac,ac,88,64,88,68,44,88,88,a8,cc,ec,c8,f0,cc,ec,f0,f0,ec,ec
+,c8,ec,ac,cc,cc,a8,a8,88,88,88,84,c8,c8,a8,c8,cc,ac,c8,c8,cc,84
+,c8,cc,ec,a8,a8,64,64,a8,68,44,68,44,44,88,ac,f0,88,a8,64,44,88,88
+,68,44,88,64,88,88,88,64,88,ac,68,68,44,68,8c,68,68,48,48,24,48,48
+,24,0,24,48,44,48,44,68,4*24,0,24,44,44,44,24,24,44,68,64,64,44,44
+,24,48,44,48,44,44,24,24,20,44,44,20,24,20,4*24,20,20,24,24,0
+,24,4,5*24,48,48,4*24,28,24,24,24,48,24,48,68,8c,48,68,68,68,88
+,84,88,a8,84,84,a8,88,a8,a8,a8,cc,c8,ec,a4,a4,84,c8,e8,ec,e8,ec,ec
+,cc,ec,ec,cc,a8,c8,a8,c8,c8,c8,f0,cc,ec,ec,c8,c8,c8,cc,c8,a8,a8
+,84,84,84,a4,84,84,84,a8,84,a8,a8,ec,f0,f0,f0,ec,f0,cc,c8,c8,cc,cc
+,c8,cc,cc,f0,cc,4*f0,c8,cc,f0,f0,d0,f0,f0,ec,f0,88,68,88,64,88
+,84,cc,f0,a8,cc,ac,d0,88,88,a8,88,68,64,88,44,88,cc,ac,cc,f0,cc
+,ec,cc,c8,ec,ec,f0,ec,ec,ec,c8,a8,cc,ec,cc,88,64,64,84,c8,a8,88
+,a8,ec,ac,cc,a8,a8,84,c8,84,c8,ec,a8,84,64,88,68,68,68,44,24,44
+,cc,cc,ac,a8,ac,64,ac,ac,ac,64,64,a8,88,a8,88,88,64,a8,68,64,64
+,44,88,88,68,68,68,44,68,48,24,0,24,48,44,48,48,48,8*24,64,24,24
+,44,64,68,68,64,44,64,44,44,68,48,44,24,24,20,24,44,24,44,44,24,24
+,20,24,20,20,20,5*24,6c,44,24,48,48,68,24,48,48,44,48,44,48,68,68
+,88,68,68,88,68,68,68,64,84,a8,a8,a8,84,84,88,88,a8,ac,84,4*c8
+,84,a4,e8,ec,ec,e8,ec,cc,ec,ec,e8,c8,a8,c8,c8,ec,cc,ec,ec,ec,f0
+,ec,c8,a8,84,c8,ec,ec,c8,a4,84,84,84,64,84,64,84,a4,a8,c8,f0,ec
+,f4,f0,ec,ec,ec,f0,ec,ec,f0,ec,ec,cc,88,f0,f0,f0,ec,ec,cc,ec,f0,f0
+,cc,ec,f0,f0,f0,84,88,a8,f0,a8,a8,cc,f0,cc,f0,f0,f4,d0,a8,a8,88
+,64,44,88,68,88,cc,ac,a8,f0,ec,f0,ec,f0,f0,ec,f0,f0,ec,ec,cc,ac
+,c8,c8,ec,cc,84,88,88,cc,88,88,c8,ec,a8,cc,ec,a8,a8,c8,a4,c8,ec
+,a8,cc,a8,88,68,68,68,44,44,68,ac,f0,a8,68,88,68,ac,ac,88,a8,a8
+,88,a8,84,a8,84,64,cc,88,64,64,64,88,88,88,68,44,48,68,48,24,0
+,24,48,44,48,24,48,24,0,6*24,44,48,24,44,68,88,68,44,68,68,44,44
+,48,44,44,24,4*44,24,24,20,20,24,24,24,20,24,44,24,24,48,24,48
+,90,8c,68,88,ac,7*68,88,68,68,88,44,68,68,44,ac,64,88,88,a8,a8
+,a4,64,84,88,68,88,88,88,cc,cc,a8,cc,a8,a8,c8,ec,c8,e8,5*ec,c8
+,ec,c8,a8,5*ec,f0,f0,ec,a8,c8,f0,ec,ec,ec,a8,c8,84,a4,84,64,84
+,cc,ec,ec,a8,4*f0,cc,5*ec,f0,f0,ec,cc,cc,cc,ec,f0,4*ec,f0,ec,f0
+,f4,f0,ec,cc,a8,88,a8,84,a8,a8,f0,f4,f0,ec,cc,cc,ac,ac,ac,88,44
+,64,88,ac,ac,cc,a8,cc,f0,cc,f0,ec,ec,4*f0,cc,f0,c8,cc,ec,ec,ec
+,cc,88,84,a8,c8,c8,a8,a8,c8,a8,cc,a8,88,84,4*c8,a8,84,a8,a8,88
+,68,68,68,b0,ac,f0,f0,88,68,88,68,ac,ac,68,44,84,4*a8,88,64,cc
+,88,88,68,44,88,88,68,44,68,68,48,48,24,0,24,44,44,44,24,48,24
+,20,6*24,44,44,24,68,68,88,88,68,64,44,44,68,68,48,44,44,24,20
+,44,24,24,24,20,24,44,44,20,24,20,24,b0,8c,d1,d0,88,ac,d1,68,68,68
+,44,8d,68,5*88,68,44,68,68,44,64,88,64,44,68,a8,88,a8,a8,64,44
+,ad,88,88,ac,a8,cc,c8,a8,cc,ac,64,a8,ec,ec,f0,ec,cc,cc,ec,c8,cc,cc
+,ec,c8,ec,ec,cc,ec,c8,ec,ec,f0,ec,c8,ec,e8,c8,c8,a4,a4,c8,a8,84
+,64,a8,c8,e8,c8,c8,ec,f0,f0,f0,cc,f0,cc,cc,ec,ec,f0,ec,c8,f0,ec
+,f0,ec,f0,f0,f0,f4,f0,f4,f4,5*f0,a8,ac,a8,cc,f0,f0,f0,f4,cc,f0
+,ec,f0,cc,f0,f0,d0,f0,ac,88,64,88,ac,f0,f0,f0,ec,f0,ec,ec,f0,f0
+,cc,c8,cc,f0,cc,cc,cc,ec,ec,cc,a8,a8,64,a8,a8,84,a8,f0,cc,ec,f0
+,ec,a4,c8,c8,ec,f0,c8,c8,84,a8,ac,ac,88,68,44,68,a8,ec,a8,88,cc
+,d0,d0,cc,ac,64,84,4*a8,84,64,cc,64,88,64,64,88,8c,88,4*68,48
+,24,20,24,44,44,68,24,44,24,20,5*24,44,4*68,88,68,88,68,68,44,44
+,68,68,64,44,44,44,20,4*44,24,20,24,24,44,44,24,44,d1,b1,b1,88,88
+,8c,4*68,64,68,68,68,88,88,88,64,44,68,68,44,64,44,68,64,44,44
+,ad,88,ad,a8,64,88,88,ad,88,88,a8,ad,ad,c8,cc,a8,a8,c8,e8,c8,cc
+,c8,cc,ac,d0,ec,c8,c8,a8,cc,f0,4*ec,f0,8*ec,a8,a4,84,a4,64,64
+,84,a8,c8,c8,cc,ec,ec,f0,f0,4*ec,f4,f4,5*f0,ec,ec,f0,f0,f4,4*f0
+,cc,f4,f0,f0,f0,5*cc,a8,ec,f4,f4,f0,f8,4*f0,88,44,88,ac,ac,88
+,f0,ec,cc,f0,ec,ec,ec,f0,f0,f0,ec,f0,f0,ec,4*cc,f0,f0,a8,64,a8
+,f0,f0,cc,cc,ec,cc,ec,a8,a8,84,e8,c8,6*ec,68,68,44,64,ac,ac,f0,f0
+,cc,ac,a8,88,a8,ac,88,84,c8,ec,c8,a8,a4,88,84,a8,cc,84,88,88,88
+,8c,8c,ac,8c,68,68,48,24,0,24,48,44,68,24,44,7*24,44,48,8c,8c
+,88,64,88,68,68,88,ac,88,88,8*44,24,24,20,6*24,44,4*68,64,89,69
+,44,68,68,64,89,44,68,88,88,88,44,64,64,44,44,64,68,89,88,44,64
+,88,44,ad,ad,ad,d6,ad,68,8c,4*ad,88,cd,a8,64,a8,c8,a8,cd,88,cd
+,ac,ec,4*c8,88,f1,f1,ec,f0,cc,f0,ec,f0,ec,ec,c8,ec,f0,a8,a8,ec
+,f0,cc,84,64,84,a4,ec,c8,ec,cc,cc,c8,4*ec,f0,ec,f0,f0,f4,f4,7*f0
+,f4,4*f0,f4,f0,f0,f0,c8,a8,cc,f0,cc,c4,ec,f4,f4,f0,f0,f0,cc,cc
+,f4,cc,f0,f4,4*f0,cc,cc,f0,f0,f0,ec,f0,f0,f0,ec,cc,ec,ec,f0,f0
+,cc,f0,ec,cc,f0,f0,88,ec,cc,a8,88,cc,cc,ec,f4,f0,ec,c8,a8,c8,ec,ec,ec
+,cc,c8,88,ac,ac,d0,88,cc,f0,f4,f0,88,64,88,ac,cc,a8,c8,a8,a8,a8
+,84,a8,84,64,cc,88,88,84,88,ac,ac,8c,68,68,44,48,48,24,24,20,24
+,44,44,9*24,44,68,68,44,44,44,68,88,44,68,68,68,8c,88,44,44,48
+,68,44,44,24,44,44,20,44,44,4*24,44,68,69,68,68,68,64,68,68,8d
+,64,68,89,64,68,89,88,8d,44,64,89,68,88,68,8d,8d,88,68,64,68,64
+,ad,ad,64,68,89,88,ad,88,ad,ad,88,88,cd,88,64,88,ad,cd,cc,88,cd
+,cc,a8,a8,c8,c8,c8,cc,f0,d1,ec,c8,f0,f0,ec,f0,cc,cc,d1,cc,f0,ec
+,a4,c8,ec,cc,84,84,a8,c8,e8,cc,e8,ec,a8,c8,ec,ec,f0,ec,f0,f4,f0
+,ec,f0,ec,f0,cc,f0,f0,f0,ec,4*f0,f4,f4,f4,f0,f0,f0,ec,cc,c8,ec
+,f0,ec,f0,f4,f4,f0,f0,f0,f4,f0,f0,ac,88,88,cc,5*f0,ec,ec,ec,f0,f0,f0
+,ec,f0,c8,ec,ec,cc,d0,cc,f0,ec,f0,c8,c8,84,a8,ec,ec,ec,f0,ec,ec
+,f0,f0,f0,ec,f0,f0,ec,ec,ec,c8,cc,88,88,a8,ac,ac,f0,ec,ec,cc,a8
+,cc,a8,ac,ac,88,84,84,64,c8,cc,ec,ec,84,a8,64,88,ac,88,ac,68,68
+,8c,8c,88,68,48,44,24,24,44,24,48,10*24,44,48,44,64,4*68,8c,d0
+,ac,ac,8c,68,44,24,20,20,24,44,24,24,44,68,68,68,44,44,24,44,44
+,68,68,64,44,68,64,64,89,64,44,44,69,44,64,64,b1,89,64,89,64,64
+,68,b1,68,89,68,68,44,44,89,88,b1,d2,ad,f6,8d,b1,ad,ad,ad,64,ad,ad,ad
+,7*cd,f1,cc,cc,a8,c8,c8,f1,f1,cc,cc,cc,ec,f0,cc,a8,ac,cc,f0,f0
+,c8,a8,a8,f0,f0,d1,cc,cc,a8,c8,c8,ec,c8,c8,f0,ec,f0,f0,ec,ec,f4,f4
+,5*f0,f4,f0,f0,ec,6*f0,f4,8*f0,c8,4*f0,f4,f0,f0,f0,f4,f0,cc,a8
+,cc,c8,c8,f0,f4,f4,ec,6*f0,cc,f0,f0,f0,cc,cc,4*f0,cc,ec,f0,f4
+,f0,cc,84,a8,cc,ec,f4,f0,f0,f0,ec,f0,4*ec,4*f0,ac,64,cc,f0,f0
+,cc,ec,ec,f4,f0,cc,cc,c8,cc,ec,ec,a8,ec,c8,40,c8,64,88,a8,88,88
+,ac,8c,68,8c,88,68,48,24,20,24,24,24,44,24,24,24,0,24,48,48,48
+,24,44,44,48,44,88,ac,88,68,44,68,88,68,64,64,68,88,68,44,68,68
+,44,48,48,88,68,44,24,20,24,44,44,44,68,68,64,24,44,44,64,68,68
+,44,89,69,68,68,89,8d,89,88,8d,44,68,44,68,8d,8d,44,68,8d,8d,ad
+,89,44,68,8d,d2,d1,ad,b1,b1,ad,64,ad,88,68,cd,5*ad,a8,ad,a8,cc
+,c8,a8,a8,d1,d1,88,c8,4*cc,88,cc,cd,ad,cc,ec,84,a8,a8,cc,d0,cc
+,c8,cc,ec,cc,7*ec,f0,cc,4*f0,f4,f0,f0,f4,6*f0,f4,f4,f0,f4,f0,f0
+,ec,cc,f0,f4,f0,f0,4*f4,f0,f4,f0,f4,f0,ec,cc,cc,cc,a8,a8,f0,f0
+,f4,f4,f0,f0,f4,f0,f0,f0,cc,cc,f0,f0,cc,cc,cc,a8,ec,ec,cc,a8,a8,a8
+,f0,f4,f0,f0,f0,a8,f0,cc,f0,f0,f0,ec,ec,ec,cc,f0,f0,c8,64,88,a8
+,f0,cc,cc,f0,f0,cc,cc,f0,f0,cc,cc,cc,c8,c8,c8,a8,c8,ec,a8,64,c8
+,44,88,a8,cc,88,88,68,88,88,68,68,68,44,44,68,68,68,44,24,48,48
+,6*24,44,44,6c,8c,ac,d0,68,68,64,88,ac,8c,cc,ac,68,68,68,48,44
+,48,44,44,24,44,44,48,48,44,44,48,68,44,24,24,44,68,69,44,68,69
+,64,68,69,68,68,68,69,ad,44,24,44,44,44,68,68,64,89,69,68,88,b1
+,ad,b1,ad,ad,ad,b1,ad,b1,ad,ad,d1,64,ad,88,20,64,ad,b1,ad,d1,ad
+,88,4*a8,88,ad,89,f1,a8,88,f0,f1,f1,cc,ac,ad,ad,cc,f0,a8,64,84
+,ec,ec,d1,f0,cc,f0,f0,ec,ec,f0,a8,44,a8,a8,ec,c8,cc,7*f0,f4,f0
+,ec,c8,f0,f0,f4,f0,f0,f4,f4,ec,f0,f0,ec,f0,f0,f0,cc,cc,ec,f0,f4
+,f0,f0,ec,f0,f4,f0,a8,a8,cc,cc,f4,f4,f4,7*f0,cc,cc,cc,f4,f4,cc
+,d0,d0,f0,f0,cc,cc,a8,f0,cc,f0,f0,f4,f4,f0,cc,ec,ec,7*f0,f4,ec
+,f0,f0,4*cc,f0,f0,f0,ec,c8,f0,f0,f0,cc,cc,a4,cc,f0,84,ec,ec,a8
+,88,c8,44,cc,cc,a8,88,ac,ac,ac,8c,68,68,48,48,68,48,68,d0,8c,68
+,6c,48,24,24,24,48,48,44,44,44,68,68,ac,f0,88,88,ac,d0,ac,88,88,88
+,8c,88,8c,68,44,48,44,68,44,68,44,44,48,44,68,44,68,24,7*44,89
+,68,44,8d,44,69,44,24,44,24,24,8d,68,44,8d,69,44,24,8d,68,68,8d
+,ad,ad,8d,ad,b1,ad,89,69,ad,d1,d1,ad,ad,89,8c,ad,ad,ad,d1,4*ad
+,88,a8,88,a8,88,ad,d1,68,88,ac,ad,cd,ad,ad,ac,ad,f1,f1,cc,ac,cc
+,ad,a8,88,cd,d1,f1,f5,cc,f0,cc,88,84,84,a8,ec,f0,a8,cc,f4,f4,4*f0
+,d0,88,40,40,84,ec,ec,f0,f0,f4,4*f0,ec,ec,f0,ec,f0,f4,f4,ec,f0
+,f4,f4,f0,f0,f0,cc,5*f0,f4,f4,f0,f0,ec,4*f0,cc,ac,cc,13*f0,ec,ec
+,f0,f0,f0,4*ec,f0,ec,ec,ec,cc,a8,a8,ec,4*f0,f4,f0,ec,cc,cc,ec
+,f0,f0,d0,cc,f0,ec,ec,ec,a4,4*ec,cc,88,a8,84,cc,ac,88,8c,88,8c
+,d0,ac,68,44,48,24,24,44,88,6c,68,44,24,24,44,24,24,68,44,68,68
+,88,88,88,ac,ac,88,cc,d0,ac,ac,8c,8c,88,ac,68,68,44,44,48,44,24,24
+,44,44,44,68,68,44,24,20,24,24,44,68,44,44,68,69,44,69,6d,69,69,69
+,89,8d,68,68,68,44,8d,69,8d,b1,44,68,89,44,68,44,ad,8d,8d,89,68
+,8d,ad,ad,b1,ad,b1,ad,8d,ad,ad,d1,d1,6*ad,ac,cc,a8,cd,d1,89,44
+,ad,89,ad,64,ad,88,ad,ad,ad,d1,44,88,d1,ec,cd,d0,ac,f1,d0,cc,88
+,64,88,88,f0,f0,a8,a8,88,f0,f0,f0,f4,f0,84,88,88,f0,c8,a8,a4,ec
+,7*f0,ec,ec,f0,f0,f0,4*f4,f0,ec,f0,f4,f4,ec,5*f0,f4,f4,f4,4*f0
+,f4,cc,f0,cc,f0,cc,88,d0,d0,cc,5*f0,f4,ec,f0,f4,f4,f0,ec,f0,cc
+,ec,f4,f0,f4,ec,ec,f0,f0,4*ec,cc,f0,f0,f0,ec,f0,f0,f0,ac,ec,ec
+,a8,88,cc,4*ec,a8,a4,ec,a8,a8,cc,44,64,84,cc,ac,88,8c,68,88,88
+,68,44,44,68,68,8c,f0,68,44,48,8c,b0,68,48,44,24,44,44,44,48,ac,ac
+,cc,ac,ac,88,88,ac,cc,cc,cc,88,88,68,48,68,68,88,68,8c,88,8c,68
+,44,44,24,24,44,44,68,44,20,4*24,44,24,68,8d,69,24,24,48,8d,8d
+,48,68,5*44,69,44,68,8d,8d,89,68,89,8d,ad,8d,5*ad,d1,ad,ad,d2
+,ad,d1,b1,d1,ad,d1,d1,89,d1,ad,ad,ad,d1,cd,ad,64,68,ad,ad,ad,89
+,88,ad,b1,ad,ad,ad,64,4*ad,89,cd,f1,f5,d1,ac,f0,ec,f0,f0,cc,ec,ec
+,84,c8,f0,ec,f0,f0,a8,40,64,a8,c8,ec,f4,f0,f0,f4,f4,f0,ec,a8,84
+,88,cc,f4,6*f0,f4,f0,f0,ec,f0,f4,f4,f0,f0,ec,f0,f4,f4,f0,f0,a8
+,c8,f0,ec,f0,f4,cc,ac,ac,d0,f0,f0,d0,f0,cc,ec,cc,cc,f0,f0,a8,c8,c8
+,ec,f0,f0,cc,f0,ec,f4,f0,f0,ec,f0,f0,cc,7*f0,f4,f0,f0,f4,ec,ec
+,f0,ec,a8,ac,ec,e8,ec,ec,f0,ec,ec,84,a8,a8,64,a8,64,cc,ac,88,88,88
+,ac,88,8c,d0,d0,6c,68,68,f0,88,44,24,44,44,d0,ac,88,44,64,68,8c,8c
+,ac,88,64,ac,ac,f0,f0,ac,cc,cc,a8,68,68,68,48,48,6c,4*68,88,68
+,48,44,44,48,68,20,24,44,48,44,48,48,44,44,44,48,48,6*24,44,68
+,44,44,69,24,44,69,8d,68,24,44,89,89,89,8d,8d,ad,ad,8d,ad,b1,d1
+,ad,ad,8d,6*ad,d1,d2,b1,ad,ad,ad,b1,ad,ad,d1,68,d6,68,ad,d1,64
+,ad,b1,4*ad,b1,ad,8d,d1,d1,cd,ad,ad,d1,d1,cc,f0,d1,a8,cc,f0,88,88
+,44,40,20,20,20,0,20,40,64,f4,f4,f0,f0,ec,ec,4*f0,ec,f0,f0,ec
+,4*f0,f4,f0,f0,f0,ec,ec,cc,c8,f4,4*f0,ec,f0,ec,ec,a8,64,c8,4*f0
+,cc,d0,d0,88,cc,a8,cc,4*f0,f4,f4,f0,ec,f0,f0,f4,f0,f0,cc,ec,f0
+,f4,f0,f4,ec,f4,f0,f0,ec,10*f0,cc,ec,f0,cc,a8,ac,ec,c8,ec,f0,f0
+,ec,ec,ec,f0,cc,d0,f0,cc,cc,88,8c,d0,d0,ac,d0,cc,f0,b0,68,44,44
+,ac,ac,8c,68,24,20,44,44,68,68,68,b0,d0,b0,ac,ac,cc,88,68,44,68
+,cc,f0,f0,cc,ac,88,4*68,8c,8c,8c,68,68,68,48,5*44,4*24,44,24,24,24
+,44,24,69,6d,44,48,69,68,68,44,44,24,44,48,44,48,69,69,64,44,44
+,68,44,8d,68,68,68,89,8d,ad,ad,b1,ad,ad,ad,d2,ad,b1,ad,cd,4*ad
+,a8,ac,88,68,88,ad,d1,88,20,5*ad,d1,89,ad,d1,d1,88,ad,ad,ad,89
+,ad,cd,d1,cc,cc,88,44,44,44,20,24,44,44,44,64,c8,84,88,20,40,f0
+,f4,f0,a8,a8,44,40,64,a8,f0,ec,cc,88,a8,c8,5*f0,ec,f0,64,cc,cc
+,ec,4*f0,a8,c8,a8,a8,a8,c8,a8,cc,a8,f0,cc,a8,88,cc,d0,cc,8c,a8
+,cc,ac,ac,8*f0,ec,4*f0,cc,11*f0,ec,cc,ec,f0,ec,4*f0,cc,f0,f0,ec
+,d0,f0,ec,f0,f0,ec,f4,5*f0,88,a8,88,cc,88,ac,8c,ac,ac,8c,68,44,44
+,48,48,68,ac,ac,ac,d0,ac,8c,ac,44,44,44,88,8c,88,8c,88,88,d0,d0
+,ac,ac,ac,cc,f0,cc,cc,ac,ac,8c,8c,8c,6c,ac,ac,8c,88,8c,44,8c,44,44
+,48,64,24,24,44,6*24,48,48,69,44,24,4*48,24,48,44,4*24,44,24,44,44
+,69,69,89,89,89,68,ad,89,89,6*ad,89,ad,8d,ad,d1,d1,ad,d1,ad,cd
+,d1,ad,89,ad,ad,d1,d1,4*ad,89,89,d1,ad,ad,ad,89,ad,ad,89,ad,d1,d1
+,ad,d6,ad,b1,44,44,88,44,20,20,24,20,44,20,20,44,20,cc,84,84,64
+,a8,88,64,40,40,a4,84,f0,f4,6*f0,ec,e8,cc,ec,f0,f0,f4,f4,f0,ec
+,c8,68,84,a8,84,a8,84,a4,c8,cc,f0,f0,f4,4*f0,ac,ac,ac,cc,d0,ac
+,88,c8,cc,cc,f0,f0,f4,4*f0,f4,f0,f4,f0,f0,ec,f0,f0,f0,cc,5*f0
+,f4,7*f0,cc,cc,ec,6*f0,ec,4*f0,c8,c8,f0,cc,cc,88,cc,ac,8c,ac,d0
+,ac,ac,ac,d0,8c,4*68,ac,8c,d0,ac,68,68,8c,88,8c,b0,68,44,44,68,68,68
+,64,44,ac,f4,4*cc,ac,a8,8c,4*88,ac,88,8c,68,44,24,24,24,44,48
+,24,24,44,24,24,44,4*24,44,69,48,48,44,44,4*24,44,24,44,44,24
+,44,24,6*44,68,69,68,44,68,b1,ad,64,64,b1,ad,ad,d1,ad,ad,d1,4*ad
+,d2,d1,d1,ad,d1,ad,d1,89,44,89,d1,ad,88,b1,4*ad,89,ad,ad,89,ad,ad
+,d1,d1,5*ad,b1,ad,20,20,24,a8,d0,f0,a8,88,88,44,84,64,20,88,a8
+,88,64,c8,a8,cc,ec,88,64,88,a8,cc,cc,ec,ec,f0,cc,88,68,84,88,88
+,a8,a8,84,a8,a8,a8,84,a8,ec,f4,f0,ec,cc,68,f4,f0,f0,d0,ac,88,88
+,ac,88,a8,88,a8,cc,cc,cc,ec,ec,a8,e8,cc,f0,f0,ec,4*f0,f4,7*f0
+,ec,10*f0,cc,5*f0,f4,ec,cc,f0,ec,f0,ec,a8,a4,a8,ac,cc,cc,f0,f0
+,cc,d0,ac,cc,cc,ac,68,64,88,44,68,f0,ac,44,88,88,d0,88,8c,ac,4*68
+,88,8c,88,44,44,64,ac,ac,ac,88,cc,cc,ac,ac,68,68,ac,5*8c,88,4*68
+,48,64,24,44,44,44,5*24,44,44,4*24,44,44,44,69,69,44,44,48,48
+,44,5*24,44,6d,69,69,8d,8d,69,68,69,ad,8d,8d,8d,5*ad,d1,d1,d1
+,ad,ad,ad,d1,ad,d1,ad,d1,ad,44,44,88,4*ad,d1,ad,ad,ad,89,5*ad
+,d1,ad,ad,ad,d2,68,64,88,44,20,20,24,20,24,24,0,24,20,88,f0,f0,f0
+,64,20,a8,e8,e8,c8,88,64,64,88,88,a8,84,84,44,44,44,20,44,64,a8
+,f0,f0,f0,ec,f0,f0,cc,c8,ec,c8,a8,a8,cc,84,88,88,cc,f0,f0,d0,a8
+,88,a8,cc,a8,cc,d0,ac,ac,cc,ac,f0,f4,f4,f0,f0,f0,c8,a8,4*f0,f4
+,f0,f0,f0,cc,f0,f0,f4,5*f0,cc,5*f0,cc,4*f0,a8,ec,f0,ec,5*f0,cc
+,ac,ac,f0,cc,cc,ac,ac,ac,88,ac,88,ac,44,44,88,8c,ac,ac,88,64,44
+,68,68,8c,8c,68,68,68,8c,88,8c,44,20,64,68,68,ac,d0,ac,cc,d0,d0
+,ac,64,64,44,ac,ac,f0,88,8c,8c,88,68,24,8c,8c,88,ac,24,24,44,44
+,24,44,69,49,69,49,24,44,24,24,44,24,44,44,24,4*44,48,5*44,68,68
+,44,44,48,8d,89,8d,ad,b1,ad,b1,ad,ad,8d,8d,4*ad,d1,5*ad,d1,ad,ad,ad
+,d2,d1,ad,ad,ad,88,d1,ad,b1,ad,d1,ad,89,b1,ad,ad,b1,b1,ad,ad,ad
+,89,89,4*ad,44,20,20,44,44,a8,f0,cc,68,44,6*20,64,64,40,44,44
+,88,cc,cc,f0,f0,ec,f0,c8,88,a8,cc,cc,cc,a8,4*88,68,64,84,88,88
+,a8,c8,ec,f0,a8,88,88,a8,88,88,a8,a8,ac,d0,f0,cc,ac,a8,a8,a8,ac
+,f0,f4,ec,ec,c8,c8,6*f0,f4,f0,f0,ec,ec,f0,cc,f0,ec,4*f0,ec,f0
+,ec,f0,f0,ac,cc,ec,7*f0,4*cc,f0,f0,d0,4*f0,cc,88,68,68,ac,d0,ac
+,f0,d0,ac,cc,ac,cc,f0,cc,d0,d0,88,88,68,ac,68,44,44,64,ac,88,44
+,64,64,64,8c,ac,cc,f0,cc,cc,ac,88,88,d0,ac,68,cc,64,68,d0,68,68
+,8c,8c,68,44,68,24,44,24,44,24,44,24,5*44,48,44,44,44,48,44,44
+,48,44,24,24,24,68,44,44,68,8d,8d,69,89,44,8d,69,68,69,4*8d,8*ad
+,d1,ad,d2,d1,cd,ad,cd,ad,ad,d1,d1,ad,8d,ad,ad,d1,ad,b1,ad,d1,d1
+,89,89,8d,8d,5*ad,b1,ad,f6,ad,88,44,68,20,20,24,20,24,24,20,24
+,20,20,24,24,24,44,20,20,20,84,c8,cc,f0,cc,68,64,64,68,64,88,44
+,20,64,88,88,a8,cc,88,4*a8,64,a8,cc,cc,cc,a8,a8,88,68,68,cc,cc,cc
+,f0,cc,ac,ac,a8,cc,ac,a8,a8,ec,cc,ac,cc,ec,5*f0,ec,ec,f4,f0,cc
+,7*f0,cc,f0,cc,10*f0,88,64,20,64,a8,cc,ec,4*f0,ec,cc,cc,f0,cc,cc
+,f0,f0,d0,cc,f0,f4,f0,f0,f0,cc,ac,68,88,ac,d0,f0,d0,f0,f0,88,ac
+,44,44,20,44,20,44,88,a8,64,44,88,8c,f0,cc,d0,ec,f0,cc,cc,64,a8
+,88,ac,88,ac,ac,8c,8c,68,44,44,68,68,68,88,44,44,48,44,24,44,44
+,24,44,48,68,69,48,44,69,68,69,68,44,44,69,44,69,8d,8d,6d,69,68
+,24,44,69,68,68,69,69,44,68,44,69,8d,b1,b1,8d,8d,8*ad,cd,cd,ad
+,d1,cd,cd,d1,6*ad,d1,ad,ad,ad,b1,8d,ad,ad,ad,8d,ad,ad,ad,89,8d
+,ad,ad,ad,89,68,44,24,4*20,24,0,20,20,20,24,24,44,68,20,44,20
+,44,84,88,44,64,88,cc,c8,f0,a8,a8,88,44,88,a8,cc,f0,ac,88,ac,a8,a8
+,88,64,a8,84,c8,cc,c8,a8,88,68,88,a8,c8,88,88,64,84,64,cc,cc,a8
+,cc,a8,c8,f0,cc,ec,c8,a4,64,84,a4,c4,a8,ec,ec,f0,f4,f0,cc,a8,c8
+,cc,4*f0,f4,ec,ec,f4,f0,f0,f0,ac,20,20,40,64,88,ac,f0,f0,ec,f0,f0,f0
+,cc,cc,d0,f0,d0,f0,cc,d0,d0,10*f0,d0,cc,ac,d0,f0,88,d0,d0,d0,a8
+,88,88,44,40,0,24,24,44,64,88,88,20,f0,cc,a8,64,64,ec,4*ac,8c,8c,8c
+,ac,88,8c,68,48,44,44,68,68,88</data>
+        </entry>
+      </elementAttributes>
+      <pos x="1240" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>NOr</elementName>
+      <elementAttributes/>
+      <pos x="1120" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>reset</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1000" y="860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes/>
+      <pos x="1020" y="820"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Multiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>video</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1380" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>inverterConfig</string>
+          <inverterConfig>
+            <string>In_2</string>
+          </inverterConfig>
+        </entry>
+      </elementAttributes>
+      <pos x="1240" y="500"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="980" y="320"/>
+      <p2 x="1020" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="260"/>
+      <p2 x="780" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="260"/>
+      <p2 x="660" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="260"/>
+      <p2 x="840" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="260"/>
+      <p2 x="700" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="900"/>
+      <p2 x="780" y="900"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="900"/>
+      <p2 x="700" y="900"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="580"/>
+      <p2 x="700" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="840"/>
+      <p2 x="1100" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="520"/>
+      <p2 x="1340" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="520"/>
+      <p2 x="1200" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="780"/>
+      <p2 x="1020" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="460"/>
+      <p2 x="1120" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="400"/>
+      <p2 x="800" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="1140" y="400"/>
+      <p2 x="1180" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="400"/>
+      <p2 x="1240" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="720"/>
+      <p2 x="880" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="720"/>
+      <p2 x="840" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="1040"/>
+      <p2 x="820" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="660"/>
+      <p2 x="700" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="980"/>
+      <p2 x="700" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="340"/>
+      <p2 x="1000" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="280"/>
+      <p2 x="840" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="280"/>
+      <p2 x="880" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="280"/>
+      <p2 x="700" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="280"/>
+      <p2 x="1040" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="600"/>
+      <p2 x="700" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="920"/>
+      <p2 x="700" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="840" y="920"/>
+      <p2 x="1100" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="540"/>
+      <p2 x="1220" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="540"/>
+      <p2 x="780" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="860"/>
+      <p2 x="780" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="860"/>
+      <p2 x="1020" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="1180"/>
+      <p2 x="840" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="480"/>
+      <p2 x="1220" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="480"/>
+      <p2 x="1060" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="800"/>
+      <p2 x="1000" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="420"/>
+      <p2 x="1120" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="1160" y="420"/>
+      <p2 x="1180" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="420"/>
+      <p2 x="1320" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="420"/>
+      <p2 x="780" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="420"/>
+      <p2 x="700" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="740"/>
+      <p2 x="780" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="740"/>
+      <p2 x="700" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="740"/>
+      <p2 x="840" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="1060"/>
+      <p2 x="700" y="1060"/>
+    </wire>
+    <wire>
+      <p1 x="840" y="360"/>
+      <p2 x="1000" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="680"/>
+      <p2 x="660" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="680"/>
+      <p2 x="840" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="300"/>
+      <p2 x="1040" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="240"/>
+      <p2 x="840" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="240"/>
+      <p2 x="880" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="560"/>
+      <p2 x="820" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="880"/>
+      <p2 x="800" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="500"/>
+      <p2 x="1120" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="500"/>
+      <p2 x="1240" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="500"/>
+      <p2 x="700" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="1140"/>
+      <p2 x="700" y="1140"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="820"/>
+      <p2 x="1020" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="1140" y="440"/>
+      <p2 x="1160" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="1220" y="440"/>
+      <p2 x="1240" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="1360" y="440"/>
+      <p2 x="1380" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="440"/>
+      <p2 x="700" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="760"/>
+      <p2 x="840" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="760"/>
+      <p2 x="880" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="760"/>
+      <p2 x="1040" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="760"/>
+      <p2 x="700" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="1080"/>
+      <p2 x="700" y="1080"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="380"/>
+      <p2 x="1120" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="380"/>
+      <p2 x="780" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="1140" y="380"/>
+      <p2 x="1200" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="1020"/>
+      <p2 x="780" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="260"/>
+      <p2 x="800" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="740"/>
+      <p2 x="800" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="280"/>
+      <p2 x="640" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="760"/>
+      <p2 x="640" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="920"/>
+      <p2 x="640" y="1080"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="440"/>
+      <p2 x="640" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="1080"/>
+      <p2 x="640" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="600"/>
+      <p2 x="640" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="1220" y="440"/>
+      <p2 x="1220" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="480"/>
+      <p2 x="1060" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="380"/>
+      <p2 x="680" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="540"/>
+      <p2 x="680" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="860"/>
+      <p2 x="680" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="1020"/>
+      <p2 x="680" y="1140"/>
+    </wire>
+    <wire>
+      <p1 x="840" y="360"/>
+      <p2 x="840" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="840" y="920"/>
+      <p2 x="840" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="800"/>
+      <p2 x="1000" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="340"/>
+      <p2 x="1000" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="1160" y="420"/>
+      <p2 x="1160" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="1100" y="840"/>
+      <p2 x="1100" y="920"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="260"/>
+      <p2 x="780" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="420"/>
+      <p2 x="780" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="740"/>
+      <p2 x="780" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="900"/>
+      <p2 x="780" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="300"/>
+      <p2 x="1040" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="500"/>
+      <p2 x="1200" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="260"/>
+      <p2 x="660" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="680"/>
+      <p2 x="660" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="900"/>
+      <p2 x="660" y="1060"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="420"/>
+      <p2 x="660" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="740"/>
+      <p2 x="660" y="900"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="280"/>
+      <p2 x="820" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="760"/>
+      <p2 x="820" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="500"/>
+      <p2 x="1020" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="320"/>
+      <p2 x="1020" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="540"/>
+      <p2 x="1020" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="460"/>
+      <p2 x="1340" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="240"/>
+      <p2 x="860" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="420"/>
+      <p2 x="860" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="280"/>
+      <p2 x="860" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="720"/>
+      <p2 x="860" y="760"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
