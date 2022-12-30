@@ -4,11 +4,6 @@
   <attributes/>
   <visualElements>
     <visualElement>
-      <elementName>74161.dig</elementName>
-      <elementAttributes/>
-      <pos x="940" y="260"/>
-    </visualElement>
-    <visualElement>
       <elementName>VDD</elementName>
       <elementAttributes/>
       <pos x="1060" y="260"/>
@@ -141,6 +136,11 @@
         </entry>
       </elementAttributes>
       <pos x="1140" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>74161.dig</elementName>
+      <elementAttributes/>
+      <pos x="940" y="260"/>
     </visualElement>
   </visualElements>
   <wires>
