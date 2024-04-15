@@ -5,4 +5,4 @@ This graphics card was designed using [Digital](https://github.com/hneemann/Digi
 
 Generating sprite data from PNGs is possible using data.ipynb, and the graphics card output RAM data can be converted to graphical data using screen.ipynb.
 
-![Capture](https://user-images.githubusercontent.com/22825641/204105678-3ef52dac-cf38-4766-97c9-fdf6a60053f9.PNG)
+![](hero.png)
